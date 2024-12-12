@@ -5,28 +5,36 @@ database = client["database"] #replace with name of db
 collection = database["customers"] #name of collection - customers
 
 mylist = [
-  { "CustomerID": 1, "name": "John", "gender": "Male", "age": 34, 'Addresses':[
-    {
-    'AddressType':"House",
-    'HouseNumber':43,
-    'Street':"Mongo Blvd",
-    'City':"London",
-    'Postcode':"SE12 8GJ"
-    }
-],
-'CurrentOrders':[
-    {
-     'OrderID':1,
-     'OrderTotal':45,
-     'Partner':1,
-     'Products':[
+  { 
+      "CustomerID": 1, "name": "John", "gender": "Male", "age": 34, 'Addresses':
+      [
+      {
+        'AddressType':"House",
+        'HouseNumber':43,
+        'Street':"Mongo Blvd",
+        'City':"London",
+        'Postcode':"SE12 8GJ"
+      }
+      ],
+    'CurrentOrders':
+      [
         {
-        'ProductID': 1,
-        'Quantity':2 
-        }
+        'OrderID':1,
+        'OrderTotal':45,
+        'Partner':1,
+        'Products':[
+          {
+          'ProductID': 1,
+          'Quantity':2 
+          }
         ]
-    }
-]},
+      }
+      ]
+  },
+
+  #{
+   #entry 2 here etc   
+  #}
 ]
 
 populated_users = collection.insert_many(mylist)
