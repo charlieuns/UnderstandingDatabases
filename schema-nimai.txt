@@ -1,0 +1,179 @@
+Customer{
+_id: ObjectId
+name: string
+gender: string
+age: int
+email: string
+phone: string
+registered_date: Date
+address:[
+	{
+	  type: string
+	  house number: string
+	  street: string
+	  city: string
+	  postcode/zip code: string
+	}
+]
+current_orders:[
+	{
+	  order_id: ObjectId
+	  total_order_cost: float
+	  order_date: Date
+	  assigned_partner_id: ref<Partners._id>
+	  order_items:[
+		{
+		  product_id: ref<Product._id>
+		  quantity: int
+		}
+	  ]
+	}
+]
+recommended_products:[ref<Product._id>]
+}
+	
+
+Past Orders{
+_id: ObjectId
+customer_id: ref<Customer._id>
+total order cost: float
+order_date: Date
+past order items:[
+	{
+	  product_id: ref<Product._id>
+	  quantity: int
+	}
+]
+}
+
+
+Product{
+_id: ObjectId
+name: string
+description: string
+price: float
+category: string
+product_type: string
+fresh_product_details: {
+	category: string
+	dimensions: string
+	weight: float
+	expiry_date: Date
+	origin_country: string
+	avg_rating: float
+	morrizon_cost: float
+	store_id: [ref<Store._id>]
+	}
+other_product_details:{
+	dimensions: string
+	shipping_weight: float
+	avg_rating: float
+	morrizon_cost: float
+	}
+other_product_specific_attributes: { 
+	book:{
+	  author_name: string
+	  publisher: string
+	  year_of_publication: int
+	  ISBN: string
+	}
+	cd:{
+	  artist_name: string
+	  number of tracks: int
+	  total playing time: string
+	  publisher: string
+	}
+	mobile phone:{
+	  brand: string
+	  model: string
+	  colour: string
+	  features: string
+	}
+	home appliance:{
+	  colour: string
+	  voltage: int
+	  style: string
+	}
+	}
+}
+
+	
+Store{
+_id: ObjectId
+address:{
+	house_number: string
+	street: string
+	city: string
+	postcode/zip code: string
+	}
+location:{
+	latitude: float
+	longitude: float
+	}
+available_products:[ref<Product._id>]
+}
+
+
+Partners{
+_id: ObjectId
+name: string
+gender: string
+age: int
+email: string
+phone: string
+registered_date: Date
+current location:{
+	latitude: float
+	longitude: float
+	}
+status: string
+on_delivery: boolean
+current_task: [ref<Customer.current_orders.order_id>]
+delivery_stats: {
+	total_deliveries: int
+	total_earnings: float  
+	rating: float
+	}
+}
+
+
+Daily inventory level{
+_id: ObjectId
+product_id: ref<Product._id>
+date: Date
+quantity: int
+storage_warehouse_name: string
+storage_warehouse_location: {
+	latitude: float
+	longitude: float
+	}
+}
+
+
+Rating{
+_id: ObjectId
+customer_id: ref<Customer._id>
+product_id: ref<Product._id>
+rating: float
+rating_data: Date
+rating_breakdown: {
+	quality: float
+	price: float
+	service: float
+}
+}
+
+
+Recommendations{
+_id: ObjectId,
+customer_id: ref<Customer._id>,  
+recommended_products: [         
+    {
+      product_id: ref<Product._id>
+      score: float               
+      algorithm: string           
+      generated_date: Date          
+    }
+]
+}
+
