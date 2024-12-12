@@ -1,0 +1,35 @@
+import pymongo
+
+client = pymongo.MongoClient("mongodb://") # replace with actual URL
+database = client["database"] #replace with name of db
+collection = database["customers"] #name of collection - customers
+
+mylist = [
+  { "CustomerID": 1, "name": "John", "gender": "Male", "age": 34, 'Addresses':[
+    {
+    'AddressType':"House",
+    'HouseNumber':43,
+    'Street':"Mongo Blvd",
+    'City':"London",
+    'Postcode':"SE12 8GJ"
+    }
+],
+'CurrentOrders':[
+    {
+     'OrderID':1,
+     'OrderTotal':45,
+     'Partner':1,
+     'Products':[
+        {
+        'ProductID': 1,
+        'Quantity':2 
+        }
+        ]
+    }
+]},
+]
+
+populated_users = collection.insert_many(mylist)
+
+#list of CustomerID of docs inserted
+print(populated_users.insertedCustomerIDs)
