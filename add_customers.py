@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Connect to MongoDB
 client = MongoClient('mongodb://')
-db = client['YourDatabaseName']
+db = client['DatabaseName']
 customers_collection = db['Customers']
 products_collection = db['Products']
 
