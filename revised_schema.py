@@ -100,21 +100,21 @@ Products= [{
 }]
 
 Stores = [{
-'address':{
-    'house_number':int,
-    'street':str,
-    'city':str,
-    'postcode':str
-    }
-},
-'location':{
-    'latitude': int,
-    'longitude':int
-},
-'products_available':[{
-    'product_ID':ref <Products.product_ID>,
-    'quantity':int
-}]
+    'store_ID': int,
+    'address': {
+        'house_number': int,
+        'street': str,
+        'city': str,
+        'postcode': str
+    },
+    'location': {
+        'latitude': int,
+        'longitude': int
+    },
+    'products_available': [{
+        'product_ID': ref <Products.product_ID>,
+        'quantity': int
+    }]
 }]
 
 Partners = [{
