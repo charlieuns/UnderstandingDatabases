@@ -4,7 +4,7 @@ import string
 
 # Connect to MongoDB
 client = MongoClient('mongodb://')
-db = client['YourDatabaseName']
+db = client['DatabaseName']
 customers_collection = db['Customers']
 
 # Function to generate UK postcodes

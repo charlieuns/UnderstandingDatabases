@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # Connect to MongoDB
 client = MongoClient('mongodb://')
-db = client['YourDatabaseName']
+db = client['DatabaseName']
 
 # Collections
 customers_collection = db['Customers']

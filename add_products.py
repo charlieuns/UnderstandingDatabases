@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 # Connect to MongoDB
 client = MongoClient('mongodb://')
-db = client['YourDatabaseName']
+db = client['DatabaseName']
 products_collection = db['Products']
 
 # Helper function to generate random strings
