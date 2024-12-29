@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta
 
 # Connect to MongoDB
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://')
 db = client['YourDatabaseName']
 
 # Collections

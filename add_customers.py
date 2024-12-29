@@ -3,7 +3,7 @@ import random
 import string
 
 # Connect to MongoDB
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://')
 db = client['YourDatabaseName']
 customers_collection = db['Customers']
 
