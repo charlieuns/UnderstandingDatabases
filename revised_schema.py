@@ -25,10 +25,10 @@ Customers = [{
 'current_orders':[{
      'order_ID':int,
      'order_total':float,
-     'order_status'
+     'order_status': str,
      'partner_assigned':int,
-     'order_placed':datetime,
-     'order_destination':str,
+     'order_placed': datetime,
+     'order_destination': str,
      'products':
         {
         'product_ID':ref <Products.product_ID>,
@@ -47,10 +47,10 @@ PastOrders = [{
 'order_placed':datetime,
 'order_delivered':datetime,
 'products':
-    {
+    [{
     'product_ID':ref <Products.product_ID>,
     'quantity':int 
-    }
+    }]
 }]
 
 Products= [{
@@ -130,8 +130,8 @@ Partners = [{
 'on_errand':bool,
 'current_task':ref <Orders.order_ID>,
 'delivery_stats': {
-	'total_deliveries': int
-	'total_earnings': float  
+	'total_deliveries': int,
+	'total_earnings': float,  
 	'rating': float
 	}
 }]
