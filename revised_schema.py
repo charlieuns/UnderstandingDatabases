@@ -30,10 +30,10 @@ Customers = [{
      'order_placed': datetime,
      'order_destination': str,
      'products':
-        {
+        [{
         'product_ID':ref <Products.product_ID>,
         'quantity':int 
-        }
+        }]
     }],
 'commonly_ordered_categories':[ref <Products.product_type],
 'recommended_products':[ref <Products.product_ID>]
