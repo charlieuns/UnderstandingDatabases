@@ -19,7 +19,7 @@ def generate_uk_location():
 # Fetch product IDs from Products collection
 product_ids = [product["product_ID"] for product in db.Products.find({}, {"product_ID": 1})]
 
-# Part 3: Populate Stores Collection
+# Part 1: Populate Stores Collection
 stores = []
 for i in range(1, 6):
     latitude, longitude = generate_uk_location()
@@ -42,7 +42,7 @@ for i in range(1, 6):
 
 stores_collection.insert_many(stores)
 
-# Part 4: Populate Partners Collection
+# Part 2: Populate Partners Collection
 partners = []
 for i in range(1, 6):
     latitude, longitude = generate_uk_location()
@@ -67,7 +67,7 @@ for i in range(1, 6):
 
 partners_collection.insert_many(partners)
 
-# Part 5: Populate Inventory Collection
+# Part 3: Populate Inventory Collection
 inventory = []
 for product_id in product_ids: 
     latitude, longitude = generate_uk_location()
