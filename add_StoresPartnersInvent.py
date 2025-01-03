@@ -1,10 +1,10 @@
 from pymongo import MongoClient
 import random
 import string
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Connect to MongoDB
-client = MongoClient('mongodb://')
+client = MongoClient('mongodb://localhost:27017/')
 db = client['DatabaseName']
 stores_collection = db['Stores']
 partners_collection = db['Partners']
@@ -67,21 +67,35 @@ for i in range(1, 6):
 
 partners_collection.insert_many(partners)
 
-# Part 3: Populate Inventory Collection
+# Part 3: Populate Inventory Collection 
 inventory = []
-for product_id in product_ids: 
-    latitude, longitude = generate_uk_location()
-    inventory.append({
-        "product_ID": product_id,
-        "inventory": random.randint(50, 500),
-        "warehouse_name": f"Warehouse_{random.randint(1, 5)}",
-        "location": {
-            "latitude": latitude,
-            "longitude": longitude
-        },
-        "date": datetime.now().strftime("%Y-%m-%d")
-    })
+for product_id in product_ids:
+    # Generate two days of inventory records for each product
+    for day in range(2):
+        current_date = datetime.now() - timedelta(days=day)
+        latitude, longitude = generate_uk_location()
+        inventory.append({
+            "product_ID": product_id,
+            "inventory": random.randint(50, 500),
+            "warehouse_name": f"Warehouse_{random.randint(1, 5)}",
+            "location": {
+                "latitude": latitude,
+                "longitude": longitude
+            },
+            "date": current_date.strftime("%Y-%m-%d"),
+            # Add some additional daily inventory related information
+            "daily_stats": {
+                "units_sold": random.randint(0, 30),
+                "units_received": random.randint(0, 50),
+                "opening_stock": random.randint(50, 200),
+                "closing_stock": random.randint(20, 150)
+            }
+        })
 
 inventory_collection.insert_many(inventory)
+
+# Create indexes to improve query efficiency
+inventory_collection.create_index([("product_ID", 1)])
+inventory_collection.create_index([("date", -1)]) 
 
 print("Data for Stores, Partners, and Inventory collections has been inserted successfully!")
