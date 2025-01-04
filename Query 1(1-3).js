@@ -174,7 +174,7 @@ db.Customers.aggregate([
     }
 ]);
 
-#Query 2: Return delivery partner's location and ETA
+#Query 3: Return delivery partner's location and ETA
 db.Customers.aggregate([
     {
         $match: { "current_orders.order_ID": <order_ID> } 
