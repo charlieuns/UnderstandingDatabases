@@ -7,11 +7,14 @@ use("DATABASE");
 // Step 1: Retrieve user information and location
 const user = db.Customer.findOne({ _id: 1 }); // Assuming the user ID is 1
 
+// Step 2: Create a 2dsphere index on the "location" field in the Stores collection
+db.Stores.createIndex({ location: "2dsphere" });
+
 if (user) {
     const userLocation = user.location; // User location
     const userCoordinates = [userLocation.longitude, userLocation.latitude]; // Longitude and latitude as an array
 
-    // Step 2: Query nearby available fresh products 
+    // Step 3: Query nearby available fresh products 
     db.Stores.aggregate([
         {
             $geoNear: {
