@@ -22,11 +22,6 @@ db.Customers.aggregate([
       }
     },
     {
-      $match: {
-        "product_details.fresh_product_details": { $exists: true } //sorting fresh products
-      }
-    },
-    {
       $lookup: {
         from: "Stores", 
         let: { 
