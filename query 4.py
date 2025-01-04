@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-client = MongoClient('')
+client = MongoClient('mongodb+srv://llm77545:FfvFtuo44hA7EdxP@leocluster.z4vqt.mongodb.net/')
 db = client['Amazone']
 past_orders_collection = db['PastOrders']
 inventory_collection = db['Inventory']
@@ -27,7 +27,7 @@ sales_pipeline = [
     },
     {
         "$group": {
-            "_id": "$product_details.product_category",
+            "_id": "$product_details.product_segment",
             "total_sales": {
                 "$sum": {"$multiply": ["$products.quantity", "$product_details.price"]}
             }
@@ -45,8 +45,8 @@ sns.barplot(data=sales_df, x='_id', y='total_sales', palette="viridis",hue='_id'
 for index, row in sales_df.iterrows():
     plt.text(index, row['total_sales'], f"${row['total_sales']:.2f}", ha='center', va='bottom', fontsize=10)
     
-plt.title('Total Sales by Product Category', fontsize=14)
-plt.xlabel('Product Category', fontsize=12)
+plt.title('Sales Share of Phones', fontsize=14)
+plt.xlabel('Phones Category', fontsize=12)
 plt.ylabel('Total Sales ($)', fontsize=12)
 plt.xticks(rotation=45)
 plt.tight_layout()
@@ -81,7 +81,7 @@ inventory_df = pd.DataFrame(inventory_data)
 
 sns.barplot(data=inventory_df, x='_id', y='total_inventory',palette="magma",hue='_id',legend=False)
 for index, row in inventory_df.iterrows():
-    plt.text(index, row['total_inventory'], f"${row['total_inventory']:.2f}", ha='center', va='bottom', fontsize=10)
+    plt.text(index, row['total_inventory'], f"{row['total_inventory']}", ha='center', va='bottom', fontsize=10)
 
 plt.title('Current Inventory Levels by Product Category', fontsize=14)
 plt.xlabel('Product Category', fontsize=12)
