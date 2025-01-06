@@ -32,7 +32,7 @@ pipeline = [
     {
         "$lookup": {  
             "from": "PastOrders",
-            "localField": "_id",
+            "localField": "customer_ID",
             "foreignField": "customer_ID",
             "as": "past_orders"
         }
@@ -54,7 +54,8 @@ pipeline = [
     },
     {
         "$project": {  
-            "_id": 1,
+            "_id": 0,
+            "customer_ID": 1,
             "name": 1,
             "email": 1,
             "last_order_date": 1
