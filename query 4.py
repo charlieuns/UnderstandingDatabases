@@ -3,13 +3,13 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-client = MongoClient('mongodb+srv://llm77545:FfvFtuo44hA7EdxP@leocluster.z4vqt.mongodb.net/')
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
 db = client['Amazone']
 past_orders_collection = db['PastOrders']
 inventory_collection = db['Inventory']
 products_collection = db['Products']
 
-# Query 1: Sales performance
+# Query 1: Mobile_phone Sales performance by brand
 sales_pipeline = [
     {
         "$unwind": "$products"
@@ -26,8 +26,13 @@ sales_pipeline = [
         "$unwind": "$product_details"
     },
     {
+        "$match": {
+            "product_details.product_category": "mobile_phone"  # Filter by category
+        }
+    },
+    {
         "$group": {
-            "_id": "$product_details.product_segment",
+            "_id": "$product_details.other_product_details.mobile_phone.brand",
             "total_sales": {
                 "$sum": {"$multiply": ["$products.quantity", "$product_details.price"]}
             }
@@ -45,8 +50,8 @@ sns.barplot(data=sales_df, x='_id', y='total_sales', palette="viridis",hue='_id'
 for index, row in sales_df.iterrows():
     plt.text(index, row['total_sales'], f"${row['total_sales']:.2f}", ha='center', va='bottom', fontsize=10)
     
-plt.title('Sales Share of Phones', fontsize=14)
-plt.xlabel('Phones Category', fontsize=12)
+plt.title('Sales performance by brand', fontsize=14)
+plt.xlabel('Phones Brand', fontsize=12)
 plt.ylabel('Total Sales ($)', fontsize=12)
 plt.xticks(rotation=45)
 plt.tight_layout()
