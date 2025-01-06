@@ -57,7 +57,6 @@ Products = [{
 'name': str,
 'description': str,
 'price': float,
-'avg_rating': float,
 'product_segment': str,
 'product_category': str,
 'fresh_product_details': {
@@ -66,11 +65,13 @@ Products = [{
 	'weight': float,
 	'expiry_date': date,
 	'origin_country': str,
+	'avg_rating': float,
 	'morrizon_cost': float
 	},
 'other_product_details':{
 	'dimensions': str,
 	'shipping_weight': float,
+	'avg_rating': float,
 	'supplier_cost': float,
 	'book':{
 	  'author_name': str,
