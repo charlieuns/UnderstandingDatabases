@@ -1,11 +1,8 @@
-// MongoDB Playground
-// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
-
 // The current database to use.
-use("DATABASE");
+use("Amazone");
 
 // Step 1: Retrieve user information and location
-const user = db.Customer.findOne({ _id: 1 }); // Assuming the user ID is 1
+const user = db.Customers.findOne({ customer_ID: 4 }); // Assuming the user ID is 4
 
 // Step 2: Create a 2dsphere index on the "location" field in the Stores collection
 db.Stores.createIndex({ location: "2dsphere" });
@@ -15,7 +12,7 @@ if (user) {
     const userCoordinates = [userLocation.longitude, userLocation.latitude]; // Longitude and latitude as an array
 
     // Step 3: Query nearby available fresh products 
-    db.Stores.aggregate([
+    const results = db.Stores.aggregate([
         {
             $geoNear: {
                 near: {
@@ -33,7 +30,7 @@ if (user) {
             $lookup: {                  // Join the Products collection
                 from: "Products", 
                 localField: "products_available.product_ID", 
-                foreignField: "_id", 
+                foreignField: "product_ID", 
                 as: "product_details" 
             }
         },
@@ -42,18 +39,18 @@ if (user) {
         },
         {
             $match: {
-                "product_details.product_segment": "Fresh" // Filter fresh products
+                "product_details.product_category": "fresh_product" // Ensure it's a fresh product
             }
         },
         {
             $group: {
-                _id: "$_id", // Group by Store ID
+                _id: "$store_ID", // Group by Store ID
                 store_address: { $first: "$address" }, // Store address
                 distance: { $first: { $divide: ["$distance", 1000] } }, // Distance in kilometers
                 fresh_products: {
                     $push: {
                         product_name: "$product_details.name", 
-                        product_category: "$product_details.product_category", 
+                        product_category: "$product_details.fresh_product_details.category", 
                         product_price: "$product_details.price", 
                         product_quantity: "$products_available.quantity" // Available quantity
                     }
@@ -65,32 +62,25 @@ if (user) {
             $project: {
                 StoreID: "$_id",
                 distance: {
-                    $concat: [{ $toString: { $round: ["$distance", 2] } }, "km"]
+                    $concat: [{ $toString: { $round: ["$distance", 2] } }, " km"]
                 },
                 store_address: 1,
-                fresh_products: {
-                    $map: {
-                        input: "$fresh_products",
-                        as: "product",
-                        in: {
-                            product_name: "$$product.product_name",
-                            product_category: "$$product.product_category",
-                            product_price: {
-                                $concat: [
-                                    { $toString: "$$product.product_price" },
-                                    " £"
-                                ]
-                            },
-                            product_quantity: "$$product.product_quantity"
-                        }
-                    }
-                },
+                fresh_products: 1, // Include fresh_products directly
                 _id: 0
             }
         }
-        
-    ]).forEach(printjson); 
+    ]).toArray(); // Retrieve results as an array
+    
+    // Output as individual documents
+    results.forEach(store => {
+        const storeDocument = {
+            StoreID: store.StoreID,
+            Distance: store.distance,
+            Address: store.store_address,
+            Products: store.fresh_products
+        };
+        printjson(storeDocument); // Print each store as a separate document
+    });
 } else {
     print("User not found"); // Print a message if the user is not found
 }
-
