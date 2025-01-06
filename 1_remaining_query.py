@@ -25,7 +25,7 @@ for customer in customers:
 
 
 # Step 1: Calculate the 60-day threshold date
-duration = datetime.now() - timedelta(days=60)
+threshold = datetime.now() - timedelta(days=60)
 
 # Step 2: Aggregation pipeline
 pipeline = [
@@ -49,7 +49,7 @@ pipeline = [
     },
     {
         "$match": {  # Filter customers with no orders in the last 60 days
-            "last_order_date": {"$lt": duration}
+            "last_order_date": {"$lt": threshold}
         }
     },
     {
