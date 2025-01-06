@@ -4,8 +4,9 @@ import string
 from datetime import datetime
 
 # Connect to MongoDB
-client = MongoClient('mongodb://')
-db = client['DatabaseName']
+# Connect to MongoDB
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
+db = client['Amazone']
 customers_collection = db['Customers']
 products_collection = db['Products']
 

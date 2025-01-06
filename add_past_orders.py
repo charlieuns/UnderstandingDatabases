@@ -3,8 +3,9 @@ import random
 from datetime import datetime, timedelta
 
 # Connect to MongoDB
-client = MongoClient('mongodb://')
-db = client['DatabaseName']
+# Connect to MongoDB
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
+db = client['Amazone']
 
 # Collections
 customers_collection = db['Customers']
@@ -13,7 +14,7 @@ partners_collection = db['Partners']
 past_orders_collection = db['PastOrders']
 
 # Fetch customer and product IDs
-customer_ids = [customer['CustomerID'] for customer in customers_collection.find({}, {"CustomerID": 1})]
+customer_ids = [customer['customer_ID'] for customer in customers_collection.find({}, {"customer_ID": 1})]
 product_ids = [product['product_ID'] for product in products_collection.find({}, {"product_ID": 1})]
 partner_ids = [partner['partner_ID'] for partner in partners_collection.find({}, {"partner_ID": 1})] 
 

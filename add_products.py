@@ -4,8 +4,8 @@ import string
 from datetime import datetime, timedelta
 
 # Connect to MongoDB
-client = MongoClient('mongodb://')
-db = client['DatabaseName']
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
+db = client['Amazone']
 products_collection = db['Products']
 
 # Helper function to generate random strings
