@@ -128,7 +128,7 @@ Partners = [{
 },
 'active': bool,
 'on_errand': bool,
-'current_task': ref <Orders.order_ID>,
+'current_task': ref <Customers.current_orders.order_ID>,
 'delivery_stats':{
 	'total_deliveries': int,
 	'total_earnings': float,  
