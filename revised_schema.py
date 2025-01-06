@@ -35,7 +35,6 @@ Customers = [{
         'quantity':int 
         }]
     }],
-'commonly_ordered_categories':[ref <Products.product_type],
 'recommended_products':[ref <Products.product_ID>]
 }]
 
@@ -61,7 +60,7 @@ Products= [{
 'product_segment': str,
 'product_category': str,
 'fresh_product_details': {
-    'category': str,
+        'category': str,
 	'dimensions': str,
 	'weight': float,
 	'expiry_date': date,
@@ -158,9 +157,4 @@ Ratings = [{
     'rating': int
     }
 ]
-}]
-
-ToBeRecommended = [{
-'category': ref <Products.product_category>,
-'top_product_of_type': ref <Products.product_ID>
 }]
