@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 import pandas as pd
 
-# note: Find customers who haven’t made any purchases in the last 7 days, 
+# note: Find customers who haven’t made any purchases in the last 60 days, 
 # along with additional operations such as sending promotional messages.
 
 # Connect to MongoDB
@@ -48,7 +48,7 @@ pipeline = [
         }
     },
     {
-        "$match": {  # Filter customers with no orders in the last 7 days
+        "$match": {  # Filter customers with no orders in the last 60 days
             "last_order_date": {"$lt": duration}
         }
     },
