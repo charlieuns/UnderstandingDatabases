@@ -1,20 +1,38 @@
-"""
-First step is getting average ratings: total/number
-Group by product category
-Max rated in each category
-Saved to ToBeRecommended
-Use commonly ordered categories to select from that list
-Save result to recommended products
-"""
+
 import pymongo
 from pymongo import MongoClient
 
-conn_str = "mongodb+srv://root:root@cluster0.gfqx6.mongodb.net/"
+conn_str = " "
 client = MongoClient(conn_str, serverSelectionTimeoutMS=5000)
 
 myDB = client["Amazone"]
 
-recommended_products = myDB.ratings.aggregate([
+top_categories = myDB.PastOrders.aggregate([
+    {"$match": {"customer_ID": example}},
+    {"$unwind": "$products"},
+    {"$lookup": {
+        "from": "Products",
+        "localField": "products.product_ID",
+        "foreignField": "product_ID",
+        "as": "product_details"
+    }},
+    {"$group": {"_id":"$product_details.product_category",
+                "count":{"$sum":1}}},
+    {"$sort": {"count":-1}},
+    {"$limit": 3},
+    {"$project":{
+        "count": 1,
+        "category": "$_id", 
+        "_id": 0}}
+])
+
+myDB.Customers.update_one({
+    "q": {"customer_ID":example},
+    "u": {"$set": {"commonly_ordered_categories":top_categories}},
+    "upsert": True
+})
+
+recommended_products = myDB.Ratings.aggregate([
     {"$set": {"avg_rating": {"$divide": ["$total_rating", "$number_ratings"]}}},
     {"$lookup": {
         "from": "Products",
