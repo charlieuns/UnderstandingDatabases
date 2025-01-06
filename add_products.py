@@ -8,6 +8,8 @@ client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/'
 db = client['Amazone']
 products_collection = db['Products']
 
+categories = ["bakery", "drinks", "fruits_and_veg"]
+
 # Helper function to generate random strings
 def generate_random_string(length=10):
     return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
@@ -15,6 +17,7 @@ def generate_random_string(length=10):
 # Generate fresh product details
 def generate_fresh_product_details():
     return {
+        "category": random.choice(categories),
         "dimensions": f"{random.randint(5, 20)}x{random.randint(5, 20)}x{random.randint(5, 20)} cm",
         "weight": round(random.uniform(0.1, 5), 2),  # Random weight between 0.1kg and 5kg
         "expiry_date": datetime.now() + timedelta(days=random.randint(1, 30)),  # Random expiry in the next 30 days

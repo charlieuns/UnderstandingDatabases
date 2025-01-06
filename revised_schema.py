@@ -61,6 +61,7 @@ Products= [{
 'product_segment': str,
 'product_category': str,
 'fresh_product_details': {
+    'category': str,
 	'dimensions': str,
 	'weight': float,
 	'expiry_date': date,
