@@ -1,62 +1,63 @@
 # Revised schema model for Understanding Databases Assignment 2
 
 Customers = [{
-'customer_ID':int (index),
+'customer_ID': int (index),
 'name': str,
-'gender':str,
-'age':int,
+'gender': str,
+'age': int,
 'addresses':[
     {
-    'address_type':str,
-    'house_number':int,
-    'street':str,
-    'city':str,
-    'postcode':str
+    'address_type': str,
+    'house_number': int,
+    'street': str,
+    'city': str,
+    'postcode': str
     }
 ],
 'location':{
     'latitude': int,
-    'longitude':int    
+    'longitude': int    
 },
 'cart':{
     'cart_total': float,
     'products': [ref <Products.product_ID>]
 },
 'current_orders':[{
-     'order_ID':int,
-     'order_total':float,
+     'order_ID': int,
+     'order_total': float,
      'order_status': str,
-     'partner_assigned':int,
+     'partner_assigned': int,
      'order_placed': datetime,
      'order_destination': str,
      'products':
         [{
-        'product_ID':ref <Products.product_ID>,
-        'quantity':int 
+        'product_ID': ref <Products.product_ID>,
+        'quantity': int 
         }]
     }],
-'recommended_products':[ref <Products.product_ID>]
+'recommended_products': [ref <Products.product_ID>]
 }]
 
 PastOrders = [{
-'order_ID':int,
-'customer_ID':ref <Customers.customer_ID>,
-'order_total':float,
-'partner_assigned':ref <Partners.partner_ID,
-'order_placed':datetime,
-'order_delivered':datetime,
+'order_ID': int,
+'customer_ID': ref <Customers.customer_ID>,
+'order_total': float,
+'partner_assigned': ref <Partners.partner_ID,
+'order_placed': datetime,
+'order_delivered': datetime,
 'products':
     [{
-    'product_ID':ref <Products.product_ID>,
-    'quantity':int 
+    'product_ID': ref <Products.product_ID>,
+    'quantity': int 
     }]
 }]
 
-Products= [{
+Products = [{
 'product_ID': int,
 'name': str,
 'description': str,
 'price': float,
+'avg_rating': float,
 'product_segment': str,
 'product_category': str,
 'fresh_product_details': {
@@ -65,13 +66,11 @@ Products= [{
 	'weight': float,
 	'expiry_date': date,
 	'origin_country': str,
-	'avg_rating': float,
 	'morrizon_cost': float
 	},
 'other_product_details':{
 	'dimensions': str,
 	'shipping_weight': float,
-	'avg_rating': float,
 	'supplier_cost': float,
 	'book':{
 	  'author_name': str,
@@ -101,17 +100,17 @@ Products= [{
 
 Stores = [{
     'store_ID': int,
-    'address': {
+    'address':{
         'house_number': int,
         'street': str,
         'city': str,
         'postcode': str
     },
-    'location': {
+    'location':{
         'latitude': int,
         'longitude': int
     },
-    'products_available': [{
+    'products_available':[{
         'product_ID': ref <Products.product_ID>,
         'quantity': int
     }]
@@ -126,10 +125,10 @@ Partners = [{
     'latitude': int,
     'longitude': int
 },
-'active':bool,
-'on_errand':bool,
-'current_task':ref <Orders.order_ID>,
-'delivery_stats': {
+'active': bool,
+'on_errand': bool,
+'current_task': ref <Orders.order_ID>,
+'delivery_stats':{
 	'total_deliveries': int,
 	'total_earnings': float,  
 	'rating': float
@@ -140,10 +139,10 @@ Inventory = [{
 'product_ID': ref <Products.product_ID>,
 'inventory': int,
 'warehouse_name': str,
-'location':{
+'location': {
     'latitude': int,
     'longitude': int
-},
+    },
 'date': date
 }]
 
@@ -153,7 +152,7 @@ Ratings = [{
 'number_ratings': int,
 'ratings':[
     {
-    'customer_ID':ref <Customers.customer_ID>,
+    'customer_ID': ref <Customers.customer_ID>,
     'rating': int
     }
 ]
