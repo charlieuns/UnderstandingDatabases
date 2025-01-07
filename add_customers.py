@@ -116,7 +116,6 @@ for i in range(20):
         "location": {"latitude": latitude, "longitude": longitude},
         "cart": {"cart_total": round(cart_total, 2), "products": cart_products},
         "current_orders": current_orders,
-        "commonly_ordered_categories": random.sample(product_types, k=min(len(product_types), random.randint(1, 3))),
         "recommended_products": random.sample(product_ids, k=min(len(product_ids), 3))
     })
 
