@@ -5,10 +5,11 @@ from typing import Dict, Optional
 from datetime import datetime
 import random
 import pandas as pd
+from tabulate import tabulate  # pip install tabulate
 
 # Connect to MongoDB
-client = MongoClient('mongodb://localhost:27017/')
-db = client['DatabaseName']
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
+db = client['Amazone']
 
 # Collections
 customers_collection = db['Customers']
@@ -18,7 +19,7 @@ inventory_collection = db['Inventory']
 partners_collection = db['Partners']
 
 # Customer ID
-customer_id = 5
+customer_id = 13
 
 def get_cart_contents(customer_id: int):
     """Retrieve the cart contents for a given customer ID."""
@@ -27,6 +28,11 @@ def get_cart_contents(customer_id: int):
         return None, "Customer not found."
     
     cart = customer.get('cart', {})
+    if cart.get("products"):
+        print("\n=== Cart Contents ===")
+        print(tabulate(pd.DataFrame(cart["products"]), headers="keys", tablefmt="grid"))
+    else:
+        print("\nCart is empty.")
     return cart, "Cart retrieved successfully."
 
 def remove_lowest_priced_item(cart: dict):
@@ -52,6 +58,8 @@ def remove_lowest_priced_item(cart: dict):
         product['quantity'] * product['price'] for product in cart['products']
     )
     
+    print("\n=== Cart After Removing Lowest-Priced Item ===")
+    print(tabulate(pd.DataFrame(cart['products']), headers="keys", tablefmt="grid"))
     return cart, f"Removed product: {lowest_priced_product['product_ID']}."
 
 def create_order(customer_id: int, cart: dict):
@@ -84,6 +92,16 @@ def create_order(customer_id: int, cart: dict):
     # Insert the order into the PastOrders collection
     past_orders_collection.insert_one(order)
     
+    print("\n=== Order Details ===")
+    order_df = pd.DataFrame([{
+        "Order ID": order["order_ID"],
+        "Customer ID": order["customer_ID"],
+        "Order Total": order["order_total"],
+        "Order Status": order["order_status"],
+        "Partner Assigned": order["partner_assigned"],
+        "Order Destination": order["order_destination"]
+    }])
+    print(tabulate(order_df, headers="keys", tablefmt="grid"))
     return order, "Order created successfully."
 
 def update_inventory(order):
@@ -93,6 +111,10 @@ def update_inventory(order):
             {'product_ID': product['product_ID']},
             {'$inc': {'inventory': -product['quantity']}}
         )
+    print("\n=== Inventory Updated ===")
+    inventory_df = pd.DataFrame(order['products'])
+    inventory_df['Status'] = 'Reduced Inventory'
+    print(tabulate(inventory_df, headers="keys", tablefmt="grid"))
 
 def update_customer_document(customer_id: int, order: dict):
     """Update the customer's document with the new order."""
@@ -111,54 +133,38 @@ def update_customer_document(customer_id: int, order: dict):
             }}  # Add the order details to current orders
         }
     )
-    if update_result.modified_count > 0:
-        return True, "Customer document updated successfully."
-    return False, "Failed to update customer document."
+    success_message = "Customer document updated successfully." if update_result.modified_count > 0 else "Failed to update customer document."
+    print(f"\n=== Customer Document Update ===\n{success_message}")
+    return update_result.modified_count > 0, success_message
 
 def process_cart_and_create_order(customer_id: int):
     """Process the cart and create an order for the customer."""
     # Step 1: Retrieve cart contents
     cart, message = get_cart_contents(customer_id)
     if not cart:
-        return {"success": False, "message": message}
-
-    print(f"Step 1 - Cart contents: {cart}")
+        print(message)
+        return
 
     # Step 2: Remove the lowest-priced item
     cart, message = remove_lowest_priced_item(cart)
-    print(f"Step 2 - {message}")
+    print(message)
 
     # Step 3: Create a new order
     order, message = create_order(customer_id, cart)
     if not order:
-        return {"success": False, "message": message}
+        print(message)
+        return
     
-    print(f"Step 3 - {message}. Order details: {order}")
-
     # Step 4: Update inventory
     update_inventory(order)
-    print("Step 4 - Inventory updated.")
 
     # Step 5: Update customer document
     success, message = update_customer_document(customer_id, order)
-    print(f"Step 5 - {message}")
-    
-    # Return the final results
-    result_data = {
-        'Order ID': order['order_ID'],
-        'Customer ID': order['customer_ID'],
-        'Order Total': order['order_total'],
-        'Order Status': order['order_status'],
-        'Partner Assigned': order['partner_assigned'],
-        'Products': order['products']
-    }
-    return pd.DataFrame([result_data])
+    print(message)
 
-# Execute the query and display the result
-result_df = process_cart_and_create_order(customer_id)
+# Execute the query
+process_cart_and_create_order(customer_id)
 
-# Display the result as a table
-print(result_df)
 
 # Query Description:
 # This query processes a customer's shopping cart by performing several operations in sequence:
