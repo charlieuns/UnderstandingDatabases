@@ -1,6 +1,7 @@
 import pandas as pd
 from pymongo import MongoClient
 import random
+from tabulate import tabulate  # sudo pip install tabulate
 
 class RecommendationSystem:
     def __init__(self, uri, db_name):
@@ -16,6 +17,8 @@ class RecommendationSystem:
             print("No customer or product data found.")
             return
 
+        table_data = []  # store the results for display
+
         for customer in customers:
             # Randomly select 5 products for the customer
             selected_products = random.sample(products, 5)
@@ -27,7 +30,12 @@ class RecommendationSystem:
                 {"$set": {"rated_products": product_ids}}
             )
 
-        print("Successfully assigned products to customers.")
+            # store the results for display
+            table_data.append({"Customer ID": customer["customer_ID"], "Rated Products": product_ids})
+
+        # show the results
+        print("\n=== Assigned Products to Customers ===")
+        print(tabulate(pd.DataFrame(table_data), headers="keys", tablefmt="grid"))
 
     def get_customer_summary(self, customer_id):
         """Aggregate past orders to summarize spending by category"""
@@ -55,7 +63,13 @@ class RecommendationSystem:
             {"$sort": {"total_spending": -1}},
             {"$limit": 2}
         ]
-        return list(self.db.PastOrders.aggregate(pipeline))
+        customer_summary = list(self.db.PastOrders.aggregate(pipeline))
+
+        # show the results
+        print("\n=== Customer Spending Summary ===")
+        print(tabulate(pd.DataFrame(customer_summary), headers="keys", tablefmt="grid"))
+
+        return customer_summary
 
     def generate_recommendations(self, customer_id):
         """Generate product recommendations based on inventory levels"""
@@ -69,24 +83,53 @@ class RecommendationSystem:
         for category_data in customer_summary:
             category = category_data["_id"]
 
-            # Fetch products in the category sorted by inventory in descending order
-            category_product_ids = [
-                product["product_ID"] for product in self.db.Products.find({"product_category": category}, {"product_ID": 1})
+            # Fetch products in the category from Products and Inventory collections
+            pipeline = [
+                {"$match": {"product_category": category}},
+                {
+                    "$lookup": {
+                        "from": "Inventory",
+                        "localField": "product_ID",
+                        "foreignField": "product_ID",
+                        "as": "inventory_data"
+                    }
+                },
+                {"$unwind": "$inventory_data"},
+                {
+                    "$project": {
+                        "product_ID": 1,
+                        "price": 1,
+                        "product_category": 1,
+                        "inventory": "$inventory_data.inventory"
+                    }
+                },
+                {"$sort": {"inventory": -1}},
+                {"$limit": 5}
             ]
-            category_recommendations = list(self.db.Inventory.find(
-                {"product_ID": {"$in": category_product_ids}}
-            ).sort("inventory", -1))  # Sort by inventory
 
+            category_recommendations = list(self.db.Products.aggregate(pipeline))
             recommendations.extend(category_recommendations)
 
         # Select the top 5 products across both categories
-        recommendations = sorted(recommendations, key=lambda x: x["inventory"], reverse=True)[:5]
+        recommendations = recommendations[:5]
 
         # Update recommended products in the Customers collection
         self.db.Customers.update_one(
             {"customer_ID": customer_id},
-            {"$set": {"recommended_products": recommendations}}
+            {"$set": {"recommended2_products": recommendations}}
         )
+
+        # show the results
+        print("\n=== Recommended Products ===")
+        recommendations_df = pd.DataFrame(recommendations)
+        recommendations_df = recommendations_df[["product_ID", "price", "product_category", "inventory"]]
+        recommendations_df.rename(columns={
+            "product_ID": "Product ID",
+            "price": "Price",
+            "product_category": "Category",
+            "inventory": "Inventory"
+        }, inplace=True)
+        print(tabulate(recommendations_df, headers="keys", tablefmt="grid"))
 
         return recommendations
 
@@ -97,42 +140,21 @@ class RecommendationSystem:
 
         if customer and "rated_products" in customer:
             rated_products = customer["rated_products"]
-            print("\nRated Products:")
-            print(rated_products)
+            rated_products_df = pd.DataFrame({"Rated Products": rated_products})
+            print("\n=== Rated Products ===")
+            print(tabulate(rated_products_df, headers="keys", tablefmt="grid"))
         else:
             print("\nNo rated products found for this customer.")
 
-        # Spending summary
-        customer_summary = self.get_customer_summary(customer_id)
-        recommendations = self.generate_recommendations(customer_id)
-
-        if customer_summary:
-            print("\nCustomer Spending Summary:")
-            summary_df = pd.DataFrame(customer_summary)
-            summary_df.rename(columns={
-                "_id": "Category",
-                "total_spending": "Total Spending",
-                "total_purchases": "Total Purchases"
-            }, inplace=True)
-            print(summary_df.to_string(index=False))
-
-        if recommendations:
-            print("\nRecommended Products:")
-            rec_df = pd.DataFrame(recommendations)
-            rec_df = rec_df[["product_ID", "inventory", "warehouse_name", "date"]]  # Display inventory-related fields
-            rec_df.rename(columns={
-                "product_ID": "Product ID",
-                "inventory": "Inventory",
-                "warehouse_name": "Warehouse",
-                "date": "Date"
-            }, inplace=True)
-            print(rec_df.to_string(index=False))
+        # Spending summary and recommendations
+        self.get_customer_summary(customer_id)
+        self.generate_recommendations(customer_id)
 
 
 # Main execution
 if __name__ == "__main__":
-    MONGO_URI = "mongodb://localhost:27017/"
-    DB_NAME = "DatabaseName"
+    MONGO_URI = "mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/"
+    DB_NAME = "Amazone"
 
     rec_system = RecommendationSystem(MONGO_URI, DB_NAME)
 
