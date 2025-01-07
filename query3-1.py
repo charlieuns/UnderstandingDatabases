@@ -1,14 +1,14 @@
 # Query: Customers search for the most expensive product within a specific price range among a fixed category of goods, displaying its current inventory status. If sufficient inventory is available, the product is added to the shopping cart. 
 # The shopping cart is updated with the product details, quantity, and total price, while the system marks the historical purchase record. Finally, the product inventory is updated to reflect the purchase.
 
-from pymongo import MongoClient, ASCENDING
-from datetime import datetime
+from pymongo import MongoClient
 from typing import Dict, Optional
 import pandas as pd
+from tabulate import tabulate  # pip install tabulate
 
 # Connect to MongoDB
-client = MongoClient('mongodb://localhost:27017/')
-db = client['DatabaseName']
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
+db = client['Amazone']
 
 # Collections
 customers_collection = db['Customers']
@@ -16,164 +16,135 @@ products_collection = db['Products']
 past_orders_collection = db['PastOrders']
 inventory_collection = db['Inventory']
 
-# Customer ID and product query parameters
-customer_id = 5
+# Query parameters
+customer_id = 6
 product_type = "book"
-price_range = (150, 200)
+price_range = (10, 200)
 quantity_to_buy = 5
 
 def find_most_expensive_book() -> Optional[Dict]:
     """Find the most expensive book within the price range."""
-    books = products_collection.find(
-        {'product_category': product_type, 'price': {'$gte': price_range[0], '$lte': price_range[1]}},
-        sort=[('price', -1)]
-        ).limit(1)
-    return books[0] if books else None
+    try:
+        book = products_collection.find_one(
+            {'product_category': product_type, 'price': {'$gte': price_range[0], '$lte': price_range[1]}},
+            sort=[('price', -1)]
+        )
+        if not book:
+            print("\nNo books found in the specified category and price range.")
+            return None
+
+        print("\n=== Most Expensive Book Found ===")
+        print(tabulate(pd.DataFrame([book]), headers="keys", tablefmt="grid"))
+        return book
+    except Exception as e:
+        print(f"Error finding book: {str(e)}")
+        return None
 
 def check_purchase_history(customer_id: int, product_id: int) -> bool:
     """Check if the customer has purchased the book before."""
-    purchase = past_orders_collection.find_one({
-        'customer_ID': customer_id,
-        'products.product_ID': product_id
-    })
-    return purchase is not None
+    try:
+        purchased = past_orders_collection.find_one({
+            'customer_ID': customer_id,
+            'products.product_ID': product_id
+        }) is not None
+        print(f"\n=== Purchase History ===\nPreviously Purchased: {'Yes' if purchased else 'No'}")
+        return purchased
+    except Exception as e:
+        print(f"Error checking purchase history: {str(e)}")
+        return False
 
 def check_inventory(product_id: int, quantity: int) -> Dict:
     """Check if there is enough stock."""
     inventory_item = inventory_collection.find_one({'product_ID': product_id})
-    
     if not inventory_item:
-        return {
-            'success': False,
-            'message': 'Product does not exist',
-            'available': 0
-        }
+        return {'success': False, 'message': 'Product does not exist'}
 
     available_quantity = inventory_item.get('inventory', 0)
-    
-    # Inventory Tips
-    if available_quantity < quantity:
-        if available_quantity < 3:
-            return {
-                'success': False,
-                'message': f'Only {available_quantity} available, cannot fulfill order.',
-                'available': available_quantity
-            }
-        else:
-            return {
-                'success': False,
-                'message': 'Insufficient stock, cannot fulfill order.',
-                'available': available_quantity
-            }
-    
-    # there is enough inventory
-    if available_quantity < 3:
-        return {
-            'success': True,
-            'message': f'Sufficient stock available. Only {available_quantity} left!',
-            'available': available_quantity
-        }
-    else:
-        return {
-            'success': True,
-            'message': 'Sufficient stock available.',
-            'available': None  
-        }
+    success = available_quantity >= quantity
+    message = "Sufficient stock available." if success else f"Only {available_quantity} available, cannot fulfill order."
+
+    print("\n=== Inventory Check ===")
+    inventory_df = pd.DataFrame([{
+        "Product ID": product_id,
+        "Available Quantity": available_quantity,
+        "Requested Quantity": quantity,
+        "Success": "Yes" if success else "No",
+        "Message": message
+    }])
+    print(tabulate(inventory_df, headers="keys", tablefmt="grid"))
+    return {'success': success, 'message': message}
 
 def update_cart(customer_id: int, book: Dict, quantity: int) -> Dict:
     """Update the customer's cart with the selected book."""
     try:
         item_total = book['price'] * quantity
         customer = customers_collection.find_one({'customer_ID': customer_id})
-        
         if not customer:
             return {'success': False, 'message': f'Customer {customer_id} does not exist.'}
 
         cart = customer.get('cart', {'products': [], 'cart_total': 0})
-        
-        # Check if the product already exists in the cart
-        product_found = False
         for product in cart['products']:
             if product['product_ID'] == book['product_ID']:
                 product['quantity'] += quantity
-                product_found = True
                 break
-
-        if not product_found:
-            cart['products'].append({
-                'product_ID': book['product_ID'],
-                'quantity': quantity
-            })
+        else:
+            cart['products'].append({'product_ID': book['product_ID'], 'quantity': quantity})
 
         cart['cart_total'] += item_total
+        customers_collection.update_one({'customer_ID': customer_id}, {'$set': {'cart': cart}})
 
-        # Print before updating
-        print(f"Updating cart for customer {customer_id}: {cart}")
-
-        # Update the customer's cart
-        result = customers_collection.update_one(
-            {'customer_ID': customer_id},
-            {'$set': {'cart': cart}}
-        )
-
-        # Print the update result
-        print(f"Cart Update Result: {result.raw_result}")
-
-        return {
-            'success': True,
-            'cart_details': cart
-        }
-
+        print("\n=== Updated Cart ===")
+        cart_df = pd.DataFrame(cart['products'])
+        cart_df['Total Price'] = cart_df['quantity'] * book['price']
+        print(tabulate(cart_df, headers="keys", tablefmt="grid"))
+        return {'success': True, 'cart_details': cart}
     except Exception as e:
         return {'success': False, 'message': f'Failed to update cart: {str(e)}'}
 
 def update_inventory(product_id: int, quantity: int) -> None:
     """Reduce the inventory of the selected product."""
-    print(f"Updating inventory for product {product_id}, reducing by {quantity}")
-    result = inventory_collection.update_one(
-        {'product_ID': product_id},
-        {'$inc': {'inventory': -quantity}}
-    )
-    print(f"Inventory Update Result: {result.raw_result}")
+    inventory_collection.update_one({'product_ID': product_id}, {'$inc': {'inventory': -quantity}})
+    print(f"\n=== Updated Inventory ===\nReduced inventory for Product ID {product_id} by {quantity}")
 
-
-def purchase_book(customer_id: int, quantity: int) -> pd.DataFrame:
-    """Main function to purchase a book and return results as a DataFrame."""
+def purchase_book(customer_id: int, quantity: int) -> None:
+    """Main function to purchase a book."""
     try:
-        # 1. Find the most expensive book
         book = find_most_expensive_book()
         if not book:
-            return pd.DataFrame([{'Result': 'No matching books found.'}])
+            return
 
-        # 2. Check purchase history
-        has_purchased = check_purchase_history(customer_id, book['product_ID'])
+        check_purchase_history(customer_id, book['product_ID'])
 
-        # 3. Check inventory
         inventory_check = check_inventory(book['product_ID'], quantity)
         if not inventory_check['success']:
-            return pd.DataFrame([{'Result': inventory_check['message']}])
+            print(f"\nOperation failed: {inventory_check['message']}")
+            return
 
-        # 4. Update cart
         cart_update = update_cart(customer_id, book, quantity)
         if not cart_update['success']:
-            return pd.DataFrame([{'Result': cart_update['message']}])
+            print(f"\nOperation failed: {cart_update['message']}")
+            return
 
-        # 5. Update inventory
         update_inventory(book['product_ID'], quantity)
 
-        # Construct the result as a DataFrame
-        result_data = {
-            'Book Name': [book['name']],
-            'Price per Unit': [book['price']],
-            'Quantity Purchased': [quantity],
-            'Total Cost': [book['price'] * quantity],
-            'Previously Purchased': ['Yes' if has_purchased else 'No'],
-            'Updated Cart Total': [cart_update['cart_details']['cart_total']]
+        print("\n=== Purchase Summary ===")
+        summary = {
+            'Book Name': book['name'],
+            'Price per Unit': book['price'],
+            'Quantity Purchased': quantity,
+            'Total Cost': book['price'] * quantity,
+            'Updated Cart Total': cart_update['cart_details']['cart_total']
         }
-        return pd.DataFrame(result_data)
-
+        print(tabulate(pd.DataFrame([summary]), headers="keys", tablefmt="grid"))
     except Exception as e:
-        return pd.DataFrame([{'Result': f'Operation failed: {str(e)}'}])
+        print(f"Error during purchase: {str(e)}")
+
+# Execute purchase
+purchase_book(customer_id, quantity_to_buy)
+
+
+# Execute purchase and display the result
+purchase_book(customer_id, quantity_to_buy)
 
 # Execute purchase and display the result
 result_df = purchase_book(customer_id, quantity_to_buy)
