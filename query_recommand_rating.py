@@ -101,8 +101,8 @@ class RecommendationSystem:
 # Main execution
 if __name__ == "__main__":
     # MongoDB connection details
-    MONGO_URI = "mongodb://localhost:27017/"
-    DB_NAME = "DatabaseName"
+    MONGO_URI = "mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/"
+    DB_NAME = "Amazone"
 
     # Initialize the recommendation system
     rec_system = RecommendationSystem(MONGO_URI, DB_NAME)
