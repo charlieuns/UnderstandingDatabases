@@ -148,13 +148,14 @@ Inventory = [{
 }]
 
 Ratings = [{
+'rating_ID': int,
+'customer_ID': ref <Customers.customer_ID>,
 'product_ID': ref <Products.product_ID>,
-'total_rating': int,
-'number_ratings': int,
-'ratings':[
-    {
-    'customer_ID': ref <Customers.customer_ID>,
-    'rating': int
-    }
-]
+'rating': int,
+'star_display': str,
+'comment': str,
+'rating_date': date,
+'helpful_votes': int,
+'verified_purchase': bool,
+'number_ratings': int
 }]
