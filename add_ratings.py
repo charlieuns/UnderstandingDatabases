@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 import random
 
 # MongoDB connection
-client = MongoClient('mongodb://localhost:27017/')
-db = client['DatabaseName']
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
+db = client['Amazone']
 ratings_collection = db['Ratings']
 
 # Rating constants and templates
