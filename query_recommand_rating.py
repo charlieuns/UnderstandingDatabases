@@ -9,11 +9,8 @@ class RecommendationSystem:
     def get_customer_summary(self, customer_id):
         """Aggregate past orders to summarize spending by category"""
         pipeline = [
-            # Match the customer's orders
             {"$match": {"customer_ID": customer_id}},
-            # Unwind products array
             {"$unwind": "$products"},
-            # Lookup product details
             {
                 "$lookup": {
                     "from": "Products",
@@ -22,9 +19,7 @@ class RecommendationSystem:
                     "as": "product_details"
                 }
             },
-            # Unwind product details
             {"$unwind": "$product_details"},
-            # Group by product category
             {
                 "$group": {
                     "_id": "$product_details.product_category",
@@ -32,14 +27,9 @@ class RecommendationSystem:
                         "$sum": {"$multiply": ["$products.quantity", "$product_details.price"]}
                     },
                     "total_purchases": {"$sum": "$products.quantity"},
-                    "avg_spending": {
-                        "$avg": {"$multiply": ["$products.quantity", "$product_details.price"]}
-                    }
                 }
             },
-            # Sort by total spending
             {"$sort": {"total_spending": -1}},
-            # Limit to top 2 categories
             {"$limit": 2}
         ]
         return list(self.db.PastOrders.aggregate(pipeline))
@@ -55,16 +45,13 @@ class RecommendationSystem:
         recommendations = []
         for category_data in customer_summary:
             category = category_data["_id"]
-            avg_spending = category_data["avg_spending"]
 
-            # Fetch products in the category within the price range
+            # Fetch products in the category (no price range restriction)
             category_recommendations = list(self.db.Products.find(
-                {
-                    "product_category": category,
-                    "price": {"$gte": avg_spending * 0.85, "$lte": avg_spending * 1.15}
-                }
+                {"product_category": category}
             ).sort("average_rating", -1).limit(5))
 
+            print(f"Customer {customer_id}, Category: {category}, Recommendations: {category_recommendations}")
             recommendations.extend(category_recommendations)
 
         return recommendations
@@ -80,8 +67,7 @@ class RecommendationSystem:
             summary_df.rename(columns={
                 "_id": "Category",
                 "total_spending": "Total Spending",
-                "total_purchases": "Total Purchases",
-                "avg_spending": "Avg Spending"
+                "total_purchases": "Total Purchases"
             }, inplace=True)
             print(summary_df.to_string(index=False))
 
@@ -100,13 +86,10 @@ class RecommendationSystem:
 
 # Main execution
 if __name__ == "__main__":
-    # MongoDB connection details
     MONGO_URI = "mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/"
     DB_NAME = "Amazone"
 
-    # Initialize the recommendation system
     rec_system = RecommendationSystem(MONGO_URI, DB_NAME)
 
-    # Display recommendations and spending summary for a specific customer
     CUSTOMER_ID = 1
     rec_system.display_results(CUSTOMER_ID)
