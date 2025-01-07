@@ -43,12 +43,19 @@ for i in range(1, 6):
 stores_collection.insert_many(stores)
 
 # Part 2: Populate Partners Collection
-partners = []
-for i in range(1, 6):
+for i in range(1, 11): 
     latitude, longitude = generate_uk_location()
+    total_deliveries = random.randint(50, 200)
+    base_rate_per_delivery = 8
+    performance_bonus = 0
+    if total_deliveries > 150:
+        performance_bonus = 500  # Bonus for high performance
+
+    total_earnings = round(total_deliveries * base_rate_per_delivery + performance_bonus, 2)
+
     partners.append({
         "partner_ID": i,
-        "name": random.choice(["Alice", "Bob", "Chase", "Diana", "Ethan"]),
+        "name": random.choice(["Alice", "Bob", "Chase", "Diana", "Ethan", "Fiona", "George", "Hannah", "Isaac", "Julia"]),
         "gender": random.choice(["Male", "Female"]),
         "age": random.randint(18, 60),
         "current_location": {
@@ -59,12 +66,11 @@ for i in range(1, 6):
         "on_errand": random.choice([True, False]),
         "current_task": random.randint(1001, 1010) if random.choice([True, False]) else None,
         "delivery_stats": {
-            "total_deliveries": random.randint(50, 200),
-            "total_earnings": round(random.uniform(10000, 50000), 2),
+            "total_deliveries": total_deliveries,
+            "total_earnings": total_earnings,
             "rating": round(random.uniform(3.5, 5.0), 1)
         }
     })
-
 partners_collection.insert_many(partners)
 
 # Part 3: Populate Inventory Collection 
