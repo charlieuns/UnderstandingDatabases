@@ -47,7 +47,7 @@ def generate_random_comment(rating):
     else:
         return random.choice(COMMENTS['negative'])
 
-def create_rating(rating_id, customer_id, product_id, num_ratings):
+def create_rating(rating_id, customer_id, product_id):
     """Create a single rating record"""
     rating = random.choice(POSSIBLE_RATINGS)
     random_days = random.randint(1, 365)
@@ -62,8 +62,7 @@ def create_rating(rating_id, customer_id, product_id, num_ratings):
         'comment': generate_random_comment(rating),
         'rating_date': rating_date,
         'helpful_votes': random.randint(0, 50),
-        'verified_purchase': random.choice([True, False, True, True]),
-        'number_ratings': num_ratings
+        'verified_purchase': random.choice([True, False, True, True])
     }
 
 def generate_random_ratings():
@@ -87,8 +86,20 @@ def generate_random_ratings():
                 rating_doc = create_rating(
                     rating_id,
                     customer['customer_ID'],
-                    product['product_ID'],
-                    num_ratings
+                    product['product_ID']
+                )
+                all_ratings.append(rating_doc)
+                rating_id += 1
+
+        for product in products:
+            num_ratings = random.randint(3, 5)
+            selected_customers = random.sample(customers, num_ratings)
+
+            for customer in selected_customers:
+                rating_doc = create_rating(
+                    rating_id,
+                    customer['customer_ID'],
+                    product['product_ID']
                 )
                 all_ratings.append(rating_doc)
                 rating_id += 1
