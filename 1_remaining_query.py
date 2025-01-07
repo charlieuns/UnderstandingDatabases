@@ -2,14 +2,14 @@ from pymongo import MongoClient
 from datetime import datetime, timedelta
 import pandas as pd
 
-# note: Find customers who haven’t made any purchases in the last 7 days, 
+# note: Find customers who haven’t made any purchases in the last 60 days, 
 # along with additional operations such as sending promotional messages.
 
 # Connect to MongoDB
-conn_str = "mongodb+srv://nimaisilang:nimaisilang@cluster0.1mihl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+conn_str = "mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/"
 client = MongoClient(conn_str)
-db = client["DATABASE"]
-customers_collection = db["Customer"]
+db = client["Amazone"]
+customers_collection = db["Customers"]
 
 # Step 1: Update all customers by adding an email field
 customers = customers_collection.find({})  # Retrieve all customers
@@ -24,15 +24,15 @@ for customer in customers:
     )
 
 
-# Step 1: Calculate the 7-day threshold date
-duration = datetime.now() - timedelta(days=7)
+# Step 1: Calculate the 60-day threshold date
+threshold = datetime.now() - timedelta(days=60)
 
 # Step 2: Aggregation pipeline
 pipeline = [
     {
         "$lookup": {  
             "from": "PastOrders",
-            "localField": "_id",
+            "localField": "customer_ID",
             "foreignField": "customer_ID",
             "as": "past_orders"
         }
@@ -48,13 +48,14 @@ pipeline = [
         }
     },
     {
-        "$match": {  # Filter customers with no orders in the last 7 days
-            "last_order_date": {"$lt": duration}
+        "$match": {  # Filter customers with no orders in the last 60 days
+            "last_order_date": {"$lt": threshold}
         }
     },
     {
         "$project": {  
-            "_id": 1,
+            "_id": 0,
+            "customer_ID": 1,
             "name": 1,
             "email": 1,
             "last_order_date": 1
@@ -69,7 +70,7 @@ results = list(customers_collection.aggregate(pipeline))
 
 # Step 4: Convert to DataFrame for easy viewing
 df = pd.DataFrame(results)
-print("Customers with no orders in the last 7 days:")
+print("Customers with no orders in the last 60 days:")
 print(df)
 
 # Step 5: Make a note for sending promotional emails

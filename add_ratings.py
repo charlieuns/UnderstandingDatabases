@@ -1,12 +1,13 @@
 from pymongo import MongoClient
 from datetime import datetime, timedelta
+from tabulate import tabulate
 import random
 
 # MongoDB connection
-client = MongoClient('mongodb://localhost:27017/')
-db = client['DatabaseName']
+client = MongoClient('mongodb+srv://example:example@cluster0.gfqx6.mongodb.net/')
+db = client['Amazone']
 ratings_collection = db['Ratings']
-
+products_collection = db['Products']
 # Rating constants and templates
 POSSIBLE_RATINGS = [1, 2, 3, 4, 5]  # Only whole numbers 1-5
 
@@ -47,7 +48,7 @@ def generate_random_comment(rating):
     else:
         return random.choice(COMMENTS['negative'])
 
-def create_rating(rating_id, customer_id, product_id, num_ratings):
+def create_rating(rating_id, customer_id, product_id):
     """Create a single rating record"""
     rating = random.choice(POSSIBLE_RATINGS)
     random_days = random.randint(1, 365)
@@ -56,14 +57,11 @@ def create_rating(rating_id, customer_id, product_id, num_ratings):
     return {
         'rating_ID': rating_id,
         'customer_ID': customer_id,
-        'product_ID': product_id,
+        'product_ID': product_id, # Ensure product_ID is an integer
         'rating': rating,
         'star_display': get_star_display(rating),
         'comment': generate_random_comment(rating),
         'rating_date': rating_date,
-        'helpful_votes': random.randint(0, 50),
-        'verified_purchase': random.choice([True, False, True, True]),
-        'number_ratings': num_ratings
     }
 
 def generate_random_ratings():
@@ -75,20 +73,20 @@ def generate_random_ratings():
         if not customers or not products:
             raise ValueError("No customer or product data found")
 
-        ratings_collection.drop()
+        ratings_collection.drop()  # Clear previous ratings data
         rating_id = 1
         all_ratings = []
 
         for customer in customers:
-            num_ratings = random.randint(3, 5)
+            num_ratings = random.randint(3, 5)  # Number of products each customer rates
             selected_products = random.sample(products, num_ratings)
 
             for product in selected_products:
+                product_id = product['product_ID']
                 rating_doc = create_rating(
                     rating_id,
                     customer['customer_ID'],
-                    product['product_ID'],
-                    num_ratings
+                    int(product_id)  # Ensure product_ID is an integer
                 )
                 all_ratings.append(rating_doc)
                 rating_id += 1
@@ -97,6 +95,7 @@ def generate_random_ratings():
             ratings_collection.insert_many(all_ratings)
 
         create_indexes()
+        calculate_and_display_rating_counts()
         return f"Successfully generated {len(all_ratings)} ratings from {len(customers)} customers"
 
     except Exception as e:
@@ -108,14 +107,6 @@ def create_indexes():
     ratings_collection.create_index([("customer_ID", 1)])
     ratings_collection.create_index([("product_ID", 1)])
     ratings_collection.create_index([("rating_date", -1)])
-
-
+    
+# Generate random ratings and calculate rating counts
 generate_random_ratings()
-
-def test_star_display():
-    """Test star display functionality - Optional for testing"""
-    print("\n=== Star Display Test ===")
-    test_ratings = [1.0, 2.0, 3.0, 4.0, 5.0]
-    for rating in test_ratings:
-        stars = get_star_display(rating)
-        print(f"{rating} stars = {stars}")
