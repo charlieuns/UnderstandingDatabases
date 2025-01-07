@@ -2,7 +2,7 @@
 use("Amazone");
 
 // Step 1: Retrieve user information and location
-const user = db.Customers.findOne({ customer_ID: 4 }); // Assuming the user ID is 4
+const user = db.Customers.findOne({ customer_ID: 1 }); // Assuming the user ID is 1
 
 // Step 2: Create a 2dsphere index on the "location" field in the Stores collection
 db.Stores.createIndex({ location: "2dsphere" });
@@ -51,6 +51,7 @@ if (user) {
                     $push: {
                         product_name: "$product_details.name", 
                         product_category: "$product_details.fresh_product_details.category", 
+                        product_segment: "$product_details.product_segment",
                         product_price: "$product_details.price", 
                         product_quantity: "$products_available.quantity" // Available quantity
                     }
@@ -79,7 +80,7 @@ if (user) {
             Address: store.store_address,
             Products: store.fresh_products
         };
-        printjson(storeDocument); // Print each store as a separate document
+        printjson(storeDocument); 
     });
 } else {
     print("User not found"); // Print a message if the user is not found
