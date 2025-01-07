@@ -100,36 +100,6 @@ def generate_random_ratings():
 
     except Exception as e:
         return f"Error generating ratings: {str(e)}"
-        
-def calculate_and_display_rating_counts():
-    """Calculate and display the number of ratings for each product in the Ratings collection"""
-    try:
-        # Get all unique product IDs
-        product_ids = ratings_collection.distinct('product_ID')
-
-        # Prepare data for display
-        table_data = []
-
-        for product_id in product_ids:
-            # Count the number of ratings for the product
-            rating_count = ratings_collection.count_documents({'product_ID': product_id})
-
-            # Update all ratings for this product with the count
-            ratings_collection.update_many(
-                {'product_ID': product_id},
-                {'$set': {'rating_count': rating_count}}
-            )
-
-            # Add to table data for display
-            table_data.append([product_id, rating_count])
-
-        # Display the summary table
-        print("\n=== Product Rating Counts ===")
-        print(tabulate(table_data, headers=["Product ID", "Rating Count"], tablefmt="grid"))
-
-    except Exception as e:
-        print(f"Error calculating and displaying rating counts: {str(e)}")
-
 
 def create_indexes():
     """Create necessary indexes"""
