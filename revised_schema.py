@@ -156,6 +156,5 @@ Ratings = [{
 'comment': str,
 'rating_date': date,
 'helpful_votes': int,
-'verified_purchase': bool,
-'number_ratings': int
+'verified_purchase': bool
 }]
