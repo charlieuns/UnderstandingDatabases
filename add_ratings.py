@@ -90,6 +90,19 @@ def generate_random_ratings():
                 )
                 all_ratings.append(rating_doc)
                 rating_id += 1
+        
+        for product in products:
+            num_ratings = random.randint(3, 5)
+            selected_customers = random.sample(customers, num_ratings)
+
+            for customer in selected_customers:
+                rating_doc = create_rating(
+                    rating_id,
+                    customer['customer_ID'],
+                    product['product_ID']
+                )
+                all_ratings.append(rating_doc)
+                rating_id += 1
 
         if all_ratings:
             ratings_collection.insert_many(all_ratings)
