@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "677b86537b7cd86a9eb60347",
+        "current_orders": {
+            "order_ID": 40,
+            "products": {
+                "quantity": 2
+            }
+        },
+        "product_details": {
+            "description": "A fresh_product product description.",
+            "name": "Mango",
+            "price": 91.92,
+            "product_ID": 2,
+            "product_category": "fresh_product",
+            "product_segment": "Consumer"
+        },
+        "store_details": {
+            "address": {
+                "city": "Birmingham",
+                "house_number": 664,
+                "postcode": "Y85 9LY",
+                "street": "Station Road"
+            },
+            "products_available": {
+                "quantity": 55
+            },
+            "store_ID": 5
+        },
+        "store_distance": 1.9580593759407698
+    }
+]

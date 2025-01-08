@@ -1,0 +1,12 @@
+{
+    "restored_stock": {
+        "store_ID": 5,
+        "product_ID": 2,
+        "updated_quantity": 55
+    },
+    "partner_update": {
+        "partner_ID": 4,
+        "current_task": null,
+        "on_errand": false
+    }
+}

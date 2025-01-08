@@ -1,0 +1,22 @@
+{
+    "ETA": 9.52,
+    "_id": "677b86537b7cd86a9eb60347",
+    "current_orders": {
+        "order_ID": 40
+    },
+    "location": {
+        "latitude": 53.32918311022124,
+        "longitude": -3.401784148761587
+    },
+    "partner_details": {
+        "current_location": {
+            "latitude": 54.51459008938555,
+            "longitude": -8.011043744363022
+        },
+        "delivery_stats": {
+            "rating": 3.7
+        },
+        "name": "Ethan",
+        "partner_ID": 4
+    }
+}

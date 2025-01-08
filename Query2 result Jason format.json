@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "677b86537b7cd86a9eb60347",
+        "assigned_store_ID": 5,
+        "current_orders": {
+            "order_ID": 40
+        },
+        "partner_details": {
+            "age": 45,
+            "delivery_stats": {
+                "rating": 3.7
+            },
+            "gender": "Male",
+            "name": "Ethan",
+            "partner_ID": 4
+        }
+    }
+]
