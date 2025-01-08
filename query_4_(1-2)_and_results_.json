@@ -1,0 +1,110 @@
+[
+    {
+        "query": "Mobile_phone Sales performance by brand",
+        "pipeline": [
+            {
+                "$unwind": "$products"
+            },
+            {
+                "$lookup": {
+                    "from": "Products",
+                    "localField": "products.product_ID",
+                    "foreignField": "product_ID",
+                    "as": "product_details"
+                }
+            },
+            {
+                "$unwind": "$product_details"
+            },
+            {
+                "$match": {
+                    "product_details.product_category": "mobile_phone"
+                }
+            },
+            {
+                "$group": {
+                    "_id": "$product_details.other_product_details.mobile_phone.brand",
+                    "total_sales": {
+                        "$sum": {
+                            "$multiply": [
+                                "$products.quantity",
+                                "$product_details.price"
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "$sort": {
+                    "total_sales": -1
+                }
+            }
+        ],
+        "results": [
+            {
+                "_id": "Nokia",
+                "total_sales": 33524.87
+            },
+            {
+                "_id": "Apple",
+                "total_sales": 30696.35
+            },
+            {
+                "_id": "Huawei",
+                "total_sales": 22752.87
+            },
+            {
+                "_id": "Samsung",
+                "total_sales": 10331.179999999998
+            },
+            {
+                "_id": "Google",
+                "total_sales": 8963.97
+            }
+        ]
+    },
+    {
+        "query": "Current Inventory performance",
+        "pipeline": [
+            {
+                "$lookup": {
+                    "from": "Products",
+                    "localField": "product_ID",
+                    "foreignField": "product_ID",
+                    "as": "product_details"
+                }
+            },
+            {
+                "$unwind": "$product_details"
+            },
+            {
+                "$match": {
+                    "product_details.product_category": "fresh_product"
+                }
+            },
+            {
+                "$group": {
+                    "_id": "$product_details.fresh_product_details.category",
+                    "total_inventory": {
+                        "$sum": "$inventory"
+                    }
+                }
+            },
+            {
+                "$sort": {
+                    "total_inventory": -1
+                }
+            }
+        ],
+        "results": [
+            {
+                "_id": "fruit_veg",
+                "total_inventory": 2747
+            },
+            {
+                "_id": "drinks",
+                "total_inventory": 2543
+            }
+        ]
+    }
+]
