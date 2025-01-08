@@ -1,0 +1,16 @@
+Customers with no orders in the last 60 days:
+   customer_ID      name                 email         last_order_date
+0           11    Beth P    beth_p@example.com 2024-09-24 04:44:36.616
+1           17    Mona Q    mona_q@example.com 2024-10-13 03:08:13.092
+2           14  Hannah K  hannah_k@example.com 2024-11-02 14:37:14.664
+3            1    Adam M    adam_m@example.com 2024-11-02 16:50:41.327
+4            6    Liam Y    liam_y@example.com 2024-11-03 03:08:08.882
+5           15     Ivy B     ivy_b@example.com 2024-11-08 21:08:04.681
+
+note:
+Sending promotional email to Beth P at beth_p@example.com.
+Sending promotional email to Mona Q at mona_q@example.com.
+Sending promotional email to Hannah K at hannah_k@example.com.
+Sending promotional email to Adam M at adam_m@example.com.
+Sending promotional email to Liam Y at liam_y@example.com.
+Sending promotional email to Ivy B at ivy_b@example.com.
