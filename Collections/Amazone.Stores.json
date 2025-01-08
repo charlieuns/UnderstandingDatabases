@@ -1,0 +1,190 @@
+[{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602c5"
+  },
+  "store_ID": 1,
+  "address": {
+    "house_number": 509,
+    "street": "Park Avenue",
+    "city": "London",
+    "postcode": "H99 0XG"
+  },
+  "location": {
+    "latitude": 57.28534978660986,
+    "longitude": 0.4242731534472419
+  },
+  "products_available": [
+    {
+      "product_ID": 37,
+      "quantity": 62
+    },
+    {
+      "product_ID": 50,
+      "quantity": 88
+    },
+    {
+      "product_ID": 6,
+      "quantity": 35
+    },
+    {
+      "product_ID": 20,
+      "quantity": 13
+    },
+    {
+      "product_ID": 34,
+      "quantity": 95
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602c7"
+  },
+  "store_ID": 3,
+  "address": {
+    "house_number": 283,
+    "street": "Station Road",
+    "city": "London",
+    "postcode": "V65 2WQ"
+  },
+  "location": {
+    "latitude": 51.757378102158775,
+    "longitude": 1.2409324533981696
+  },
+  "products_available": [
+    {
+      "product_ID": 17,
+      "quantity": 57
+    },
+    {
+      "product_ID": 43,
+      "quantity": 11
+    },
+    {
+      "product_ID": 22,
+      "quantity": 52
+    },
+    {
+      "product_ID": 4,
+      "quantity": 55
+    },
+    {
+      "product_ID": 7,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602c6"
+  },
+  "store_ID": 2,
+  "address": {
+    "house_number": 318,
+    "street": "Park Avenue",
+    "city": "Leeds",
+    "postcode": "Z56 7IE"
+  },
+  "location": {
+    "latitude": 54.21574415616037,
+    "longitude": 0.37491084490088333
+  },
+  "products_available": [
+    {
+      "product_ID": 33,
+      "quantity": 60
+    },
+    {
+      "product_ID": 2,
+      "quantity": 62
+    },
+    {
+      "product_ID": 31,
+      "quantity": 23
+    },
+    {
+      "product_ID": 41,
+      "quantity": 26
+    },
+    {
+      "product_ID": 16,
+      "quantity": 36
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602c8"
+  },
+  "store_ID": 4,
+  "address": {
+    "house_number": 897,
+    "street": "High Street",
+    "city": "London",
+    "postcode": "Y41 8TB"
+  },
+  "location": {
+    "latitude": 58.32925361858094,
+    "longitude": 0.30005528054301855
+  },
+  "products_available": [
+    {
+      "product_ID": 44,
+      "quantity": 11
+    },
+    {
+      "product_ID": 17,
+      "quantity": 63
+    },
+    {
+      "product_ID": 41,
+      "quantity": 39
+    },
+    {
+      "product_ID": 41,
+      "quantity": 26
+    },
+    {
+      "product_ID": 14,
+      "quantity": 18
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602c9"
+  },
+  "store_ID": 5,
+  "address": {
+    "house_number": 664,
+    "street": "Station Road",
+    "city": "Birmingham",
+    "postcode": "Y85 9LY"
+  },
+  "location": {
+    "latitude": 54.36491731780649,
+    "longitude": -5.063485436883887
+  },
+  "products_available": [
+    {
+      "product_ID": 47,
+      "quantity": 18
+    },
+    {
+      "product_ID": 10,
+      "quantity": 83
+    },
+    {
+      "product_ID": 34,
+      "quantity": 74
+    },
+    {
+      "product_ID": 3,
+      "quantity": 52
+    },
+    {
+      "product_ID": 2,
+      "quantity": 53
+    }
+  ]
+}]

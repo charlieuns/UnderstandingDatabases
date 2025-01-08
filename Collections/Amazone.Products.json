@@ -1,0 +1,1130 @@
+[{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6027e"
+  },
+  "product_ID": 2,
+  "name": "Mango",
+  "description": "A fresh_product product description.",
+  "price": 91.92,
+  "product_segment": "Consumer",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "13x11x12 cm",
+    "weight": 3.63,
+    "expiry_date": {
+      "$date": "2025-01-08T06:43:13.302Z"
+    },
+    "origin_country": "France",
+    "morrizon_cost": 4.17,
+    "category": "fruit_veg"
+  },
+  "average_rating": 3.3333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60282"
+  },
+  "product_ID": 6,
+  "name": "Apple",
+  "description": "A fresh_product product description.",
+  "price": 481.16,
+  "product_segment": "Luxury",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "11x13x8 cm",
+    "weight": 4.82,
+    "expiry_date": {
+      "$date": "2025-01-10T06:43:13.302Z"
+    },
+    "origin_country": "UK",
+    "morrizon_cost": 4.73,
+    "category": "fruit_veg"
+  },
+  "average_rating": 3.8333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60283"
+  },
+  "product_ID": 7,
+  "name": "Tea",
+  "description": "A fresh_product product description.",
+  "price": 432.72,
+  "product_segment": "Consumer",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "17x20x12 cm",
+    "weight": 4.86,
+    "expiry_date": {
+      "$date": "2025-01-11T06:43:13.302Z"
+    },
+    "origin_country": "France",
+    "morrizon_cost": 10.51,
+    "category": "drinks"
+  },
+  "average_rating": 2.8333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60284"
+  },
+  "product_ID": 8,
+  "name": "Coffee",
+  "description": "A fresh_product product description.",
+  "price": 392.1,
+  "product_segment": "Essential",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "11x18x8 cm",
+    "weight": 4.78,
+    "expiry_date": {
+      "$date": "2025-01-11T06:43:13.302Z"
+    },
+    "origin_country": "Italy",
+    "morrizon_cost": 10.77,
+    "category": "drinks"
+  },
+  "average_rating": 2.8333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60286"
+  },
+  "product_ID": 10,
+  "name": "Orange",
+  "description": "A fresh_product product description.",
+  "price": 277.97,
+  "product_segment": "Essential",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "10x12x8 cm",
+    "weight": 3.42,
+    "expiry_date": {
+      "$date": "2025-02-04T06:43:13.302Z"
+    },
+    "origin_country": "Italy",
+    "morrizon_cost": 5.96,
+    "category": "fruit_veg"
+  },
+  "average_rating": 2
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60288"
+  },
+  "product_ID": 12,
+  "name": "Advanced Mathematics",
+  "description": "A book product description.",
+  "price": 499.96,
+  "product_segment": "Essential",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "27x12x3 cm",
+    "shipping_weight": 1.43,
+    "supplier_cost": 7.01,
+    "book": {
+      "author_name": "Roland B",
+      "publisher": "Oxnard Press",
+      "year_of_publication": 2005,
+      "ISBN": "nNZ3ggzxfYNZj"
+    }
+  },
+  "average_rating": 2.5
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6028a"
+  },
+  "product_ID": 14,
+  "name": "Advanced Philosophy",
+  "description": "A book product description.",
+  "price": 481.75,
+  "product_segment": "Essential",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "11x15x5 cm",
+    "shipping_weight": 1.52,
+    "supplier_cost": 25.87,
+    "book": {
+      "author_name": "Beth Z",
+      "publisher": "Booksters",
+      "year_of_publication": 2022,
+      "ISBN": "Rtq3QEGr4aCM9"
+    }
+  },
+  "average_rating": 4.166666666666667
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6028c"
+  },
+  "product_ID": 16,
+  "name": "Introduction to Philosophy",
+  "description": "A book product description.",
+  "price": 28.41,
+  "product_segment": "Essential",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "30x17x2 cm",
+    "shipping_weight": 1.34,
+    "supplier_cost": 27.79,
+    "book": {
+      "author_name": "David P",
+      "publisher": "Pengweng Books",
+      "year_of_publication": 2023,
+      "ISBN": "VKfz0lAAINMNL"
+    }
+  },
+  "average_rating": 3.25
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6028e"
+  },
+  "product_ID": 18,
+  "name": "Introduction to Mathematics",
+  "description": "A book product description.",
+  "price": 18.64,
+  "product_segment": "Luxury",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "26x16x4 cm",
+    "shipping_weight": 0.71,
+    "supplier_cost": 13.03,
+    "book": {
+      "author_name": "David P",
+      "publisher": "Oxnard Press",
+      "year_of_publication": 2011,
+      "ISBN": "r2voCjO5ALKTD"
+    }
+  },
+  "average_rating": 3
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60292"
+  },
+  "product_ID": 22,
+  "name": "Minor Joy",
+  "description": "A cd product description.",
+  "price": 151.31,
+  "product_segment": "Luxury",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "20x16x2 cm",
+    "shipping_weight": 0.32,
+    "supplier_cost": 7.13,
+    "cd": {
+      "artist_name": "John A",
+      "number_tracks": 20,
+      "total_playing_time": "52:48",
+      "publisher": "Big Band Studio"
+    }
+  },
+  "average_rating": 2.8
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6029e"
+  },
+  "product_ID": 34,
+  "name": "2 Pro",
+  "description": "A mobile_phone product description.",
+  "price": 205.97,
+  "product_segment": "Luxury",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "5x14x2 cm",
+    "shipping_weight": 0.52,
+    "supplier_cost": 116.39,
+    "mobile_phone": {
+      "brand": "Google",
+      "model": "BAUQ9Idpmd",
+      "colour": "White",
+      "features": "3OE9yfiERISJXo25ZQV1"
+    }
+  },
+  "average_rating": 3.3333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a8"
+  },
+  "product_ID": 44,
+  "name": "Dishwasher",
+  "description": "A home_appliance product description.",
+  "price": 472.58,
+  "product_segment": "Essential",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "20x20x25 cm",
+    "shipping_weight": 3.81,
+    "supplier_cost": 63.3,
+    "home_appliance": {
+      "colour": "Black",
+      "voltage": 110,
+      "style": "Classic"
+    }
+  },
+  "average_rating": 2.8333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602ac"
+  },
+  "product_ID": 48,
+  "name": "Air Fryer",
+  "description": "A home_appliance product description.",
+  "price": 451.53,
+  "product_segment": "Consumer",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "41x26x21 cm",
+    "shipping_weight": 9.61,
+    "supplier_cost": 50.96,
+    "home_appliance": {
+      "colour": "Black",
+      "voltage": 230,
+      "style": "Modern"
+    }
+  },
+  "average_rating": 3
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60285"
+  },
+  "product_ID": 9,
+  "name": "Water",
+  "description": "A fresh_product product description.",
+  "price": 81.4,
+  "product_segment": "Consumer",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "10x15x20 cm",
+    "weight": 3.04,
+    "expiry_date": {
+      "$date": "2025-01-14T06:43:13.302Z"
+    },
+    "origin_country": "UK",
+    "morrizon_cost": 7.93,
+    "category": "drinks"
+  },
+  "average_rating": 3.75
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60287"
+  },
+  "product_ID": 11,
+  "name": "Introduction to Mathematics",
+  "description": "A book product description.",
+  "price": 357.78,
+  "product_segment": "Essential",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "10x29x4 cm",
+    "shipping_weight": 1.37,
+    "supplier_cost": 12.04,
+    "book": {
+      "author_name": "Roland T",
+      "publisher": "Oxnard Press",
+      "year_of_publication": 2018,
+      "ISBN": "2l1rqp4Ywdru2"
+    }
+  },
+  "average_rating": 4.2
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60289"
+  },
+  "product_ID": 13,
+  "name": "Introduction to Physics",
+  "description": "A book product description.",
+  "price": 397.72,
+  "product_segment": "Luxury",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "19x22x2 cm",
+    "shipping_weight": 0.62,
+    "supplier_cost": 8.26,
+    "book": {
+      "author_name": "Arthur N",
+      "publisher": "Pengweng Books",
+      "year_of_publication": 2014,
+      "ISBN": "EK7unc6rbXfek"
+    }
+  },
+  "average_rating": 3.142857142857143
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6028f"
+  },
+  "product_ID": 19,
+  "name": "Introduction to Statistics",
+  "description": "A book product description.",
+  "price": 188.1,
+  "product_segment": "Essential",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "26x28x3 cm",
+    "shipping_weight": 1.84,
+    "supplier_cost": 27.91,
+    "book": {
+      "author_name": "David A",
+      "publisher": "Oxnard Press",
+      "year_of_publication": 2020,
+      "ISBN": "CcYTezMzE6cQu"
+    }
+  },
+  "average_rating": 2.7142857142857144
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60298"
+  },
+  "product_ID": 28,
+  "name": "Major Music",
+  "description": "A cd product description.",
+  "price": 303.76,
+  "product_segment": "Luxury",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "11x18x1 cm",
+    "shipping_weight": 0.38,
+    "supplier_cost": 13.49,
+    "cd": {
+      "artist_name": "Roland B",
+      "number_tracks": 14,
+      "total_playing_time": "31:19",
+      "publisher": "Big Band Studio"
+    }
+  },
+  "average_rating": 3.5714285714285716
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60299"
+  },
+  "product_ID": 29,
+  "name": "Sound of Music",
+  "description": "A cd product description.",
+  "price": 377.51,
+  "product_segment": "Essential",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "13x10x2 cm",
+    "shipping_weight": 0.47,
+    "supplier_cost": 7.3,
+    "cd": {
+      "artist_name": "Roland C",
+      "number_tracks": 10,
+      "total_playing_time": "44:19",
+      "publisher": "Small Band Studio"
+    }
+  },
+  "average_rating": 3.375
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6029a"
+  },
+  "product_ID": 30,
+  "name": "Dancing with Music",
+  "description": "A cd product description.",
+  "price": 171.44,
+  "product_segment": "Essential",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "10x19x2 cm",
+    "shipping_weight": 0.22,
+    "supplier_cost": 19.25,
+    "cd": {
+      "artist_name": "Roland P",
+      "number_tracks": 12,
+      "total_playing_time": "37:47",
+      "publisher": "Small Band Studio"
+    }
+  },
+  "average_rating": 1.5
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a1"
+  },
+  "product_ID": 37,
+  "name": "2 Pro Max",
+  "description": "A mobile_phone product description.",
+  "price": 251.98,
+  "product_segment": "Consumer",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "15x16x2 cm",
+    "shipping_weight": 0.48,
+    "supplier_cost": 285.94,
+    "mobile_phone": {
+      "brand": "Samsung",
+      "model": "bWmOj69GE3",
+      "colour": "Gold",
+      "features": "nOmvSG0fL2A412waPW9x"
+    }
+  },
+  "average_rating": 2.2857142857142856
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a2"
+  },
+  "product_ID": 38,
+  "name": "6 Pro",
+  "description": "A mobile_phone product description.",
+  "price": 386.2,
+  "product_segment": "Luxury",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "12x14x1 cm",
+    "shipping_weight": 0.32,
+    "supplier_cost": 150.49,
+    "mobile_phone": {
+      "brand": "Apple",
+      "model": "iZuIZkWffA",
+      "colour": "Blue",
+      "features": "0q1Yv0jlqaq5hgg8PJcJ"
+    }
+  },
+  "average_rating": 3.2
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a4"
+  },
+  "product_ID": 40,
+  "name": "4 Plus",
+  "description": "A mobile_phone product description.",
+  "price": 368.12,
+  "product_segment": "Luxury",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "20x11x2 cm",
+    "shipping_weight": 0.29,
+    "supplier_cost": 272.55,
+    "mobile_phone": {
+      "brand": "Nokia",
+      "model": "JEy0JGUNe4",
+      "colour": "Silver",
+      "features": "li017BNuaImk1D6kTkHs"
+    }
+  },
+  "average_rating": 1.8
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a5"
+  },
+  "product_ID": 41,
+  "name": "Oven",
+  "description": "A home_appliance product description.",
+  "price": 283.1,
+  "product_segment": "Luxury",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "29x53x28 cm",
+    "shipping_weight": 2.04,
+    "supplier_cost": 56.47,
+    "home_appliance": {
+      "colour": "Black",
+      "voltage": 230,
+      "style": "Modern"
+    }
+  },
+  "average_rating": 2.4
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a6"
+  },
+  "product_ID": 42,
+  "name": "Oven",
+  "description": "A home_appliance product description.",
+  "price": 41.89,
+  "product_segment": "Consumer",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "36x56x20 cm",
+    "shipping_weight": 8.11,
+    "supplier_cost": 60.31,
+    "home_appliance": {
+      "colour": "Silver",
+      "voltage": 230,
+      "style": "Modern"
+    }
+  },
+  "average_rating": 3.3333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a7"
+  },
+  "product_ID": 43,
+  "name": "Air Fryer",
+  "description": "A home_appliance product description.",
+  "price": 31.84,
+  "product_segment": "Luxury",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "24x47x16 cm",
+    "shipping_weight": 1.16,
+    "supplier_cost": 34.73,
+    "home_appliance": {
+      "colour": "Silver",
+      "voltage": 230,
+      "style": "Modern"
+    }
+  },
+  "average_rating": 3.1666666666666665
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602ae"
+  },
+  "product_ID": 50,
+  "name": "Dryer",
+  "description": "A home_appliance product description.",
+  "price": 408.05,
+  "product_segment": "Luxury",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "31x33x14 cm",
+    "shipping_weight": 9.83,
+    "supplier_cost": 27.77,
+    "home_appliance": {
+      "colour": "Black",
+      "voltage": 110,
+      "style": "Classic"
+    }
+  },
+  "average_rating": 2.2
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6027f"
+  },
+  "product_ID": 3,
+  "name": "Apple",
+  "description": "A fresh_product product description.",
+  "price": 341.58,
+  "product_segment": "Consumer",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "5x5x16 cm",
+    "weight": 2.59,
+    "expiry_date": {
+      "$date": "2025-01-13T06:43:13.302Z"
+    },
+    "origin_country": "Italy",
+    "morrizon_cost": 5.13,
+    "category": "fruit_veg"
+  },
+  "average_rating": 3.5
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6028b"
+  },
+  "product_ID": 15,
+  "name": "Introduction to Statistics",
+  "description": "A book product description.",
+  "price": 303.58,
+  "product_segment": "Luxury",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "18x11x2 cm",
+    "shipping_weight": 0.99,
+    "supplier_cost": 17.2,
+    "book": {
+      "author_name": "John Z",
+      "publisher": "Oxnard Press",
+      "year_of_publication": 2020,
+      "ISBN": "N9ljqlxRSezO6"
+    }
+  },
+  "average_rating": 3.3333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6028d"
+  },
+  "product_ID": 17,
+  "name": "Intermediate Geography",
+  "description": "A book product description.",
+  "price": 338.73,
+  "product_segment": "Consumer",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "12x18x4 cm",
+    "shipping_weight": 1.11,
+    "supplier_cost": 8.47,
+    "book": {
+      "author_name": "Beth B",
+      "publisher": "Booksters",
+      "year_of_publication": 2001,
+      "ISBN": "2BEA6sZM45GCv"
+    }
+  },
+  "average_rating": 3.8
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60291"
+  },
+  "product_ID": 21,
+  "name": "Minor Apprehension",
+  "description": "A cd product description.",
+  "price": 51.57,
+  "product_segment": "Consumer",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "15x16x2 cm",
+    "shipping_weight": 0.23,
+    "supplier_cost": 5.93,
+    "cd": {
+      "artist_name": "John A",
+      "number_tracks": 18,
+      "total_playing_time": "38:25",
+      "publisher": "Small Band Studio"
+    }
+  },
+  "average_rating": 2.4
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60294"
+  },
+  "product_ID": 24,
+  "name": "Living with Sympathy",
+  "description": "A cd product description.",
+  "price": 394.8,
+  "product_segment": "Luxury",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "18x14x1 cm",
+    "shipping_weight": 0.26,
+    "supplier_cost": 6.63,
+    "cd": {
+      "artist_name": "Roland R",
+      "number_tracks": 14,
+      "total_playing_time": "49:7",
+      "publisher": "Small Band Studio"
+    }
+  },
+  "average_rating": 3.1666666666666665
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60297"
+  },
+  "product_ID": 27,
+  "name": "Minor Joy",
+  "description": "A cd product description.",
+  "price": 153.48,
+  "product_segment": "Luxury",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "10x15x2 cm",
+    "shipping_weight": 0.2,
+    "supplier_cost": 11.49,
+    "cd": {
+      "artist_name": "Roland Z",
+      "number_tracks": 20,
+      "total_playing_time": "58:38",
+      "publisher": "Big Band Studio"
+    }
+  },
+  "average_rating": 2.8
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6029d"
+  },
+  "product_ID": 33,
+  "name": "1 Pro Max",
+  "description": "A mobile_phone product description.",
+  "price": 22.17,
+  "product_segment": "Consumer",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "16x16x1 cm",
+    "shipping_weight": 0.49,
+    "supplier_cost": 298.02,
+    "mobile_phone": {
+      "brand": "Google",
+      "model": "gbZZ2ZQvtT",
+      "colour": "Gold",
+      "features": "Fn2nTwLXXFbd9qKgmOKj"
+    }
+  },
+  "average_rating": 2.6
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6029f"
+  },
+  "product_ID": 35,
+  "name": "5 Plus",
+  "description": "A mobile_phone product description.",
+  "price": 161,
+  "product_segment": "Luxury",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "6x15x1 cm",
+    "shipping_weight": 0.34,
+    "supplier_cost": 264.94,
+    "mobile_phone": {
+      "brand": "Huawei",
+      "model": "oL7jKx7AUO",
+      "colour": "Black",
+      "features": "E9bkDQCHudaMTr66L2J5"
+    }
+  },
+  "average_rating": 3.3333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a9"
+  },
+  "product_ID": 45,
+  "name": "Dishwasher",
+  "description": "A home_appliance product description.",
+  "price": 100.55,
+  "product_segment": "Consumer",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "60x29x28 cm",
+    "shipping_weight": 3.56,
+    "supplier_cost": 48.01,
+    "home_appliance": {
+      "colour": "White",
+      "voltage": 110,
+      "style": "Classic"
+    }
+  },
+  "average_rating": 3.1666666666666665
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602ab"
+  },
+  "product_ID": 47,
+  "name": "Dishwasher",
+  "description": "A home_appliance product description.",
+  "price": 138.96,
+  "product_segment": "Luxury",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "60x33x18 cm",
+    "shipping_weight": 2.11,
+    "supplier_cost": 34.77,
+    "home_appliance": {
+      "colour": "White",
+      "voltage": 110,
+      "style": "Retro"
+    }
+  },
+  "average_rating": 3.5
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6027d"
+  },
+  "product_ID": 1,
+  "name": "Professor Pupper",
+  "description": "A fresh_product product description.",
+  "price": 124.46,
+  "product_segment": "Essential",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "17x17x12 cm",
+    "weight": 0.16,
+    "expiry_date": {
+      "$date": "2025-01-20T06:43:13.302Z"
+    },
+    "origin_country": "Spain",
+    "morrizon_cost": 3.62,
+    "category": "drinks"
+  },
+  "average_rating": 3.4285714285714284
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60280"
+  },
+  "product_ID": 4,
+  "name": "Tea",
+  "description": "A fresh_product product description.",
+  "price": 24.63,
+  "product_segment": "Essential",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "17x7x18 cm",
+    "weight": 4.38,
+    "expiry_date": {
+      "$date": "2025-02-03T06:43:13.302Z"
+    },
+    "origin_country": "France",
+    "morrizon_cost": 9.2,
+    "category": "drinks"
+  },
+  "average_rating": 4.25
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60281"
+  },
+  "product_ID": 5,
+  "name": "Apple",
+  "description": "A fresh_product product description.",
+  "price": 100.67,
+  "product_segment": "Essential",
+  "product_category": "fresh_product",
+  "fresh_product_details": {
+    "dimensions": "9x9x12 cm",
+    "weight": 1.96,
+    "expiry_date": {
+      "$date": "2025-01-24T06:43:13.302Z"
+    },
+    "origin_country": "France",
+    "morrizon_cost": 5.71,
+    "category": "fruit_veg"
+  },
+  "average_rating": 3.4285714285714284
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60290"
+  },
+  "product_ID": 20,
+  "name": "Advanced Physics",
+  "description": "A book product description.",
+  "price": 54.44,
+  "product_segment": "Consumer",
+  "product_category": "book",
+  "other_product_details": {
+    "dimensions": "21x17x4 cm",
+    "shipping_weight": 0.75,
+    "supplier_cost": 21.48,
+    "book": {
+      "author_name": "Beth Z",
+      "publisher": "Booksters",
+      "year_of_publication": 2005,
+      "ISBN": "0Mm3f6eDEfPDh"
+    }
+  },
+  "average_rating": 4
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60293"
+  },
+  "product_ID": 23,
+  "name": "Dancing with Music",
+  "description": "A cd product description.",
+  "price": 183.19,
+  "product_segment": "Consumer",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "15x10x2 cm",
+    "shipping_weight": 0.46,
+    "supplier_cost": 12.7,
+    "cd": {
+      "artist_name": "John R",
+      "number_tracks": 13,
+      "total_playing_time": "54:48",
+      "publisher": "Big Band Studio"
+    }
+  },
+  "average_rating": 2.6
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60295"
+  },
+  "product_ID": 25,
+  "name": "Living with Apprehension",
+  "description": "A cd product description.",
+  "price": 450.6,
+  "product_segment": "Essential",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "10x16x1 cm",
+    "shipping_weight": 0.39,
+    "supplier_cost": 18.91,
+    "cd": {
+      "artist_name": "Roland A",
+      "number_tracks": 16,
+      "total_playing_time": "31:23",
+      "publisher": "Medium Band Studio"
+    }
+  },
+  "average_rating": 3.2857142857142856
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb60296"
+  },
+  "product_ID": 26,
+  "name": "Major Music",
+  "description": "A cd product description.",
+  "price": 492.91,
+  "product_segment": "Essential",
+  "product_category": "cd",
+  "other_product_details": {
+    "dimensions": "14x14x2 cm",
+    "shipping_weight": 0.35,
+    "supplier_cost": 16.13,
+    "cd": {
+      "artist_name": "Roland C",
+      "number_tracks": 12,
+      "total_playing_time": "36:0",
+      "publisher": "Big Band Studio"
+    }
+  },
+  "average_rating": 1.8
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6029b"
+  },
+  "product_ID": 31,
+  "name": "4 Pro Max",
+  "description": "A mobile_phone product description.",
+  "price": 329.63,
+  "product_segment": "Consumer",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "16x16x1 cm",
+    "shipping_weight": 0.62,
+    "supplier_cost": 236.92,
+    "mobile_phone": {
+      "brand": "Huawei",
+      "model": "qfgNA6SFHS",
+      "colour": "White",
+      "features": "DtFmDsFgUAyYLjrJXxPs"
+    }
+  },
+  "average_rating": 2.6
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb6029c"
+  },
+  "product_ID": 32,
+  "name": "5 Pro Max",
+  "description": "A mobile_phone product description.",
+  "price": 389.07,
+  "product_segment": "Essential",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "10x15x1 cm",
+    "shipping_weight": 0.7,
+    "supplier_cost": 263.73,
+    "mobile_phone": {
+      "brand": "Apple",
+      "model": "ZVpMS48hJG",
+      "colour": "Gold",
+      "features": "6kY4J7xEimJXSCPbRGtA"
+    }
+  },
+  "average_rating": 3.25
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a0"
+  },
+  "product_ID": 36,
+  "name": "2 Pro",
+  "description": "A mobile_phone product description.",
+  "price": 126.51,
+  "product_segment": "Luxury",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "9x8x1 cm",
+    "shipping_weight": 0.28,
+    "supplier_cost": 123.39,
+    "mobile_phone": {
+      "brand": "Nokia",
+      "model": "Mfvkvn2VK5",
+      "colour": "Gold",
+      "features": "P7PLeHAR8oBoNxFnTBYu"
+    }
+  },
+  "average_rating": 2.8333333333333335
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602a3"
+  },
+  "product_ID": 39,
+  "name": "3 Pro Max",
+  "description": "A mobile_phone product description.",
+  "price": 70.28,
+  "product_segment": "Luxury",
+  "product_category": "mobile_phone",
+  "other_product_details": {
+    "dimensions": "15x5x2 cm",
+    "shipping_weight": 0.5,
+    "supplier_cost": 146.79,
+    "mobile_phone": {
+      "brand": "Nokia",
+      "model": "lXShQrSGT6",
+      "colour": "White",
+      "features": "VdHCwTEi5pHXCPEVTmFG"
+    }
+  },
+  "average_rating": 2.5
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602aa"
+  },
+  "product_ID": 46,
+  "name": "Washing Machine",
+  "description": "A home_appliance product description.",
+  "price": 485.55,
+  "product_segment": "Luxury",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "55x42x19 cm",
+    "shipping_weight": 3.63,
+    "supplier_cost": 76.82,
+    "home_appliance": {
+      "colour": "White",
+      "voltage": 230,
+      "style": "Classic"
+    }
+  },
+  "average_rating": 3.2
+},
+{
+  "_id": {
+    "$oid": "677b7b817b7cd86a9eb602ad"
+  },
+  "product_ID": 49,
+  "name": "Fridge",
+  "description": "A home_appliance product description.",
+  "price": 28.05,
+  "product_segment": "Luxury",
+  "product_category": "home_appliance",
+  "other_product_details": {
+    "dimensions": "51x22x26 cm",
+    "shipping_weight": 7.03,
+    "supplier_cost": 20.85,
+    "home_appliance": {
+      "colour": "White",
+      "voltage": 230,
+      "style": "Classic"
+    }
+  },
+  "average_rating": 2.1666666666666665
+}]

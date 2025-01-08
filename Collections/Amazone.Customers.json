@@ -1,0 +1,1724 @@
+[{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60337"
+  },
+  "customer_ID": 4,
+  "name": "George H",
+  "gender": "Male",
+  "age": 60,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 172,
+      "street": "Victoria Road",
+      "city": "Bristol",
+      "postcode": "O33 9MA"
+    }
+  ],
+  "location": {
+    "latitude": 50.21768601063432,
+    "longitude": 0.22089141191177042
+  },
+  "cart": {
+    "cart_total": 1517.9,
+    "products": [
+      {
+        "product_ID": 15,
+        "quantity": 5
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 7,
+      "order_total": 1641.52,
+      "order_status": "Shipped",
+      "partner_assigned": 10,
+      "order_placed": {
+        "$date": "2024-02-19T05:31:43.388Z"
+      },
+      "order_destination": "172 Victoria Road, Bristol, O33 9MA",
+      "products": [
+        {
+          "product_ID": 5,
+          "quantity": 2
+        },
+        {
+          "product_ID": 2,
+          "quantity": 7
+        },
+        {
+          "product_ID": 33,
+          "quantity": 2
+        },
+        {
+          "product_ID": 19,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "order_ID": 8,
+      "order_total": 1447,
+      "order_status": "Pending",
+      "partner_assigned": 9,
+      "order_placed": {
+        "$date": "2024-04-30T20:37:49.388Z"
+      },
+      "order_destination": "172 Victoria Road, Bristol, O33 9MA",
+      "products": [
+        {
+          "product_ID": 42,
+          "quantity": 8
+        },
+        {
+          "product_ID": 10,
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "email": "george_h@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60338"
+  },
+  "customer_ID": 5,
+  "name": "Jack K",
+  "gender": "Male",
+  "age": 53,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 446,
+      "street": "Church Lane",
+      "city": "London",
+      "postcode": "O27 3JB"
+    }
+  ],
+  "location": {
+    "latitude": 55.58652145916717,
+    "longitude": -1.864875141798735
+  },
+  "cart": {
+    "cart_total": 1057.46,
+    "products": [
+      {
+        "product_ID": 38,
+        "quantity": 1
+      },
+      {
+        "product_ID": 15,
+        "quantity": 1
+      },
+      {
+        "product_ID": 2,
+        "quantity": 4
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 9,
+      "order_total": 805.36,
+      "order_status": "Shipped",
+      "partner_assigned": 5,
+      "order_placed": {
+        "$date": "2025-01-01T11:26:44.404Z"
+      },
+      "order_destination": "446 Church Lane, London, O27 3JB",
+      "products": [
+        {
+          "product_ID": 5,
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "order_ID": 10,
+      "order_total": 3938.04,
+      "order_status": "Shipped",
+      "partner_assigned": 4,
+      "order_placed": {
+        "$date": "2024-03-26T01:18:13.404Z"
+      },
+      "order_destination": "446 Church Lane, London, O27 3JB",
+      "products": [
+        {
+          "product_ID": 32,
+          "quantity": 2
+        },
+        {
+          "product_ID": 50,
+          "quantity": 2
+        },
+        {
+          "product_ID": 47,
+          "quantity": 6
+        },
+        {
+          "product_ID": 29,
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "email": "jack_k@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb6033a"
+  },
+  "customer_ID": 7,
+  "name": "Nathan N",
+  "gender": "Male",
+  "age": 63,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 165,
+      "street": "Station Road",
+      "city": "Birmingham",
+      "postcode": "X47 6RT"
+    }
+  ],
+  "location": {
+    "latitude": 56.860155093870326,
+    "longitude": 0.7686666659197119
+  },
+  "cart": {
+    "cart_total": 1348.5,
+    "products": [
+      {
+        "product_ID": 19,
+        "quantity": 3
+      },
+      {
+        "product_ID": 8,
+        "quantity": 2
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 13,
+      "order_total": 1186.54,
+      "order_status": "Pending",
+      "partner_assigned": 3,
+      "order_placed": {
+        "$date": "2024-05-31T14:20:33.535Z"
+      },
+      "order_destination": "165 Station Road, Birmingham, X47 6RT",
+      "products": [
+        {
+          "product_ID": 23,
+          "quantity": 4
+        },
+        {
+          "product_ID": 3,
+          "quantity": 1
+        },
+        {
+          "product_ID": 49,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "order_ID": 14,
+      "order_total": 7243.97,
+      "order_status": "Pending",
+      "partner_assigned": 6,
+      "order_placed": {
+        "$date": "2024-11-20T23:21:53.535Z"
+      },
+      "order_destination": "165 Station Road, Birmingham, X47 6RT",
+      "products": [
+        {
+          "product_ID": 18,
+          "quantity": 10
+        },
+        {
+          "product_ID": 11,
+          "quantity": 5
+        },
+        {
+          "product_ID": 37,
+          "quantity": 2
+        },
+        {
+          "product_ID": 44,
+          "quantity": 7
+        },
+        {
+          "product_ID": 46,
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "email": "nathan_n@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb6033d"
+  },
+  "customer_ID": 10,
+  "name": "Sam U",
+  "gender": "Male",
+  "age": 64,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 340,
+      "street": "Victoria Road",
+      "city": "Bristol",
+      "postcode": "T2 9NV"
+    }
+  ],
+  "location": {
+    "latitude": 51.949035260348445,
+    "longitude": -1.8713099087554355
+  },
+  "cart": {
+    "cart_total": 1975.56,
+    "products": [
+      {
+        "product_ID": 28,
+        "quantity": 2
+      },
+      {
+        "product_ID": 12,
+        "quantity": 2
+      },
+      {
+        "product_ID": 40,
+        "quantity": 1
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 19,
+      "order_total": 2703.4,
+      "order_status": "Delivered",
+      "partner_assigned": 4,
+      "order_placed": {
+        "$date": "2024-12-03T01:06:02.599Z"
+      },
+      "order_destination": "340 Victoria Road, Bristol, T2 9NV",
+      "products": [
+        {
+          "product_ID": 38,
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "order_ID": 20,
+      "order_total": 6450.6,
+      "order_status": "Pending",
+      "partner_assigned": 10,
+      "order_placed": {
+        "$date": "2024-01-13T00:22:21.599Z"
+      },
+      "order_destination": "340 Victoria Road, Bristol, T2 9NV",
+      "products": [
+        {
+          "product_ID": 40,
+          "quantity": 3
+        },
+        {
+          "product_ID": 38,
+          "quantity": 6
+        },
+        {
+          "product_ID": 7,
+          "quantity": 7
+        }
+      ]
+    }
+  ],
+  "email": "sam_u@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb6033e"
+  },
+  "customer_ID": 11,
+  "name": "Beth P",
+  "gender": "Female",
+  "age": 57,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 450,
+      "street": "King Street",
+      "city": "Bristol",
+      "postcode": "R37 4CT"
+    }
+  ],
+  "location": {
+    "latitude": 50.85862782262345,
+    "longitude": -5.776525552477823
+  },
+  "cart": {
+    "cart_total": 2692.28,
+    "products": [
+      {
+        "product_ID": 36,
+        "quantity": 1
+      },
+      {
+        "product_ID": 5,
+        "quantity": 5
+      },
+      {
+        "product_ID": 33,
+        "quantity": 1
+      },
+      {
+        "product_ID": 50,
+        "quantity": 5
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 21,
+      "order_total": 4217.44,
+      "order_status": "Delivered",
+      "partner_assigned": 10,
+      "order_placed": {
+        "$date": "2024-09-24T04:44:36.616Z"
+      },
+      "order_destination": "450 King Street, Bristol, R37 4CT",
+      "products": [
+        {
+          "product_ID": 27,
+          "quantity": 1
+        },
+        {
+          "product_ID": 15,
+          "quantity": 4
+        },
+        {
+          "product_ID": 41,
+          "quantity": 10
+        },
+        {
+          "product_ID": 18,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "order_ID": 22,
+      "order_total": 2237.05,
+      "order_status": "Shipped",
+      "partner_assigned": 3,
+      "order_placed": {
+        "$date": "2024-06-25T23:12:34.616Z"
+      },
+      "order_destination": "450 King Street, Bristol, R37 4CT",
+      "products": [
+        {
+          "product_ID": 49,
+          "quantity": 4
+        },
+        {
+          "product_ID": 37,
+          "quantity": 7
+        },
+        {
+          "product_ID": 21,
+          "quantity": 7
+        }
+      ]
+    }
+  ],
+  "email": "beth_p@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb6033f"
+  },
+  "customer_ID": 12,
+  "name": "Diana J",
+  "gender": "Female",
+  "age": 67,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 791,
+      "street": "Mill Lane",
+      "city": "Sheffield",
+      "postcode": "A82 8XF"
+    }
+  ],
+  "location": {
+    "latitude": 55.14592749563848,
+    "longitude": -0.9580521692573267
+  },
+  "cart": {
+    "cart_total": 2548.67,
+    "products": [
+      {
+        "product_ID": 48,
+        "quantity": 3
+      },
+      {
+        "product_ID": 1,
+        "quantity": 2
+      },
+      {
+        "product_ID": 44,
+        "quantity": 2
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 23,
+      "order_total": 1291.88,
+      "order_status": "Pending",
+      "partner_assigned": 3,
+      "order_placed": {
+        "$date": "2024-09-19T00:12:41.632Z"
+      },
+      "order_destination": "791 Mill Lane, Sheffield, A82 8XF",
+      "products": [
+        {
+          "product_ID": 22,
+          "quantity": 8
+        },
+        {
+          "product_ID": 9,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "order_ID": 24,
+      "order_total": 4123.63,
+      "order_status": "Pending",
+      "partner_assigned": 8,
+      "order_placed": {
+        "$date": "2024-02-09T04:40:50.632Z"
+      },
+      "order_destination": "791 Mill Lane, Sheffield, A82 8XF",
+      "products": [
+        {
+          "product_ID": 38,
+          "quantity": 1
+        },
+        {
+          "product_ID": 17,
+          "quantity": 7
+        },
+        {
+          "product_ID": 3,
+          "quantity": 4
+        }
+      ]
+    }
+  ],
+  "email": "diana_j@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60340"
+  },
+  "customer_ID": 13,
+  "name": "Fiona Q",
+  "gender": "Female",
+  "age": 38,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 460,
+      "street": "Mill Lane",
+      "city": "Manchester",
+      "postcode": "M58 1KE"
+    }
+  ],
+  "location": {
+    "latitude": 52.40702457234381,
+    "longitude": -6.762102016302437
+  },
+  "cart": {
+    "cart_total": 3022.84,
+    "products": [
+      {
+        "product_ID": 5,
+        "quantity": 2
+      },
+      {
+        "product_ID": 19,
+        "quantity": 15
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 25,
+      "order_total": 5573.54,
+      "order_status": "Delivered",
+      "partner_assigned": 9,
+      "order_placed": {
+        "$date": "2024-11-26T21:58:17.648Z"
+      },
+      "order_destination": "460 Mill Lane, Manchester, M58 1KE",
+      "products": [
+        {
+          "product_ID": 37,
+          "quantity": 7
+        },
+        {
+          "product_ID": 31,
+          "quantity": 6
+        },
+        {
+          "product_ID": 23,
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_ID": 26,
+      "order_total": 2827.63,
+      "order_status": "Pending",
+      "partner_assigned": 1,
+      "order_placed": {
+        "$date": "2024-12-05T05:21:54.648Z"
+      },
+      "order_destination": "460 Mill Lane, Manchester, M58 1KE",
+      "products": [
+        {
+          "product_ID": 42,
+          "quantity": 2
+        },
+        {
+          "product_ID": 3,
+          "quantity": 6
+        },
+        {
+          "product_ID": 9,
+          "quantity": 6
+        },
+        {
+          "product_ID": 34,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "email": "fiona_q@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60343"
+  },
+  "customer_ID": 16,
+  "name": "Karen V",
+  "gender": "Female",
+  "age": 43,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 154,
+      "street": "Victoria Road",
+      "city": "Bristol",
+      "postcode": "Y86 5WN"
+    }
+  ],
+  "location": {
+    "latitude": 56.50452275240466,
+    "longitude": -7.578722303857445
+  },
+  "cart": {
+    "cart_total": 146,
+    "products": [
+      {
+        "product_ID": 43,
+        "quantity": 4
+      },
+      {
+        "product_ID": 18,
+        "quantity": 1
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 31,
+      "order_total": 2045.04,
+      "order_status": "Delivered",
+      "partner_assigned": 8,
+      "order_placed": {
+        "$date": "2024-05-24T23:35:54.697Z"
+      },
+      "order_destination": "154 Victoria Road, Bristol, Y86 5WN",
+      "products": [
+        {
+          "product_ID": 27,
+          "quantity": 4
+        },
+        {
+          "product_ID": 11,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "order_ID": 32,
+      "order_total": 5450.18,
+      "order_status": "Cancelled",
+      "partner_assigned": 5,
+      "order_placed": {
+        "$date": "2025-01-04T18:19:38.697Z"
+      },
+      "order_destination": "154 Victoria Road, Bristol, Y86 5WN",
+      "products": [
+        {
+          "product_ID": 2,
+          "quantity": 2
+        },
+        {
+          "product_ID": 1,
+          "quantity": 6
+        },
+        {
+          "product_ID": 3,
+          "quantity": 4
+        },
+        {
+          "product_ID": 30,
+          "quantity": 7
+        },
+        {
+          "product_ID": 34,
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "email": "karen_v@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60344"
+  },
+  "customer_ID": 17,
+  "name": "Mona Q",
+  "gender": "Female",
+  "age": 42,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 312,
+      "street": "The Crescent",
+      "city": "Manchester",
+      "postcode": "J14 9SX"
+    }
+  ],
+  "location": {
+    "latitude": 58.57332569440165,
+    "longitude": -7.946732967975322
+  },
+  "cart": {
+    "cart_total": 2139.18,
+    "products": [
+      {
+        "product_ID": 16,
+        "quantity": 2
+      },
+      {
+        "product_ID": 7,
+        "quantity": 3
+      },
+      {
+        "product_ID": 8,
+        "quantity": 2
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 33,
+      "order_total": 3702.9,
+      "order_status": "Pending",
+      "partner_assigned": 6,
+      "order_placed": {
+        "$date": "2024-05-10T03:10:51.727Z"
+      },
+      "order_destination": "312 The Crescent, Manchester, J14 9SX",
+      "products": [
+        {
+          "product_ID": 14,
+          "quantity": 3
+        },
+        {
+          "product_ID": 48,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "order_ID": 34,
+      "order_total": 5868.12,
+      "order_status": "Pending",
+      "partner_assigned": 7,
+      "order_placed": {
+        "$date": "2024-04-15T06:25:49.727Z"
+      },
+      "order_destination": "312 The Crescent, Manchester, J14 9SX",
+      "products": [
+        {
+          "product_ID": 29,
+          "quantity": 3
+        },
+        {
+          "product_ID": 35,
+          "quantity": 10
+        },
+        {
+          "product_ID": 1,
+          "quantity": 10
+        },
+        {
+          "product_ID": 5,
+          "quantity": 7
+        },
+        {
+          "product_ID": 8,
+          "quantity": 3
+        }
+      ]
+    }
+  ],
+  "email": "mona_q@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60346"
+  },
+  "customer_ID": 19,
+  "name": "Rachel K",
+  "gender": "Female",
+  "age": 44,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 126,
+      "street": "Queensway",
+      "city": "Sheffield",
+      "postcode": "L60 7PH"
+    }
+  ],
+  "location": {
+    "latitude": 54.301291410839134,
+    "longitude": 1.544731414605133
+  },
+  "cart": {
+    "cart_total": 3238.49,
+    "products": [
+      {
+        "product_ID": 48,
+        "quantity": 2
+      },
+      {
+        "product_ID": 13,
+        "quantity": 4
+      },
+      {
+        "product_ID": 35,
+        "quantity": 4
+      },
+      {
+        "product_ID": 45,
+        "quantity": 1
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 37,
+      "order_total": 3170.06,
+      "order_status": "Shipped",
+      "partner_assigned": 7,
+      "order_placed": {
+        "$date": "2024-07-23T02:51:10.754Z"
+      },
+      "order_destination": "126 Queensway, Sheffield, L60 7PH",
+      "products": [
+        {
+          "product_ID": 41,
+          "quantity": 1
+        },
+        {
+          "product_ID": 6,
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "order_ID": 38,
+      "order_total": 12794.78,
+      "order_status": "Pending",
+      "partner_assigned": 4,
+      "order_placed": {
+        "$date": "2024-08-08T16:00:16.754Z"
+      },
+      "order_destination": "126 Queensway, Sheffield, L60 7PH",
+      "products": [
+        {
+          "product_ID": 29,
+          "quantity": 10
+        },
+        {
+          "product_ID": 6,
+          "quantity": 6
+        },
+        {
+          "product_ID": 10,
+          "quantity": 8
+        },
+        {
+          "product_ID": 3,
+          "quantity": 7
+        },
+        {
+          "product_ID": 15,
+          "quantity": 5
+        }
+      ]
+    }
+  ],
+  "email": "rachel_k@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60345"
+  },
+  "customer_ID": 18,
+  "name": "Olivia S",
+  "gender": "Female",
+  "age": 48,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 838,
+      "street": "Park Avenue",
+      "city": "Glasgow",
+      "postcode": "X76 4XG"
+    }
+  ],
+  "location": {
+    "latitude": 54.70049202143793,
+    "longitude": -6.24466216723707
+  },
+  "cart": {
+    "cart_total": 416.88,
+    "products": [
+      {
+        "product_ID": 7,
+        "quantity": 3
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 5,
+      "order_total": 1,
+      "order_status": "Cancelled",
+      "partner_assigned": 3,
+      "order_placed": {
+        "$date": "2024-03-04T04:24:33.744Z"
+      },
+      "order_destination": "838 Park Avenue, Glasgow, X76 4XG",
+      "products": [
+        {
+          "product_ID": 3,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "email": "olivia_s@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60336"
+  },
+  "customer_ID": 3,
+  "name": "Edward V",
+  "gender": "Male",
+  "age": 68,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 414,
+      "street": "The Crescent",
+      "city": "Edinburgh",
+      "postcode": "M10 4ZY"
+    }
+  ],
+  "location": {
+    "latitude": 51.38511859148367,
+    "longitude": -7.914395302662562
+  },
+  "cart": {
+    "cart_total": 1415.46,
+    "products": [
+      {
+        "product_ID": 10,
+        "quantity": 4
+      },
+      {
+        "product_ID": 15,
+        "quantity": 1
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 5,
+      "order_total": 9765.16,
+      "order_status": "Pending",
+      "partner_assigned": 9,
+      "order_placed": {
+        "$date": "2024-04-27T16:59:58.364Z"
+      },
+      "order_destination": "414 The Crescent, Edinburgh, M10 4ZY",
+      "products": [
+        {
+          "product_ID": 29,
+          "quantity": 6
+        },
+        {
+          "product_ID": 40,
+          "quantity": 8
+        },
+        {
+          "product_ID": 19,
+          "quantity": 9
+        },
+        {
+          "product_ID": 11,
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "order_ID": 6,
+      "order_total": 6234.92,
+      "order_status": "Pending",
+      "partner_assigned": 1,
+      "order_placed": {
+        "$date": "2024-11-29T15:58:46.364Z"
+      },
+      "order_destination": "414 The Crescent, Edinburgh, M10 4ZY",
+      "products": [
+        {
+          "product_ID": 44,
+          "quantity": 9
+        },
+        {
+          "product_ID": 41,
+          "quantity": 7
+        }
+      ]
+    }
+  ],
+  "email": "edward_v@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60342"
+  },
+  "customer_ID": 15,
+  "name": "Ivy B",
+  "gender": "Female",
+  "age": 26,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 962,
+      "street": "Queensway",
+      "city": "Birmingham",
+      "postcode": "O79 9WJ"
+    }
+  ],
+  "location": {
+    "latitude": 56.318503633796304,
+    "longitude": -7.97470505714328
+  },
+  "cart": {
+    "cart_total": 4483.62,
+    "products": [
+      {
+        "product_ID": 46,
+        "quantity": 2
+      },
+      {
+        "product_ID": 24,
+        "quantity": 4
+      },
+      {
+        "product_ID": 43,
+        "quantity": 1
+      },
+      {
+        "product_ID": 10,
+        "quantity": 4
+      },
+      {
+        "product_ID": 24,
+        "quantity": 2
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 29,
+      "order_total": 209.45,
+      "order_status": "Pending",
+      "partner_assigned": 2,
+      "order_placed": {
+        "$date": "2024-04-11T11:10:05.681Z"
+      },
+      "order_destination": "962 Queensway, Birmingham, O79 9WJ",
+      "products": [
+        {
+          "product_ID": 42,
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "order_ID": 30,
+      "order_total": 1468.31,
+      "order_status": "Delivered",
+      "partner_assigned": 1,
+      "order_placed": {
+        "$date": "2024-11-08T21:08:04.681Z"
+      },
+      "order_destination": "962 Queensway, Birmingham, O79 9WJ",
+      "products": [
+        {
+          "product_ID": 28,
+          "quantity": 3
+        },
+        {
+          "product_ID": 21,
+          "quantity": 3
+        },
+        {
+          "product_ID": 49,
+          "quantity": 7
+        },
+        {
+          "product_ID": 34,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "email": "ivy_b@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60334"
+  },
+  "customer_ID": 1,
+  "name": "Adam M",
+  "gender": "Male",
+  "age": 67,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 407,
+      "street": "Church Lane",
+      "city": "Sheffield",
+      "postcode": "A47 1BP"
+    }
+  ],
+  "location": {
+    "latitude": 54.349905334195554,
+    "longitude": -2.417534559672827
+  },
+  "cart": {
+    "cart_total": 1819.32,
+    "products": [
+      {
+        "product_ID": 17,
+        "quantity": 5
+      },
+      {
+        "product_ID": 42,
+        "quantity": 3
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 1,
+      "order_total": 5351.2,
+      "order_status": "Pending",
+      "partner_assigned": 6,
+      "order_placed": {
+        "$date": "2024-02-26T17:12:41.327Z"
+      },
+      "order_destination": "407 Church Lane, Sheffield, A47 1BP",
+      "products": [
+        {
+          "product_ID": 48,
+          "quantity": 10
+        },
+        {
+          "product_ID": 21,
+          "quantity": 2
+        },
+        {
+          "product_ID": 23,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "order_ID": 2,
+      "order_total": 6318.28,
+      "order_status": "Pending",
+      "partner_assigned": 7,
+      "order_placed": {
+        "$date": "2024-11-02T16:50:41.327Z"
+      },
+      "order_destination": "407 Church Lane, Sheffield, A47 1BP",
+      "products": [
+        {
+          "product_ID": 22,
+          "quantity": 7
+        },
+        {
+          "product_ID": 24,
+          "quantity": 10
+        },
+        {
+          "product_ID": 50,
+          "quantity": 1
+        },
+        {
+          "product_ID": 16,
+          "quantity": 6
+        },
+        {
+          "product_ID": 9,
+          "quantity": 9
+        }
+      ]
+    }
+  ],
+  "email": "adam_m@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60335"
+  },
+  "customer_ID": 2,
+  "name": "Charlie B",
+  "gender": "Male",
+  "age": 63,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 225,
+      "street": "King Street",
+      "city": "Edinburgh",
+      "postcode": "H89 6YW"
+    }
+  ],
+  "location": {
+    "latitude": 50.983986749707,
+    "longitude": 1.6430406795313282
+  },
+  "cart": {
+    "cart_total": 2253,
+    "products": [
+      {
+        "product_ID": 25,
+        "quantity": 5
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 3,
+      "order_total": 1711.47,
+      "order_status": "Pending",
+      "partner_assigned": 2,
+      "order_placed": {
+        "$date": "2024-04-27T01:12:24.356Z"
+      },
+      "order_destination": "225 King Street, Edinburgh, H89 6YW",
+      "products": [
+        {
+          "product_ID": 33,
+          "quantity": 7
+        },
+        {
+          "product_ID": 32,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "order_ID": 4,
+      "order_total": 4365.56,
+      "order_status": "Pending",
+      "partner_assigned": 10,
+      "order_placed": {
+        "$date": "2024-04-07T03:23:09.356Z"
+      },
+      "order_destination": "225 King Street, Edinburgh, H89 6YW",
+      "products": [
+        {
+          "product_ID": 46,
+          "quantity": 8
+        },
+        {
+          "product_ID": 6,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "email": "charlie_b@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60339"
+  },
+  "customer_ID": 6,
+  "name": "Liam Y",
+  "gender": "Male",
+  "age": 52,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 812,
+      "street": "Queensway",
+      "city": "Birmingham",
+      "postcode": "R31 2QI"
+    }
+  ],
+  "location": {
+    "latitude": 56.65484245960178,
+    "longitude": -0.6653276306841782
+  },
+  "cart": {
+    "cart_total": 1693.65,
+    "products": [
+      {
+        "product_ID": 17,
+        "quantity": 5
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 11,
+      "order_total": 1235.85,
+      "order_status": "Pending",
+      "partner_assigned": 8,
+      "order_placed": {
+        "$date": "2024-08-01T10:15:32.421Z"
+      },
+      "order_destination": "812 Queensway, Birmingham, R31 2QI",
+      "products": [
+        {
+          "product_ID": 36,
+          "quantity": 5
+        },
+        {
+          "product_ID": 45,
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "order_ID": 12,
+      "order_total": 5051.28,
+      "order_status": "Pending",
+      "partner_assigned": 5,
+      "order_placed": {
+        "$date": "2024-06-09T17:42:11.421Z"
+      },
+      "order_destination": "812 Queensway, Birmingham, R31 2QI",
+      "products": [
+        {
+          "product_ID": 47,
+          "quantity": 1
+        },
+        {
+          "product_ID": 46,
+          "quantity": 10
+        },
+        {
+          "product_ID": 16,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "email": "liam_y@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb6033b"
+  },
+  "customer_ID": 8,
+  "name": "Oscar D",
+  "gender": "Male",
+  "age": 66,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 741,
+      "street": "High Street",
+      "city": "Birmingham",
+      "postcode": "X29 7FP"
+    }
+  ],
+  "location": {
+    "latitude": 51.68091952869145,
+    "longitude": -7.44079071619968
+  },
+  "cart": {
+    "cart_total": 3333.11,
+    "products": [
+      {
+        "product_ID": 12,
+        "quantity": 5
+      },
+      {
+        "product_ID": 23,
+        "quantity": 4
+      },
+      {
+        "product_ID": 45,
+        "quantity": 1
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 15,
+      "order_total": 91.92,
+      "order_status": "Delivered",
+      "partner_assigned": 8,
+      "order_placed": {
+        "$date": "2025-01-03T21:03:25.559Z"
+      },
+      "order_destination": "741 High Street, Birmingham, X29 7FP",
+      "products": [
+        {
+          "product_ID": 2,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "order_ID": 16,
+      "order_total": 2598.49,
+      "order_status": "Delivered",
+      "partner_assigned": 2,
+      "order_placed": {
+        "$date": "2024-11-19T16:55:09.559Z"
+      },
+      "order_destination": "741 High Street, Birmingham, X29 7FP",
+      "products": [
+        {
+          "product_ID": 9,
+          "quantity": 9
+        },
+        {
+          "product_ID": 23,
+          "quantity": 1
+        },
+        {
+          "product_ID": 30,
+          "quantity": 6
+        },
+        {
+          "product_ID": 45,
+          "quantity": 5
+        },
+        {
+          "product_ID": 22,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "email": "oscar_d@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb6033c"
+  },
+  "customer_ID": 9,
+  "name": "Paul Y",
+  "gender": "Male",
+  "age": 28,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 792,
+      "street": "Church Lane",
+      "city": "Manchester",
+      "postcode": "T57 9HX"
+    }
+  ],
+  "location": {
+    "latitude": 52.90298760482204,
+    "longitude": -6.158599383601242
+  },
+  "cart": {
+    "cart_total": 2499.8,
+    "products": [
+      {
+        "product_ID": 12,
+        "quantity": 4
+      },
+      {
+        "product_ID": 12,
+        "quantity": 1
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 17,
+      "order_total": 9463.9,
+      "order_status": "Delivered",
+      "partner_assigned": 9,
+      "order_placed": {
+        "$date": "2024-12-13T10:11:06.575Z"
+      },
+      "order_destination": "792 Church Lane, Manchester, T57 9HX",
+      "products": [
+        {
+          "product_ID": 7,
+          "quantity": 7
+        },
+        {
+          "product_ID": 28,
+          "quantity": 8
+        },
+        {
+          "product_ID": 31,
+          "quantity": 6
+        },
+        {
+          "product_ID": 50,
+          "quantity": 4
+        },
+        {
+          "product_ID": 24,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "order_ID": 18,
+      "order_total": 2481.82,
+      "order_status": "Shipped",
+      "partner_assigned": 3,
+      "order_placed": {
+        "$date": "2024-11-20T16:12:42.575Z"
+      },
+      "order_destination": "792 Church Lane, Manchester, T57 9HX",
+      "products": [
+        {
+          "product_ID": 28,
+          "quantity": 6
+        },
+        {
+          "product_ID": 31,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "email": "paul_y@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60341"
+  },
+  "customer_ID": 14,
+  "name": "Hannah K",
+  "gender": "Female",
+  "age": 28,
+  "addresses": [
+    {
+      "address_type": "Work",
+      "house_number": 812,
+      "street": "Church Lane",
+      "city": "London",
+      "postcode": "H49 7WJ"
+    }
+  ],
+  "location": {
+    "latitude": 52.54280593831071,
+    "longitude": -7.659442284707597
+  },
+  "cart": {
+    "cart_total": 2432.03,
+    "products": [
+      {
+        "product_ID": 37,
+        "quantity": 1
+      },
+      {
+        "product_ID": 28,
+        "quantity": 1
+      },
+      {
+        "product_ID": 4,
+        "quantity": 3
+      },
+      {
+        "product_ID": 25,
+        "quantity": 4
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 27,
+      "order_total": 3674.44,
+      "order_status": "Delivered",
+      "partner_assigned": 3,
+      "order_placed": {
+        "$date": "2024-02-11T05:23:41.664Z"
+      },
+      "order_destination": "812 Church Lane, London, H49 7WJ",
+      "products": [
+        {
+          "product_ID": 24,
+          "quantity": 3
+        },
+        {
+          "product_ID": 33,
+          "quantity": 10
+        },
+        {
+          "product_ID": 17,
+          "quantity": 2
+        },
+        {
+          "product_ID": 13,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "order_ID": 28,
+      "order_total": 4063.77,
+      "order_status": "Delivered",
+      "partner_assigned": 7,
+      "order_placed": {
+        "$date": "2024-11-02T14:37:14.664Z"
+      },
+      "order_destination": "812 Church Lane, London, H49 7WJ",
+      "products": [
+        {
+          "product_ID": 48,
+          "quantity": 9
+        }
+      ]
+    }
+  ],
+  "email": "hannah_k@example.com"
+},
+{
+  "_id": {
+    "$oid": "677b86537b7cd86a9eb60347"
+  },
+  "customer_ID": 20,
+  "name": "Tina Z",
+  "gender": "Female",
+  "age": 34,
+  "addresses": [
+    {
+      "address_type": "Home",
+      "house_number": 719,
+      "street": "Park Avenue",
+      "city": "Cardiff",
+      "postcode": "H3 1AU"
+    }
+  ],
+  "location": {
+    "latitude": 53.32918311022124,
+    "longitude": -3.401784148761587
+  },
+  "cart": {
+    "cart_total": 2340.46,
+    "products": [
+      {
+        "product_ID": 10,
+        "quantity": 2
+      },
+      {
+        "product_ID": 7,
+        "quantity": 1
+      }
+    ]
+  },
+  "current_orders": [
+    {
+      "order_ID": 39,
+      "order_total": 1111.68,
+      "order_status": "Shipped",
+      "partner_assigned": 5,
+      "order_placed": {
+        "$date": "2024-10-20T09:14:35.778Z"
+      },
+      "order_destination": "719 Park Avenue, Cardiff, H3 1AU",
+      "products": [
+        {
+          "product_ID": 47,
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "order_ID": 40,
+      "order_total": 7651.08,
+      "order_status": "Delivered",
+      "partner_assigned": 6,
+      "order_placed": {
+        "$date": "2024-06-26T04:11:13.778Z"
+      },
+      "order_destination": "719 Park Avenue, Cardiff, H3 1AU",
+      "products": [
+        {
+          "product_ID": 8,
+          "quantity": 8
+        },
+        {
+          "product_ID": 6,
+          "quantity": 9
+        },
+        {
+          "product_ID": 2,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "email": "tina_z@example.com"
+}]

@@ -1,0 +1,1900 @@
+[{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d2"
+  },
+  "product_ID": 2,
+  "inventory": 158,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 52.34924549705344,
+    "longitude": -0.39212468471681294
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 5,
+    "units_received": 44,
+    "opening_stock": 128,
+    "closing_stock": 147
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602de"
+  },
+  "product_ID": 8,
+  "inventory": 135,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 54.9600314987204,
+    "longitude": -5.719668295090038
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 17,
+    "units_received": 4,
+    "opening_stock": 173,
+    "closing_stock": 89
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e3"
+  },
+  "product_ID": 11,
+  "inventory": 146,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 58.044078841075105,
+    "longitude": -4.256040738279364
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 6,
+    "units_received": 22,
+    "opening_stock": 189,
+    "closing_stock": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e5"
+  },
+  "product_ID": 12,
+  "inventory": 315,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 57.7435302570581,
+    "longitude": -6.510480017428667
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 16,
+    "units_received": 1,
+    "opening_stock": 197,
+    "closing_stock": 77
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e6"
+  },
+  "product_ID": 12,
+  "inventory": 125,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 49.610144381542845,
+    "longitude": -2.506158305988505
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 18,
+    "units_received": 8,
+    "opening_stock": 121,
+    "closing_stock": 40
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e7"
+  },
+  "product_ID": 13,
+  "inventory": 253,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 54.78206986308432,
+    "longitude": -1.672381047207752
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 8,
+    "units_received": 50,
+    "opening_stock": 94,
+    "closing_stock": 87
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ec"
+  },
+  "product_ID": 15,
+  "inventory": 330,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 56.59202233316157,
+    "longitude": -4.894364422468726
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 25,
+    "units_received": 50,
+    "opening_stock": 67,
+    "closing_stock": 83
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ee"
+  },
+  "product_ID": 16,
+  "inventory": 466,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 51.06063273345157,
+    "longitude": -6.675955222863268
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 28,
+    "units_received": 11,
+    "opening_stock": 100,
+    "closing_stock": 144
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f5"
+  },
+  "product_ID": 20,
+  "inventory": 382,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 50.2422997508352,
+    "longitude": 0.012280226269165695
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 29,
+    "units_received": 5,
+    "opening_stock": 58,
+    "closing_stock": 60
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f9"
+  },
+  "product_ID": 22,
+  "inventory": 83,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 52.03486765802128,
+    "longitude": -3.394565609729545
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 30,
+    "units_received": 48,
+    "opening_stock": 146,
+    "closing_stock": 49
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602fb"
+  },
+  "product_ID": 23,
+  "inventory": 202,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 50.69322599918629,
+    "longitude": -3.066950908062819
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 13,
+    "units_received": 33,
+    "opening_stock": 195,
+    "closing_stock": 118
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60301"
+  },
+  "product_ID": 26,
+  "inventory": 62,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 57.233405931928736,
+    "longitude": -4.582496629675372
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 3,
+    "units_received": 48,
+    "opening_stock": 108,
+    "closing_stock": 28
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60304"
+  },
+  "product_ID": 27,
+  "inventory": 166,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 55.63502650638592,
+    "longitude": 0.6945573272223697
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 1,
+    "units_received": 1,
+    "opening_stock": 171,
+    "closing_stock": 124
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60307"
+  },
+  "product_ID": 29,
+  "inventory": 136,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 56.9598840690071,
+    "longitude": 0.5880799900454434
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 3,
+    "units_received": 13,
+    "opening_stock": 73,
+    "closing_stock": 36
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6030a"
+  },
+  "product_ID": 30,
+  "inventory": 274,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 52.89536128678393,
+    "longitude": -7.665722702931309
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 4,
+    "units_received": 15,
+    "opening_stock": 102,
+    "closing_stock": 88
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6030b"
+  },
+  "product_ID": 31,
+  "inventory": 168,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 53.0231288955503,
+    "longitude": -5.562633255902348
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 26,
+    "units_received": 29,
+    "opening_stock": 122,
+    "closing_stock": 62
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60310"
+  },
+  "product_ID": 33,
+  "inventory": 222,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 53.521037665057605,
+    "longitude": -5.09466201109488
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 19,
+    "units_received": 21,
+    "opening_stock": 161,
+    "closing_stock": 118
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60311"
+  },
+  "product_ID": 34,
+  "inventory": 129,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 57.996414043559724,
+    "longitude": -7.502911086752911
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 25,
+    "units_received": 30,
+    "opening_stock": 183,
+    "closing_stock": 142
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60312"
+  },
+  "product_ID": 34,
+  "inventory": 192,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 58.41823006680582,
+    "longitude": -4.399574807872673
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 6,
+    "units_received": 16,
+    "opening_stock": 150,
+    "closing_stock": 127
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60318"
+  },
+  "product_ID": 37,
+  "inventory": 130,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 50.30655285639509,
+    "longitude": -2.9021366541781397
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 21,
+    "units_received": 33,
+    "opening_stock": 132,
+    "closing_stock": 130
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6031d"
+  },
+  "product_ID": 40,
+  "inventory": 343,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 51.461861095801225,
+    "longitude": -5.980289714366888
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 29,
+    "units_received": 0,
+    "opening_stock": 81,
+    "closing_stock": 141
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60321"
+  },
+  "product_ID": 42,
+  "inventory": 494,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 53.343276860233125,
+    "longitude": -8.059404214132897
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 24,
+    "units_received": 50,
+    "opening_stock": 142,
+    "closing_stock": 83
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60324"
+  },
+  "product_ID": 43,
+  "inventory": 266,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 55.15594413229837,
+    "longitude": -1.227845347822746
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 25,
+    "units_received": 25,
+    "opening_stock": 116,
+    "closing_stock": 39
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6032a"
+  },
+  "product_ID": 46,
+  "inventory": 148,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 53.09734806801257,
+    "longitude": -1.0322252678985961
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 28,
+    "units_received": 6,
+    "opening_stock": 189,
+    "closing_stock": 29
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6032d"
+  },
+  "product_ID": 48,
+  "inventory": 270,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 50.37675507076015,
+    "longitude": -5.89216359491737
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 20,
+    "units_received": 2,
+    "opening_stock": 145,
+    "closing_stock": 82
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6032e"
+  },
+  "product_ID": 48,
+  "inventory": 385,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 56.09952241807889,
+    "longitude": -8.065674658283065
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 13,
+    "units_received": 26,
+    "opening_stock": 197,
+    "closing_stock": 67
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60331"
+  },
+  "product_ID": 50,
+  "inventory": 232,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 58.14434278772953,
+    "longitude": -3.628408670575066
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 24,
+    "units_received": 13,
+    "opening_stock": 151,
+    "closing_stock": 87
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d3"
+  },
+  "product_ID": 3,
+  "inventory": 255,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 54.82694465078293,
+    "longitude": -4.669814787772886
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 16,
+    "units_received": 15,
+    "opening_stock": 131,
+    "closing_stock": 66
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d4"
+  },
+  "product_ID": 3,
+  "inventory": 146,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 58.43957362318292,
+    "longitude": 0.32725787097614933
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 0,
+    "units_received": 5,
+    "opening_stock": 54,
+    "closing_stock": 53
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d9"
+  },
+  "product_ID": 6,
+  "inventory": 126,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 49.75703401859042,
+    "longitude": -4.335407319446839
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 13,
+    "units_received": 33,
+    "opening_stock": 99,
+    "closing_stock": 58
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602da"
+  },
+  "product_ID": 6,
+  "inventory": 210,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 56.12326912998919,
+    "longitude": 1.0111387251263455
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 8,
+    "units_received": 4,
+    "opening_stock": 89,
+    "closing_stock": 23
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602dc"
+  },
+  "product_ID": 7,
+  "inventory": 283,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 51.41385398768099,
+    "longitude": 1.0133360797624302
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 5,
+    "units_received": 0,
+    "opening_stock": 83,
+    "closing_stock": 80
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e0"
+  },
+  "product_ID": 9,
+  "inventory": 485,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 50.67864638245755,
+    "longitude": -4.365586624376039
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 28,
+    "units_received": 17,
+    "opening_stock": 51,
+    "closing_stock": 81
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e8"
+  },
+  "product_ID": 13,
+  "inventory": 256,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 50.47531372892326,
+    "longitude": 1.6958533224050942
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 11,
+    "units_received": 28,
+    "opening_stock": 89,
+    "closing_stock": 73
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e9"
+  },
+  "product_ID": 14,
+  "inventory": 357,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 52.295555792868555,
+    "longitude": 0.5943969056718075
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 11,
+    "units_received": 19,
+    "opening_stock": 156,
+    "closing_stock": 94
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ef"
+  },
+  "product_ID": 17,
+  "inventory": 248,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 51.916524137698495,
+    "longitude": -0.20703188176415832
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 22,
+    "units_received": 49,
+    "opening_stock": 78,
+    "closing_stock": 20
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f6"
+  },
+  "product_ID": 20,
+  "inventory": 169,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 51.659560947775724,
+    "longitude": -4.140805731722431
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 3,
+    "units_received": 16,
+    "opening_stock": 155,
+    "closing_stock": 66
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f8"
+  },
+  "product_ID": 21,
+  "inventory": 385,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 54.641468844408635,
+    "longitude": -7.522030656638798
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 3,
+    "units_received": 46,
+    "opening_stock": 124,
+    "closing_stock": 61
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602fa"
+  },
+  "product_ID": 22,
+  "inventory": 290,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 56.96871788094864,
+    "longitude": 0.977980362148676
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 29,
+    "units_received": 23,
+    "opening_stock": 129,
+    "closing_stock": 117
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602fd"
+  },
+  "product_ID": 24,
+  "inventory": 282,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 50.89829223998164,
+    "longitude": 1.2288105892243664
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 29,
+    "units_received": 26,
+    "opening_stock": 72,
+    "closing_stock": 145
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60306"
+  },
+  "product_ID": 28,
+  "inventory": 231,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 54.51522354508452,
+    "longitude": -0.06182093906847541
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 20,
+    "units_received": 46,
+    "opening_stock": 200,
+    "closing_stock": 111
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60308"
+  },
+  "product_ID": 29,
+  "inventory": 265,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 52.11938495863644,
+    "longitude": -7.580434777224633
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 12,
+    "units_received": 24,
+    "opening_stock": 104,
+    "closing_stock": 129
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60309"
+  },
+  "product_ID": 30,
+  "inventory": 463,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 57.743436561928874,
+    "longitude": -3.923780511872166
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 3,
+    "units_received": 30,
+    "opening_stock": 83,
+    "closing_stock": 80
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6030c"
+  },
+  "product_ID": 31,
+  "inventory": 270,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 53.05065087871988,
+    "longitude": -4.807447760719504
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 6,
+    "units_received": 26,
+    "opening_stock": 139,
+    "closing_stock": 66
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60313"
+  },
+  "product_ID": 35,
+  "inventory": 194,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 51.268572590014266,
+    "longitude": -2.182999180343953
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 18,
+    "units_received": 26,
+    "opening_stock": 164,
+    "closing_stock": 31
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60314"
+  },
+  "product_ID": 35,
+  "inventory": 93,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 55.38295545330402,
+    "longitude": -4.932502722171389
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 28,
+    "units_received": 30,
+    "opening_stock": 163,
+    "closing_stock": 141
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60315"
+  },
+  "product_ID": 36,
+  "inventory": 310,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 52.45887081623929,
+    "longitude": -3.5945196522500273
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 18,
+    "units_received": 28,
+    "opening_stock": 88,
+    "closing_stock": 74
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60316"
+  },
+  "product_ID": 36,
+  "inventory": 68,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 57.218864655994665,
+    "longitude": -7.183938494612864
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 23,
+    "units_received": 48,
+    "opening_stock": 135,
+    "closing_stock": 109
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6031f"
+  },
+  "product_ID": 41,
+  "inventory": 475,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 52.42065888083863,
+    "longitude": -3.260799738402156
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 12,
+    "units_received": 19,
+    "opening_stock": 86,
+    "closing_stock": 107
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60322"
+  },
+  "product_ID": 42,
+  "inventory": 67,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 58.114135190894984,
+    "longitude": 0.5609522702736367
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 5,
+    "units_received": 24,
+    "opening_stock": 177,
+    "closing_stock": 126
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60329"
+  },
+  "product_ID": 46,
+  "inventory": 465,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 56.753837726641905,
+    "longitude": -0.1816866211389767
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 20,
+    "units_received": 24,
+    "opening_stock": 141,
+    "closing_stock": 82
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6032b"
+  },
+  "product_ID": 47,
+  "inventory": 294,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 51.649769371670835,
+    "longitude": -6.09423875630383
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 18,
+    "units_received": 41,
+    "opening_stock": 98,
+    "closing_stock": 58
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d1"
+  },
+  "product_ID": 2,
+  "inventory": 323,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 51.49259505792245,
+    "longitude": -4.446629908423649
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 15,
+    "units_received": 37,
+    "opening_stock": 176,
+    "closing_stock": 42
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d5"
+  },
+  "product_ID": 4,
+  "inventory": 124,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 53.253871353347186,
+    "longitude": -6.666048277968879
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 30,
+    "units_received": 9,
+    "opening_stock": 161,
+    "closing_stock": 21
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602db"
+  },
+  "product_ID": 7,
+  "inventory": 380,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 56.345007615859416,
+    "longitude": 0.5886928910949187
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 7,
+    "units_received": 31,
+    "opening_stock": 121,
+    "closing_stock": 53
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e1"
+  },
+  "product_ID": 10,
+  "inventory": 319,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 52.85235297031571,
+    "longitude": -6.221126690596039
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 26,
+    "units_received": 33,
+    "opening_stock": 132,
+    "closing_stock": 143
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f1"
+  },
+  "product_ID": 18,
+  "inventory": 78,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 58.17942220367502,
+    "longitude": -4.493030778475191
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 9,
+    "units_received": 16,
+    "opening_stock": 193,
+    "closing_stock": 121
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f3"
+  },
+  "product_ID": 19,
+  "inventory": 117,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 57.14619805288519,
+    "longitude": -0.33672820765844946
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 6,
+    "units_received": 40,
+    "opening_stock": 82,
+    "closing_stock": 108
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f7"
+  },
+  "product_ID": 21,
+  "inventory": 159,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 58.193176366046394,
+    "longitude": -6.395054601800192
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 26,
+    "units_received": 15,
+    "opening_stock": 78,
+    "closing_stock": 71
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60300"
+  },
+  "product_ID": 25,
+  "inventory": 382,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 56.012558205067386,
+    "longitude": -3.848935475812601
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 29,
+    "units_received": 22,
+    "opening_stock": 96,
+    "closing_stock": 42
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60302"
+  },
+  "product_ID": 26,
+  "inventory": 312,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 49.3893347923886,
+    "longitude": 0.37671955689045866
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 12,
+    "units_received": 33,
+    "opening_stock": 170,
+    "closing_stock": 56
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6030d"
+  },
+  "product_ID": 32,
+  "inventory": 208,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 54.322692706479586,
+    "longitude": 0.012078881897021887
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 4,
+    "units_received": 46,
+    "opening_stock": 123,
+    "closing_stock": 32
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6030f"
+  },
+  "product_ID": 33,
+  "inventory": 216,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 51.63887521349813,
+    "longitude": -5.614803608669889
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 26,
+    "units_received": 4,
+    "opening_stock": 191,
+    "closing_stock": 98
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60317"
+  },
+  "product_ID": 37,
+  "inventory": 233,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 57.06684669009489,
+    "longitude": -2.3969161183167413
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 21,
+    "units_received": 48,
+    "opening_stock": 116,
+    "closing_stock": 73
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6031a"
+  },
+  "product_ID": 38,
+  "inventory": 238,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 50.612237191407054,
+    "longitude": -7.0540301645860986
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 30,
+    "units_received": 0,
+    "opening_stock": 110,
+    "closing_stock": 92
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6031e"
+  },
+  "product_ID": 40,
+  "inventory": 489,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 54.02696500706113,
+    "longitude": -6.298476078870886
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 30,
+    "units_received": 26,
+    "opening_stock": 95,
+    "closing_stock": 22
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60323"
+  },
+  "product_ID": 43,
+  "inventory": 113,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 51.12920954931044,
+    "longitude": -0.5446356186746435
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 9,
+    "units_received": 6,
+    "opening_stock": 103,
+    "closing_stock": 77
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60325"
+  },
+  "product_ID": 44,
+  "inventory": 267,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 53.761692036045375,
+    "longitude": -2.446348673182528
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 27,
+    "units_received": 32,
+    "opening_stock": 181,
+    "closing_stock": 40
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60326"
+  },
+  "product_ID": 44,
+  "inventory": 274,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 54.70324196018235,
+    "longitude": -6.296042092640782
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 30,
+    "units_received": 29,
+    "opening_stock": 185,
+    "closing_stock": 52
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60328"
+  },
+  "product_ID": 45,
+  "inventory": 461,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 57.80110543891537,
+    "longitude": -1.7769681997447337
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 1,
+    "units_received": 30,
+    "opening_stock": 188,
+    "closing_stock": 26
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6032c"
+  },
+  "product_ID": 47,
+  "inventory": 109,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 57.488441592537924,
+    "longitude": 1.7102342126580634
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 1,
+    "units_received": 28,
+    "opening_stock": 72,
+    "closing_stock": 36
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60330"
+  },
+  "product_ID": 49,
+  "inventory": 87,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 55.3825544877349,
+    "longitude": -1.0350547055200439
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 8,
+    "units_received": 18,
+    "opening_stock": 163,
+    "closing_stock": 95
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602cf"
+  },
+  "product_ID": 1,
+  "inventory": 401,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 54.02246019565696,
+    "longitude": -7.570429421499396
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 14,
+    "units_received": 8,
+    "opening_stock": 105,
+    "closing_stock": 39
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d0"
+  },
+  "product_ID": 1,
+  "inventory": 211,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 51.72783058413289,
+    "longitude": -6.1130842057110755
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 28,
+    "units_received": 4,
+    "opening_stock": 83,
+    "closing_stock": 71
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d6"
+  },
+  "product_ID": 4,
+  "inventory": 109,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 57.49589901344912,
+    "longitude": 0.5216266625140911
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 5,
+    "units_received": 42,
+    "opening_stock": 86,
+    "closing_stock": 25
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d7"
+  },
+  "product_ID": 5,
+  "inventory": 405,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 49.65807061095335,
+    "longitude": -2.648738719906584
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 27,
+    "units_received": 18,
+    "opening_stock": 154,
+    "closing_stock": 54
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602d8"
+  },
+  "product_ID": 5,
+  "inventory": 313,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 55.465752968011685,
+    "longitude": -2.8909396201052777
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 3,
+    "units_received": 17,
+    "opening_stock": 151,
+    "closing_stock": 38
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602dd"
+  },
+  "product_ID": 8,
+  "inventory": 132,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 49.49623820437805,
+    "longitude": -0.36194530434260486
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 11,
+    "units_received": 46,
+    "opening_stock": 122,
+    "closing_stock": 96
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602df"
+  },
+  "product_ID": 9,
+  "inventory": 283,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 51.040334824912925,
+    "longitude": -4.741401547676626
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 27,
+    "units_received": 31,
+    "opening_stock": 117,
+    "closing_stock": 135
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e2"
+  },
+  "product_ID": 10,
+  "inventory": 492,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 56.09853646654941,
+    "longitude": -8.0075543584689
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 17,
+    "units_received": 39,
+    "opening_stock": 191,
+    "closing_stock": 75
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602e4"
+  },
+  "product_ID": 11,
+  "inventory": 496,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 49.487005728150855,
+    "longitude": 0.697854374836238
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 26,
+    "units_received": 46,
+    "opening_stock": 193,
+    "closing_stock": 30
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ea"
+  },
+  "product_ID": 14,
+  "inventory": 312,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 51.443834393833335,
+    "longitude": 1.267622391163366
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 6,
+    "units_received": 6,
+    "opening_stock": 139,
+    "closing_stock": 108
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602eb"
+  },
+  "product_ID": 15,
+  "inventory": 218,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 49.842724593026,
+    "longitude": -1.8979390497323099
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 2,
+    "units_received": 3,
+    "opening_stock": 73,
+    "closing_stock": 109
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ed"
+  },
+  "product_ID": 16,
+  "inventory": 237,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 54.4561577925016,
+    "longitude": -0.568205547913009
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 22,
+    "units_received": 32,
+    "opening_stock": 123,
+    "closing_stock": 72
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f0"
+  },
+  "product_ID": 17,
+  "inventory": 425,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 56.34994465019432,
+    "longitude": -0.34248913947452486
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 7,
+    "units_received": 0,
+    "opening_stock": 119,
+    "closing_stock": 92
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f2"
+  },
+  "product_ID": 18,
+  "inventory": 494,
+  "warehouse_name": "Warehouse_3",
+  "location": {
+    "latitude": 58.15613132247985,
+    "longitude": -5.296773661060268
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 15,
+    "units_received": 12,
+    "opening_stock": 170,
+    "closing_stock": 123
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602f4"
+  },
+  "product_ID": 19,
+  "inventory": 364,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 52.155241683011894,
+    "longitude": -1.6881625787843868
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 6,
+    "units_received": 26,
+    "opening_stock": 100,
+    "closing_stock": 112
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602fc"
+  },
+  "product_ID": 23,
+  "inventory": 138,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 50.36032271048248,
+    "longitude": -3.3151359962873483
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 19,
+    "units_received": 28,
+    "opening_stock": 133,
+    "closing_stock": 108
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602fe"
+  },
+  "product_ID": 24,
+  "inventory": 466,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 55.35070661957376,
+    "longitude": -1.4409608243820013
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 17,
+    "units_received": 5,
+    "opening_stock": 185,
+    "closing_stock": 107
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ff"
+  },
+  "product_ID": 25,
+  "inventory": 483,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 57.41586769795924,
+    "longitude": -6.970615845989874
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 1,
+    "units_received": 1,
+    "opening_stock": 129,
+    "closing_stock": 124
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60303"
+  },
+  "product_ID": 27,
+  "inventory": 279,
+  "warehouse_name": "Warehouse_4",
+  "location": {
+    "latitude": 57.32009620779815,
+    "longitude": 1.7794277304037571
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 17,
+    "units_received": 3,
+    "opening_stock": 92,
+    "closing_stock": 116
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60305"
+  },
+  "product_ID": 28,
+  "inventory": 200,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 50.04678564060398,
+    "longitude": -5.721025491829382
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 5,
+    "units_received": 23,
+    "opening_stock": 83,
+    "closing_stock": 140
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6030e"
+  },
+  "product_ID": 32,
+  "inventory": 122,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 58.052188426557734,
+    "longitude": 0.7143634105783256
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 26,
+    "units_received": 32,
+    "opening_stock": 56,
+    "closing_stock": 40
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60319"
+  },
+  "product_ID": 38,
+  "inventory": 418,
+  "warehouse_name": "Warehouse_1",
+  "location": {
+    "latitude": 55.08863558368681,
+    "longitude": 0.6813345210432029
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 19,
+    "units_received": 37,
+    "opening_stock": 124,
+    "closing_stock": 53
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6031b"
+  },
+  "product_ID": 39,
+  "inventory": 146,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 58.396889173560126,
+    "longitude": 1.535268662871216
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 0,
+    "units_received": 43,
+    "opening_stock": 132,
+    "closing_stock": 115
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6031c"
+  },
+  "product_ID": 39,
+  "inventory": 251,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 52.4853133734691,
+    "longitude": -6.810262986411875
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 7,
+    "units_received": 28,
+    "opening_stock": 178,
+    "closing_stock": 109
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60320"
+  },
+  "product_ID": 41,
+  "inventory": 336,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 52.58274989963394,
+    "longitude": -3.6688127263426535
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 23,
+    "units_received": 27,
+    "opening_stock": 133,
+    "closing_stock": 23
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60327"
+  },
+  "product_ID": 45,
+  "inventory": 115,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 52.182262118920164,
+    "longitude": 1.3229281861402065
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 17,
+    "units_received": 17,
+    "opening_stock": 100,
+    "closing_stock": 84
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb6032f"
+  },
+  "product_ID": 49,
+  "inventory": 267,
+  "warehouse_name": "Warehouse_2",
+  "location": {
+    "latitude": 50.42624631449313,
+    "longitude": -0.03407948579344655
+  },
+  "date": "2025-01-06",
+  "daily_stats": {
+    "units_sold": 11,
+    "units_received": 36,
+    "opening_stock": 152,
+    "closing_stock": 37
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb60332"
+  },
+  "product_ID": 50,
+  "inventory": 309,
+  "warehouse_name": "Warehouse_5",
+  "location": {
+    "latitude": 54.55247112345564,
+    "longitude": -6.191940230654959
+  },
+  "date": "2025-01-05",
+  "daily_stats": {
+    "units_sold": 15,
+    "units_received": 23,
+    "opening_stock": 69,
+    "closing_stock": 138
+  }
+}]

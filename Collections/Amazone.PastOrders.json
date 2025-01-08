@@ -1,0 +1,3461 @@
+[{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd90d"
+  },
+  "order_ID": 71,
+  "customer_ID": 1,
+  "order_total": 38.62,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-10-13T03:08:06.869Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-15T03:08:06.869Z"
+  },
+  "products": [
+    {
+      "product_ID": 38,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd90f"
+  },
+  "order_ID": 73,
+  "customer_ID": 1,
+  "order_total": 4536.19,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-03-01T03:08:06.972Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-06T03:08:06.972Z"
+  },
+  "products": [
+    {
+      "product_ID": 48,
+      "quantity": 8
+    },
+    {
+      "product_ID": 17,
+      "quantity": 5
+    },
+    {
+      "product_ID": 30,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd915"
+  },
+  "order_ID": 79,
+  "customer_ID": 2,
+  "order_total": 5858.46,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-03-17T03:08:07.400Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-20T03:08:07.400Z"
+  },
+  "products": [
+    {
+      "product_ID": 3,
+      "quantity": 3
+    },
+    {
+      "product_ID": 1,
+      "quantity": 9
+    },
+    {
+      "product_ID": 23,
+      "quantity": 3
+    },
+    {
+      "product_ID": 37,
+      "quantity": 6
+    },
+    {
+      "product_ID": 35,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd916"
+  },
+  "order_ID": 80,
+  "customer_ID": 2,
+  "order_total": 1443.78,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-07-02T03:08:07.421Z"
+  },
+  "order_delivered": {
+    "$date": "2024-07-04T03:08:07.421Z"
+  },
+  "products": [
+    {
+      "product_ID": 28,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd91b"
+  },
+  "order_ID": 85,
+  "customer_ID": 3,
+  "order_total": 2794.32,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-01-19T03:08:07.698Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-21T03:08:07.698Z"
+  },
+  "products": [
+    {
+      "product_ID": 48,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd91e"
+  },
+  "order_ID": 88,
+  "customer_ID": 3,
+  "order_total": 954.17,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-01-12T03:08:07.927Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-14T03:08:07.927Z"
+  },
+  "products": [
+    {
+      "product_ID": 3,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd927"
+  },
+  "order_ID": 97,
+  "customer_ID": 5,
+  "order_total": 488.3,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-02-16T03:08:08.600Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-18T03:08:08.600Z"
+  },
+  "products": [
+    {
+      "product_ID": 39,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd92c"
+  },
+  "order_ID": 102,
+  "customer_ID": 6,
+  "order_total": 6210.72,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-11-03T03:08:08.882Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-07T03:08:08.882Z"
+  },
+  "products": [
+    {
+      "product_ID": 15,
+      "quantity": 5
+    },
+    {
+      "product_ID": 19,
+      "quantity": 2
+    },
+    {
+      "product_ID": 18,
+      "quantity": 6
+    },
+    {
+      "product_ID": 45,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd932"
+  },
+  "order_ID": 108,
+  "customer_ID": 7,
+  "order_total": 128.65,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-06-20T03:08:09.233Z"
+  },
+  "order_delivered": {
+    "$date": "2024-06-23T03:08:09.233Z"
+  },
+  "products": [
+    {
+      "product_ID": 6,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd939"
+  },
+  "order_ID": 115,
+  "customer_ID": 8,
+  "order_total": 1553.94,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-03-25T03:08:09.655Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-30T03:08:09.655Z"
+  },
+  "products": [
+    {
+      "product_ID": 3,
+      "quantity": 2
+    },
+    {
+      "product_ID": 26,
+      "quantity": 2
+    },
+    {
+      "product_ID": 33,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd93a"
+  },
+  "order_ID": 116,
+  "customer_ID": 8,
+  "order_total": 7909.08,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-12-08T03:08:09.717Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-12T03:08:09.717Z"
+  },
+  "products": [
+    {
+      "product_ID": 4,
+      "quantity": 5
+    },
+    {
+      "product_ID": 14,
+      "quantity": 8
+    },
+    {
+      "product_ID": 24,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd93d"
+  },
+  "order_ID": 119,
+  "customer_ID": 9,
+  "order_total": 974.44,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-03-26T03:08:09.849Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-29T03:08:09.849Z"
+  },
+  "products": [
+    {
+      "product_ID": 14,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd943"
+  },
+  "order_ID": 125,
+  "customer_ID": 10,
+  "order_total": 4997.93,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-09-04T03:08:10.321Z"
+  },
+  "order_delivered": {
+    "$date": "2024-09-05T03:08:10.321Z"
+  },
+  "products": [
+    {
+      "product_ID": 3,
+      "quantity": 6
+    },
+    {
+      "product_ID": 17,
+      "quantity": 10
+    },
+    {
+      "product_ID": 7,
+      "quantity": 10
+    },
+    {
+      "product_ID": 17,
+      "quantity": 1
+    },
+    {
+      "product_ID": 24,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd948"
+  },
+  "order_ID": 130,
+  "customer_ID": 11,
+  "order_total": 1803.85,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-02-03T03:08:10.624Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-04T03:08:10.624Z"
+  },
+  "products": [
+    {
+      "product_ID": 3,
+      "quantity": 1
+    },
+    {
+      "product_ID": 46,
+      "quantity": 4
+    },
+    {
+      "product_ID": 20,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd94f"
+  },
+  "order_ID": 137,
+  "customer_ID": 12,
+  "order_total": 9025.26,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-04-08T03:08:11.174Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-10T03:08:11.174Z"
+  },
+  "products": [
+    {
+      "product_ID": 22,
+      "quantity": 6
+    },
+    {
+      "product_ID": 10,
+      "quantity": 3
+    },
+    {
+      "product_ID": 40,
+      "quantity": 10
+    },
+    {
+      "product_ID": 49,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd955"
+  },
+  "order_ID": 143,
+  "customer_ID": 13,
+  "order_total": 219.78,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-12-19T03:08:11.539Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-21T03:08:11.539Z"
+  },
+  "products": [
+    {
+      "product_ID": 13,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd956"
+  },
+  "order_ID": 144,
+  "customer_ID": 13,
+  "order_total": 50.86,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-10-17T03:08:11.558Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-19T03:08:11.558Z"
+  },
+  "products": [
+    {
+      "product_ID": 50,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd959"
+  },
+  "order_ID": 147,
+  "customer_ID": 14,
+  "order_total": 6655.13,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-03-01T03:08:11.722Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-04T03:08:11.722Z"
+  },
+  "products": [
+    {
+      "product_ID": 19,
+      "quantity": 10
+    },
+    {
+      "product_ID": 45,
+      "quantity": 6
+    },
+    {
+      "product_ID": 17,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd95d"
+  },
+  "order_ID": 151,
+  "customer_ID": 14,
+  "order_total": 4395.34,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-02-21T03:08:12.106Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-26T03:08:12.106Z"
+  },
+  "products": [
+    {
+      "product_ID": 6,
+      "quantity": 10
+    },
+    {
+      "product_ID": 47,
+      "quantity": 2
+    },
+    {
+      "product_ID": 5,
+      "quantity": 4
+    },
+    {
+      "product_ID": 34,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd965"
+  },
+  "order_ID": 159,
+  "customer_ID": 16,
+  "order_total": 448.96,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-12-21T03:08:12.674Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-25T03:08:12.674Z"
+  },
+  "products": [
+    {
+      "product_ID": 18,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd96d"
+  },
+  "order_ID": 167,
+  "customer_ID": 17,
+  "order_total": 2768.1,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-08-04T03:08:13.331Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-09T03:08:13.331Z"
+  },
+  "products": [
+    {
+      "product_ID": 1,
+      "quantity": 1
+    },
+    {
+      "product_ID": 16,
+      "quantity": 6
+    },
+    {
+      "product_ID": 8,
+      "quantity": 2
+    },
+    {
+      "product_ID": 39,
+      "quantity": 8
+    },
+    {
+      "product_ID": 30,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd971"
+  },
+  "order_ID": 171,
+  "customer_ID": 18,
+  "order_total": 8264.08,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-11-13T03:08:13.530Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-16T03:08:13.530Z"
+  },
+  "products": [
+    {
+      "product_ID": 40,
+      "quantity": 4
+    },
+    {
+      "product_ID": 4,
+      "quantity": 2
+    },
+    {
+      "product_ID": 20,
+      "quantity": 5
+    },
+    {
+      "product_ID": 32,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd977"
+  },
+  "order_ID": 177,
+  "customer_ID": 18,
+  "order_total": 4415.18,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-07-05T03:08:13.923Z"
+  },
+  "order_delivered": {
+    "$date": "2024-07-08T03:08:13.923Z"
+  },
+  "products": [
+    {
+      "product_ID": 42,
+      "quantity": 8
+    },
+    {
+      "product_ID": 29,
+      "quantity": 4
+    },
+    {
+      "product_ID": 15,
+      "quantity": 1
+    },
+    {
+      "product_ID": 11,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd97b"
+  },
+  "order_ID": 181,
+  "customer_ID": 19,
+  "order_total": 4745.28,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-04-10T03:08:14.184Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-11T03:08:14.184Z"
+  },
+  "products": [
+    {
+      "product_ID": 8,
+      "quantity": 5
+    },
+    {
+      "product_ID": 3,
+      "quantity": 2
+    },
+    {
+      "product_ID": 44,
+      "quantity": 6
+    },
+    {
+      "product_ID": 41,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd97d"
+  },
+  "order_ID": 183,
+  "customer_ID": 19,
+  "order_total": 4570.78,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-01-07T03:08:14.288Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-09T03:08:14.288Z"
+  },
+  "products": [
+    {
+      "product_ID": 46,
+      "quantity": 3
+    },
+    {
+      "product_ID": 12,
+      "quantity": 2
+    },
+    {
+      "product_ID": 36,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd97e"
+  },
+  "order_ID": 184,
+  "customer_ID": 19,
+  "order_total": 3464.32,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-03-28T03:08:14.376Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-02T03:08:14.376Z"
+  },
+  "products": [
+    {
+      "product_ID": 11,
+      "quantity": 2
+    },
+    {
+      "product_ID": 3,
+      "quantity": 3
+    },
+    {
+      "product_ID": 31,
+      "quantity": 10
+    },
+    {
+      "product_ID": 8,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd917"
+  },
+  "order_ID": 81,
+  "customer_ID": 2,
+  "order_total": 1015.86,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-01-24T03:08:07.462Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-27T03:08:07.462Z"
+  },
+  "products": [
+    {
+      "product_ID": 14,
+      "quantity": 1
+    },
+    {
+      "product_ID": 16,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd91d"
+  },
+  "order_ID": 87,
+  "customer_ID": 3,
+  "order_total": 7722.67,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-10-12T03:08:07.904Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-17T03:08:07.904Z"
+  },
+  "products": [
+    {
+      "product_ID": 19,
+      "quantity": 2
+    },
+    {
+      "product_ID": 17,
+      "quantity": 9
+    },
+    {
+      "product_ID": 4,
+      "quantity": 1
+    },
+    {
+      "product_ID": 23,
+      "quantity": 8
+    },
+    {
+      "product_ID": 42,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd928"
+  },
+  "order_ID": 98,
+  "customer_ID": 5,
+  "order_total": 141.36,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-08-15T03:08:08.627Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-17T03:08:08.627Z"
+  },
+  "products": [
+    {
+      "product_ID": 34,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd92a"
+  },
+  "order_ID": 100,
+  "customer_ID": 6,
+  "order_total": 3985.51,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-06-24T03:08:08.738Z"
+  },
+  "order_delivered": {
+    "$date": "2024-06-28T03:08:08.738Z"
+  },
+  "products": [
+    {
+      "product_ID": 26,
+      "quantity": 4
+    },
+    {
+      "product_ID": 8,
+      "quantity": 6
+    },
+    {
+      "product_ID": 7,
+      "quantity": 2
+    },
+    {
+      "product_ID": 40,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd92d"
+  },
+  "order_ID": 103,
+  "customer_ID": 6,
+  "order_total": 1831.74,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-02-08T03:08:08.931Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-13T03:08:08.931Z"
+  },
+  "products": [
+    {
+      "product_ID": 3,
+      "quantity": 4
+    },
+    {
+      "product_ID": 6,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd92e"
+  },
+  "order_ID": 104,
+  "customer_ID": 6,
+  "order_total": 5832.74,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-02-26T03:08:09.038Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-28T03:08:09.038Z"
+  },
+  "products": [
+    {
+      "product_ID": 39,
+      "quantity": 3
+    },
+    {
+      "product_ID": 35,
+      "quantity": 5
+    },
+    {
+      "product_ID": 44,
+      "quantity": 6
+    },
+    {
+      "product_ID": 23,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd936"
+  },
+  "order_ID": 112,
+  "customer_ID": 8,
+  "order_total": 6236.41,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-03-23T03:08:09.497Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-28T03:08:09.497Z"
+  },
+  "products": [
+    {
+      "product_ID": 34,
+      "quantity": 8
+    },
+    {
+      "product_ID": 29,
+      "quantity": 8
+    },
+    {
+      "product_ID": 41,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd937"
+  },
+  "order_ID": 113,
+  "customer_ID": 8,
+  "order_total": 374.76,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-04-11T03:08:09.516Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-12T03:08:09.516Z"
+  },
+  "products": [
+    {
+      "product_ID": 43,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd93c"
+  },
+  "order_ID": 118,
+  "customer_ID": 9,
+  "order_total": 7456.84,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-09-29T03:08:09.824Z"
+  },
+  "order_delivered": {
+    "$date": "2024-09-30T03:08:09.824Z"
+  },
+  "products": [
+    {
+      "product_ID": 20,
+      "quantity": 10
+    },
+    {
+      "product_ID": 12,
+      "quantity": 10
+    },
+    {
+      "product_ID": 28,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd944"
+  },
+  "order_ID": 126,
+  "customer_ID": 10,
+  "order_total": 4137.76,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-11-13T03:08:10.384Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-14T03:08:10.384Z"
+  },
+  "products": [
+    {
+      "product_ID": 45,
+      "quantity": 4
+    },
+    {
+      "product_ID": 35,
+      "quantity": 7
+    },
+    {
+      "product_ID": 38,
+      "quantity": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd946"
+  },
+  "order_ID": 128,
+  "customer_ID": 10,
+  "order_total": 2334.71,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-04-02T03:08:10.449Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-06T03:08:10.449Z"
+  },
+  "products": [
+    {
+      "product_ID": 40,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd94e"
+  },
+  "order_ID": 136,
+  "customer_ID": 12,
+  "order_total": 1917.84,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-12-19T03:08:11.085Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-20T03:08:11.085Z"
+  },
+  "products": [
+    {
+      "product_ID": 46,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd95c"
+  },
+  "order_ID": 150,
+  "customer_ID": 14,
+  "order_total": 4889.45,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-04-29T03:08:12.017Z"
+  },
+  "order_delivered": {
+    "$date": "2024-05-03T03:08:12.017Z"
+  },
+  "products": [
+    {
+      "product_ID": 29,
+      "quantity": 8
+    },
+    {
+      "product_ID": 5,
+      "quantity": 5
+    },
+    {
+      "product_ID": 27,
+      "quantity": 2
+    },
+    {
+      "product_ID": 31,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd960"
+  },
+  "order_ID": 154,
+  "customer_ID": 15,
+  "order_total": 5491.7,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-01-28T03:08:12.308Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-30T03:08:12.308Z"
+  },
+  "products": [
+    {
+      "product_ID": 31,
+      "quantity": 6
+    },
+    {
+      "product_ID": 19,
+      "quantity": 9
+    },
+    {
+      "product_ID": 19,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd962"
+  },
+  "order_ID": 156,
+  "customer_ID": 15,
+  "order_total": 519.02,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-01-29T03:08:12.458Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-02T03:08:12.458Z"
+  },
+  "products": [
+    {
+      "product_ID": 16,
+      "quantity": 1
+    },
+    {
+      "product_ID": 17,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd963"
+  },
+  "order_ID": 157,
+  "customer_ID": 15,
+  "order_total": 7515.27,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-04-24T03:08:12.567Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-27T03:08:12.567Z"
+  },
+  "products": [
+    {
+      "product_ID": 32,
+      "quantity": 5
+    },
+    {
+      "product_ID": 16,
+      "quantity": 8
+    },
+    {
+      "product_ID": 37,
+      "quantity": 9
+    },
+    {
+      "product_ID": 47,
+      "quantity": 9
+    },
+    {
+      "product_ID": 11,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd96a"
+  },
+  "order_ID": 164,
+  "customer_ID": 16,
+  "order_total": 7577.99,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-08-06T03:08:12.959Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-11T03:08:12.959Z"
+  },
+  "products": [
+    {
+      "product_ID": 18,
+      "quantity": 6
+    },
+    {
+      "product_ID": 42,
+      "quantity": 10
+    },
+    {
+      "product_ID": 3,
+      "quantity": 6
+    },
+    {
+      "product_ID": 6,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd96f"
+  },
+  "order_ID": 169,
+  "customer_ID": 17,
+  "order_total": 2825.1,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-02-26T03:08:13.399Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-01T03:08:13.399Z"
+  },
+  "products": [
+    {
+      "product_ID": 31,
+      "quantity": 6
+    },
+    {
+      "product_ID": 30,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd973"
+  },
+  "order_ID": 173,
+  "customer_ID": 18,
+  "order_total": 3906.9,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-05-24T03:08:13.604Z"
+  },
+  "order_delivered": {
+    "$date": "2024-05-28T03:08:13.604Z"
+  },
+  "products": [
+    {
+      "product_ID": 28,
+      "quantity": 5
+    },
+    {
+      "product_ID": 48,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd97a"
+  },
+  "order_ID": 180,
+  "customer_ID": 19,
+  "order_total": 2977.52,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-04-25T03:08:14.101Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-26T03:08:14.101Z"
+  },
+  "products": [
+    {
+      "product_ID": 4,
+      "quantity": 8
+    },
+    {
+      "product_ID": 26,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd97f"
+  },
+  "order_ID": 185,
+  "customer_ID": 20,
+  "order_total": 4301.4,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-10-03T03:08:14.416Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-08T03:08:14.416Z"
+  },
+  "products": [
+    {
+      "product_ID": 47,
+      "quantity": 5
+    },
+    {
+      "product_ID": 44,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd982"
+  },
+  "order_ID": 188,
+  "customer_ID": 20,
+  "order_total": 3407.19,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-01-31T03:08:14.640Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-01T03:08:14.640Z"
+  },
+  "products": [
+    {
+      "product_ID": 18,
+      "quantity": 3
+    },
+    {
+      "product_ID": 7,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd983"
+  },
+  "order_ID": 189,
+  "customer_ID": 20,
+  "order_total": 4690.04,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-08-15T03:08:14.751Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-19T03:08:14.751Z"
+  },
+  "products": [
+    {
+      "product_ID": 19,
+      "quantity": 9
+    },
+    {
+      "product_ID": 16,
+      "quantity": 6
+    },
+    {
+      "product_ID": 10,
+      "quantity": 7
+    },
+    {
+      "product_ID": 38,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd90c"
+  },
+  "order_ID": 70,
+  "customer_ID": 1,
+  "order_total": 5414.86,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-08-21T03:08:06.844Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-23T03:08:06.844Z"
+  },
+  "products": [
+    {
+      "product_ID": 40,
+      "quantity": 10
+    },
+    {
+      "product_ID": 27,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd90e"
+  },
+  "order_ID": 72,
+  "customer_ID": 1,
+  "order_total": 3513.42,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-10-31T03:08:06.894Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-05T03:08:06.894Z"
+  },
+  "products": [
+    {
+      "product_ID": 36,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd910"
+  },
+  "order_ID": 74,
+  "customer_ID": 1,
+  "order_total": 8748.59,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-02-01T03:08:07.057Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-05T03:08:07.057Z"
+  },
+  "products": [
+    {
+      "product_ID": 44,
+      "quantity": 6
+    },
+    {
+      "product_ID": 10,
+      "quantity": 4
+    },
+    {
+      "product_ID": 32,
+      "quantity": 10
+    },
+    {
+      "product_ID": 3,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd912"
+  },
+  "order_ID": 76,
+  "customer_ID": 2,
+  "order_total": 376.4,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-07-21T03:08:07.102Z"
+  },
+  "order_delivered": {
+    "$date": "2024-07-24T03:08:07.102Z"
+  },
+  "products": [
+    {
+      "product_ID": 26,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd918"
+  },
+  "order_ID": 82,
+  "customer_ID": 3,
+  "order_total": 9031.7,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-03-18T03:08:07.571Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-19T03:08:07.571Z"
+  },
+  "products": [
+    {
+      "product_ID": 47,
+      "quantity": 4
+    },
+    {
+      "product_ID": 24,
+      "quantity": 6
+    },
+    {
+      "product_ID": 33,
+      "quantity": 2
+    },
+    {
+      "product_ID": 3,
+      "quantity": 10
+    },
+    {
+      "product_ID": 20,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd920"
+  },
+  "order_ID": 90,
+  "customer_ID": 4,
+  "order_total": 6006.85,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-05-25T03:08:08.086Z"
+  },
+  "order_delivered": {
+    "$date": "2024-05-29T03:08:08.086Z"
+  },
+  "products": [
+    {
+      "product_ID": 8,
+      "quantity": 8
+    },
+    {
+      "product_ID": 31,
+      "quantity": 3
+    },
+    {
+      "product_ID": 14,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd923"
+  },
+  "order_ID": 93,
+  "customer_ID": 4,
+  "order_total": 3833.93,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-03-24T03:08:08.394Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-29T03:08:08.394Z"
+  },
+  "products": [
+    {
+      "product_ID": 30,
+      "quantity": 9
+    },
+    {
+      "product_ID": 12,
+      "quantity": 5
+    },
+    {
+      "product_ID": 39,
+      "quantity": 6
+    },
+    {
+      "product_ID": 39,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd925"
+  },
+  "order_ID": 95,
+  "customer_ID": 5,
+  "order_total": 4554.05,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-05-30T03:08:08.484Z"
+  },
+  "order_delivered": {
+    "$date": "2024-05-31T03:08:08.484Z"
+  },
+  "products": [
+    {
+      "product_ID": 10,
+      "quantity": 8
+    },
+    {
+      "product_ID": 42,
+      "quantity": 8
+    },
+    {
+      "product_ID": 23,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd92b"
+  },
+  "order_ID": 101,
+  "customer_ID": 6,
+  "order_total": 1852.84,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-06-12T03:08:08.784Z"
+  },
+  "order_delivered": {
+    "$date": "2024-06-16T03:08:08.784Z"
+  },
+  "products": [
+    {
+      "product_ID": 9,
+      "quantity": 8
+    },
+    {
+      "product_ID": 42,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd933"
+  },
+  "order_ID": 109,
+  "customer_ID": 7,
+  "order_total": 897.54,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-11-11T03:08:09.279Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-16T03:08:09.279Z"
+  },
+  "products": [
+    {
+      "product_ID": 6,
+      "quantity": 6
+    },
+    {
+      "product_ID": 33,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd93b"
+  },
+  "order_ID": 117,
+  "customer_ID": 9,
+  "order_total": 1162.29,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-08-04T03:08:09.758Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-05T03:08:09.758Z"
+  },
+  "products": [
+    {
+      "product_ID": 21,
+      "quantity": 1
+    },
+    {
+      "product_ID": 4,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd93e"
+  },
+  "order_ID": 120,
+  "customer_ID": 9,
+  "order_total": 8269.41,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-08-16T03:08:09.958Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-20T03:08:09.958Z"
+  },
+  "products": [
+    {
+      "product_ID": 13,
+      "quantity": 4
+    },
+    {
+      "product_ID": 48,
+      "quantity": 3
+    },
+    {
+      "product_ID": 50,
+      "quantity": 1
+    },
+    {
+      "product_ID": 23,
+      "quantity": 6
+    },
+    {
+      "product_ID": 32,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd93f"
+  },
+  "order_ID": 121,
+  "customer_ID": 9,
+  "order_total": 5382.76,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-11-10T03:08:10.023Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-14T03:08:10.023Z"
+  },
+  "products": [
+    {
+      "product_ID": 30,
+      "quantity": 3
+    },
+    {
+      "product_ID": 32,
+      "quantity": 4
+    },
+    {
+      "product_ID": 35,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd941"
+  },
+  "order_ID": 123,
+  "customer_ID": 9,
+  "order_total": 3655.53,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-04-15T03:08:10.155Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-16T03:08:10.155Z"
+  },
+  "products": [
+    {
+      "product_ID": 29,
+      "quantity": 2
+    },
+    {
+      "product_ID": 50,
+      "quantity": 4
+    },
+    {
+      "product_ID": 2,
+      "quantity": 7
+    },
+    {
+      "product_ID": 40,
+      "quantity": 5
+    },
+    {
+      "product_ID": 8,
+      "quantity": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd942"
+  },
+  "order_ID": 124,
+  "customer_ID": 10,
+  "order_total": 5416.86,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-03-15T03:08:10.201Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-16T03:08:10.201Z"
+  },
+  "products": [
+    {
+      "product_ID": 4,
+      "quantity": 3
+    },
+    {
+      "product_ID": 14,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd947"
+  },
+  "order_ID": 129,
+  "customer_ID": 11,
+  "order_total": 7727.26,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-09-07T03:08:10.557Z"
+  },
+  "order_delivered": {
+    "$date": "2024-09-12T03:08:10.557Z"
+  },
+  "products": [
+    {
+      "product_ID": 23,
+      "quantity": 1
+    },
+    {
+      "product_ID": 27,
+      "quantity": 4
+    },
+    {
+      "product_ID": 41,
+      "quantity": 9
+    },
+    {
+      "product_ID": 30,
+      "quantity": 8
+    },
+    {
+      "product_ID": 33,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd949"
+  },
+  "order_ID": 131,
+  "customer_ID": 11,
+  "order_total": 2904.24,
+  "partner_assigned": 5,
+  "order_placed": {
+    "$date": "2024-03-07T03:08:10.686Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-08T03:08:10.686Z"
+  },
+  "products": [
+    {
+      "product_ID": 37,
+      "quantity": 10
+    },
+    {
+      "product_ID": 11,
+      "quantity": 2
+    },
+    {
+      "product_ID": 20,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd94b"
+  },
+  "order_ID": 133,
+  "customer_ID": 11,
+  "order_total": 1496,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-07-11T03:08:10.834Z"
+  },
+  "order_delivered": {
+    "$date": "2024-07-16T03:08:10.834Z"
+  },
+  "products": [
+    {
+      "product_ID": 22,
+      "quantity": 3
+    },
+    {
+      "product_ID": 42,
+      "quantity": 1
+    },
+    {
+      "product_ID": 2,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd950"
+  },
+  "order_ID": 138,
+  "customer_ID": 12,
+  "order_total": 6982.86,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-05-06T03:08:11.289Z"
+  },
+  "order_delivered": {
+    "$date": "2024-05-11T03:08:11.289Z"
+  },
+  "products": [
+    {
+      "product_ID": 34,
+      "quantity": 1
+    },
+    {
+      "product_ID": 30,
+      "quantity": 2
+    },
+    {
+      "product_ID": 45,
+      "quantity": 6
+    },
+    {
+      "product_ID": 23,
+      "quantity": 9
+    },
+    {
+      "product_ID": 21,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd951"
+  },
+  "order_ID": 139,
+  "customer_ID": 13,
+  "order_total": 3088.34,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2025-01-03T03:08:11.360Z"
+  },
+  "order_delivered": {
+    "$date": "2025-01-08T03:08:11.360Z"
+  },
+  "products": [
+    {
+      "product_ID": 28,
+      "quantity": 5
+    },
+    {
+      "product_ID": 26,
+      "quantity": 5
+    },
+    {
+      "product_ID": 32,
+      "quantity": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd952"
+  },
+  "order_ID": 140,
+  "customer_ID": 13,
+  "order_total": 1748.65,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-10-27T03:08:11.386Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-31T03:08:11.386Z"
+  },
+  "products": [
+    {
+      "product_ID": 23,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd95a"
+  },
+  "order_ID": 148,
+  "customer_ID": 14,
+  "order_total": 2818.54,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-01-16T03:08:11.839Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-21T03:08:11.839Z"
+  },
+  "products": [
+    {
+      "product_ID": 10,
+      "quantity": 5
+    },
+    {
+      "product_ID": 26,
+      "quantity": 10
+    },
+    {
+      "product_ID": 5,
+      "quantity": 2
+    },
+    {
+      "product_ID": 38,
+      "quantity": 8
+    },
+    {
+      "product_ID": 10,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd95e"
+  },
+  "order_ID": 152,
+  "customer_ID": 15,
+  "order_total": 2333.88,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-01-08T03:08:12.130Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-13T03:08:12.130Z"
+  },
+  "products": [
+    {
+      "product_ID": 20,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd95f"
+  },
+  "order_ID": 153,
+  "customer_ID": 15,
+  "order_total": 11096.36,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-03-09T03:08:12.232Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-10T03:08:12.232Z"
+  },
+  "products": [
+    {
+      "product_ID": 32,
+      "quantity": 7
+    },
+    {
+      "product_ID": 42,
+      "quantity": 6
+    },
+    {
+      "product_ID": 32,
+      "quantity": 2
+    },
+    {
+      "product_ID": 28,
+      "quantity": 7
+    },
+    {
+      "product_ID": 36,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd966"
+  },
+  "order_ID": 160,
+  "customer_ID": 16,
+  "order_total": 2355.24,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-03-06T03:08:12.724Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-09T03:08:12.724Z"
+  },
+  "products": [
+    {
+      "product_ID": 4,
+      "quantity": 6
+    },
+    {
+      "product_ID": 43,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd968"
+  },
+  "order_ID": 162,
+  "customer_ID": 16,
+  "order_total": 1590.4,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-07-25T03:08:12.764Z"
+  },
+  "order_delivered": {
+    "$date": "2024-07-26T03:08:12.764Z"
+  },
+  "products": [
+    {
+      "product_ID": 35,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd969"
+  },
+  "order_ID": 163,
+  "customer_ID": 16,
+  "order_total": 8927.37,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-05-09T03:08:12.868Z"
+  },
+  "order_delivered": {
+    "$date": "2024-05-13T03:08:12.868Z"
+  },
+  "products": [
+    {
+      "product_ID": 29,
+      "quantity": 8
+    },
+    {
+      "product_ID": 23,
+      "quantity": 8
+    },
+    {
+      "product_ID": 31,
+      "quantity": 1
+    },
+    {
+      "product_ID": 45,
+      "quantity": 8
+    },
+    {
+      "product_ID": 10,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd96c"
+  },
+  "order_ID": 166,
+  "customer_ID": 17,
+  "order_total": 3363.15,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-08-09T03:08:13.208Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-13T03:08:13.208Z"
+  },
+  "products": [
+    {
+      "product_ID": 31,
+      "quantity": 7
+    },
+    {
+      "product_ID": 17,
+      "quantity": 4
+    },
+    {
+      "product_ID": 10,
+      "quantity": 2
+    },
+    {
+      "product_ID": 30,
+      "quantity": 2
+    },
+    {
+      "product_ID": 34,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd96e"
+  },
+  "order_ID": 168,
+  "customer_ID": 17,
+  "order_total": 2334.71,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-08-17T03:08:13.356Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-19T03:08:13.356Z"
+  },
+  "products": [
+    {
+      "product_ID": 40,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd970"
+  },
+  "order_ID": 170,
+  "customer_ID": 17,
+  "order_total": 5728.84,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-02-07T03:08:13.440Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-12T03:08:13.440Z"
+  },
+  "products": [
+    {
+      "product_ID": 35,
+      "quantity": 3
+    },
+    {
+      "product_ID": 32,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd972"
+  },
+  "order_ID": 172,
+  "customer_ID": 18,
+  "order_total": 375.66,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-10-10T03:08:13.555Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-12T03:08:13.555Z"
+  },
+  "products": [
+    {
+      "product_ID": 9,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd974"
+  },
+  "order_ID": 174,
+  "customer_ID": 18,
+  "order_total": 1287.54,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-11-23T03:08:13.652Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-25T03:08:13.652Z"
+  },
+  "products": [
+    {
+      "product_ID": 13,
+      "quantity": 6
+    },
+    {
+      "product_ID": 33,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd976"
+  },
+  "order_ID": 176,
+  "customer_ID": 18,
+  "order_total": 6125.28,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-02-19T03:08:13.841Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-23T03:08:13.841Z"
+  },
+  "products": [
+    {
+      "product_ID": 1,
+      "quantity": 8
+    },
+    {
+      "product_ID": 16,
+      "quantity": 1
+    },
+    {
+      "product_ID": 20,
+      "quantity": 5
+    },
+    {
+      "product_ID": 22,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd978"
+  },
+  "order_ID": 178,
+  "customer_ID": 19,
+  "order_total": 6664.56,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-08-28T03:08:14.041Z"
+  },
+  "order_delivered": {
+    "$date": "2024-08-29T03:08:14.041Z"
+  },
+  "products": [
+    {
+      "product_ID": 18,
+      "quantity": 7
+    },
+    {
+      "product_ID": 34,
+      "quantity": 8
+    },
+    {
+      "product_ID": 25,
+      "quantity": 10
+    },
+    {
+      "product_ID": 36,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd984"
+  },
+  "order_ID": 190,
+  "customer_ID": 20,
+  "order_total": 3680.66,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-09-21T03:08:14.816Z"
+  },
+  "order_delivered": {
+    "$date": "2024-09-26T03:08:14.816Z"
+  },
+  "products": [
+    {
+      "product_ID": 28,
+      "quantity": 8
+    },
+    {
+      "product_ID": 11,
+      "quantity": 3
+    },
+    {
+      "product_ID": 47,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd911"
+  },
+  "order_ID": 75,
+  "customer_ID": 2,
+  "order_total": 554.7,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-11-25T03:08:07.081Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-28T03:08:07.081Z"
+  },
+  "products": [
+    {
+      "product_ID": 37,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd913"
+  },
+  "order_ID": 77,
+  "customer_ID": 2,
+  "order_total": 9293.77,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-02-17T03:08:07.221Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-22T03:08:07.221Z"
+  },
+  "products": [
+    {
+      "product_ID": 23,
+      "quantity": 6
+    },
+    {
+      "product_ID": 45,
+      "quantity": 7
+    },
+    {
+      "product_ID": 31,
+      "quantity": 10
+    },
+    {
+      "product_ID": 5,
+      "quantity": 6
+    },
+    {
+      "product_ID": 50,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd914"
+  },
+  "order_ID": 78,
+  "customer_ID": 2,
+  "order_total": 5621.82,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-06-26T03:08:07.291Z"
+  },
+  "order_delivered": {
+    "$date": "2024-07-01T03:08:07.291Z"
+  },
+  "products": [
+    {
+      "product_ID": 40,
+      "quantity": 6
+    },
+    {
+      "product_ID": 24,
+      "quantity": 8
+    },
+    {
+      "product_ID": 9,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd919"
+  },
+  "order_ID": 83,
+  "customer_ID": 3,
+  "order_total": 341.81,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-04-26T03:08:07.593Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-29T03:08:07.593Z"
+  },
+  "products": [
+    {
+      "product_ID": 39,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd91a"
+  },
+  "order_ID": 84,
+  "customer_ID": 3,
+  "order_total": 7960.98,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-05-04T03:08:07.676Z"
+  },
+  "order_delivered": {
+    "$date": "2024-05-09T03:08:07.676Z"
+  },
+  "products": [
+    {
+      "product_ID": 47,
+      "quantity": 5
+    },
+    {
+      "product_ID": 20,
+      "quantity": 10
+    },
+    {
+      "product_ID": 43,
+      "quantity": 9
+    },
+    {
+      "product_ID": 29,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd91c"
+  },
+  "order_ID": 86,
+  "customer_ID": 3,
+  "order_total": 7664.5,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-02-10T03:08:07.791Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-15T03:08:07.791Z"
+  },
+  "products": [
+    {
+      "product_ID": 35,
+      "quantity": 6
+    },
+    {
+      "product_ID": 48,
+      "quantity": 7
+    },
+    {
+      "product_ID": 14,
+      "quantity": 6
+    },
+    {
+      "product_ID": 13,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd91f"
+  },
+  "order_ID": 89,
+  "customer_ID": 4,
+  "order_total": 557.66,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-03-25T03:08:08.022Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-26T03:08:08.022Z"
+  },
+  "products": [
+    {
+      "product_ID": 50,
+      "quantity": 4
+    },
+    {
+      "product_ID": 8,
+      "quantity": 1
+    },
+    {
+      "product_ID": 13,
+      "quantity": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd921"
+  },
+  "order_ID": 91,
+  "customer_ID": 4,
+  "order_total": 5912.61,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-02-03T03:08:08.196Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-07T03:08:08.196Z"
+  },
+  "products": [
+    {
+      "product_ID": 47,
+      "quantity": 7
+    },
+    {
+      "product_ID": 46,
+      "quantity": 1
+    },
+    {
+      "product_ID": 7,
+      "quantity": 3
+    },
+    {
+      "product_ID": 13,
+      "quantity": 6
+    },
+    {
+      "product_ID": 6,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd922"
+  },
+  "order_ID": 92,
+  "customer_ID": 4,
+  "order_total": 6764.67,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-12-02T03:08:08.288Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-05T03:08:08.288Z"
+  },
+  "products": [
+    {
+      "product_ID": 44,
+      "quantity": 2
+    },
+    {
+      "product_ID": 13,
+      "quantity": 1
+    },
+    {
+      "product_ID": 22,
+      "quantity": 6
+    },
+    {
+      "product_ID": 42,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd924"
+  },
+  "order_ID": 94,
+  "customer_ID": 5,
+  "order_total": 1171.14,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-04-03T03:08:08.415Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-07T03:08:08.415Z"
+  },
+  "products": [
+    {
+      "product_ID": 36,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd926"
+  },
+  "order_ID": 96,
+  "customer_ID": 5,
+  "order_total": 3467.87,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-06-13T03:08:08.578Z"
+  },
+  "order_delivered": {
+    "$date": "2024-06-15T03:08:08.578Z"
+  },
+  "products": [
+    {
+      "product_ID": 18,
+      "quantity": 6
+    },
+    {
+      "product_ID": 1,
+      "quantity": 6
+    },
+    {
+      "product_ID": 42,
+      "quantity": 1
+    },
+    {
+      "product_ID": 25,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd929"
+  },
+  "order_ID": 99,
+  "customer_ID": 6,
+  "order_total": 302.08,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-06-21T03:08:08.653Z"
+  },
+  "order_delivered": {
+    "$date": "2024-06-25T03:08:08.653Z"
+  },
+  "products": [
+    {
+      "product_ID": 16,
+      "quantity": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd92f"
+  },
+  "order_ID": 105,
+  "customer_ID": 6,
+  "order_total": 3654.04,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-09-19T03:08:09.098Z"
+  },
+  "order_delivered": {
+    "$date": "2024-09-24T03:08:09.098Z"
+  },
+  "products": [
+    {
+      "product_ID": 30,
+      "quantity": 1
+    },
+    {
+      "product_ID": 44,
+      "quantity": 2
+    },
+    {
+      "product_ID": 40,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd930"
+  },
+  "order_ID": 106,
+  "customer_ID": 7,
+  "order_total": 1433.8,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-11-19T03:08:09.145Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-20T03:08:09.145Z"
+  },
+  "products": [
+    {
+      "product_ID": 33,
+      "quantity": 10
+    },
+    {
+      "product_ID": 17,
+      "quantity": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd931"
+  },
+  "order_ID": 107,
+  "customer_ID": 7,
+  "order_total": 5041.26,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-06-11T03:08:09.212Z"
+  },
+  "order_delivered": {
+    "$date": "2024-06-12T03:08:09.212Z"
+  },
+  "products": [
+    {
+      "product_ID": 20,
+      "quantity": 3
+    },
+    {
+      "product_ID": 1,
+      "quantity": 8
+    },
+    {
+      "product_ID": 1,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd934"
+  },
+  "order_ID": 110,
+  "customer_ID": 7,
+  "order_total": 3358.42,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-12-04T03:08:09.384Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-05T03:08:09.384Z"
+  },
+  "products": [
+    {
+      "product_ID": 33,
+      "quantity": 7
+    },
+    {
+      "product_ID": 28,
+      "quantity": 6
+    },
+    {
+      "product_ID": 14,
+      "quantity": 1
+    },
+    {
+      "product_ID": 6,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd935"
+  },
+  "order_ID": 111,
+  "customer_ID": 8,
+  "order_total": 2751.21,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-09-27T03:08:09.430Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-02T03:08:09.430Z"
+  },
+  "products": [
+    {
+      "product_ID": 25,
+      "quantity": 9
+    },
+    {
+      "product_ID": 44,
+      "quantity": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd938"
+  },
+  "order_ID": 114,
+  "customer_ID": 8,
+  "order_total": 3994.67,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-12-22T03:08:09.591Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-25T03:08:09.591Z"
+  },
+  "products": [
+    {
+      "product_ID": 15,
+      "quantity": 7
+    },
+    {
+      "product_ID": 49,
+      "quantity": 4
+    },
+    {
+      "product_ID": 7,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd940"
+  },
+  "order_ID": 122,
+  "customer_ID": 9,
+  "order_total": 1518.75,
+  "partner_assigned": 4,
+  "order_placed": {
+    "$date": "2024-11-19T03:08:10.044Z"
+  },
+  "order_delivered": {
+    "$date": "2024-11-20T03:08:10.044Z"
+  },
+  "products": [
+    {
+      "product_ID": 7,
+      "quantity": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd945"
+  },
+  "order_ID": 127,
+  "customer_ID": 10,
+  "order_total": 1940.58,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-03-26T03:08:10.426Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-31T03:08:10.426Z"
+  },
+  "products": [
+    {
+      "product_ID": 9,
+      "quantity": 9
+    },
+    {
+      "product_ID": 30,
+      "quantity": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd94a"
+  },
+  "order_ID": 132,
+  "customer_ID": 11,
+  "order_total": 10158.91,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-01-16T03:08:10.768Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-19T03:08:10.768Z"
+  },
+  "products": [
+    {
+      "product_ID": 44,
+      "quantity": 8
+    },
+    {
+      "product_ID": 39,
+      "quantity": 5
+    },
+    {
+      "product_ID": 47,
+      "quantity": 10
+    },
+    {
+      "product_ID": 46,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd94c"
+  },
+  "order_ID": 134,
+  "customer_ID": 12,
+  "order_total": 5771.66,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-02-11T03:08:10.946Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-12T03:08:10.946Z"
+  },
+  "products": [
+    {
+      "product_ID": 3,
+      "quantity": 4
+    },
+    {
+      "product_ID": 34,
+      "quantity": 6
+    },
+    {
+      "product_ID": 26,
+      "quantity": 9
+    },
+    {
+      "product_ID": 23,
+      "quantity": 10
+    },
+    {
+      "product_ID": 50,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd94d"
+  },
+  "order_ID": 135,
+  "customer_ID": 12,
+  "order_total": 7706.7,
+  "partner_assigned": 6,
+  "order_placed": {
+    "$date": "2024-02-05T03:08:11.063Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-10T03:08:11.063Z"
+  },
+  "products": [
+    {
+      "product_ID": 49,
+      "quantity": 8
+    },
+    {
+      "product_ID": 16,
+      "quantity": 2
+    },
+    {
+      "product_ID": 26,
+      "quantity": 7
+    },
+    {
+      "product_ID": 28,
+      "quantity": 9
+    },
+    {
+      "product_ID": 46,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd953"
+  },
+  "order_ID": 141,
+  "customer_ID": 13,
+  "order_total": 528.64,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-03-10T03:08:11.411Z"
+  },
+  "order_delivered": {
+    "$date": "2024-03-13T03:08:11.411Z"
+  },
+  "products": [
+    {
+      "product_ID": 16,
+      "quantity": 7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd954"
+  },
+  "order_ID": 142,
+  "customer_ID": 13,
+  "order_total": 5166.22,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-12-16T03:08:11.518Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-17T03:08:11.518Z"
+  },
+  "products": [
+    {
+      "product_ID": 24,
+      "quantity": 2
+    },
+    {
+      "product_ID": 5,
+      "quantity": 5
+    },
+    {
+      "product_ID": 43,
+      "quantity": 1
+    },
+    {
+      "product_ID": 7,
+      "quantity": 9
+    },
+    {
+      "product_ID": 27,
+      "quantity": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd957"
+  },
+  "order_ID": 145,
+  "customer_ID": 13,
+  "order_total": 3765.87,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-02-11T03:08:11.578Z"
+  },
+  "order_delivered": {
+    "$date": "2024-02-13T03:08:11.578Z"
+  },
+  "products": [
+    {
+      "product_ID": 49,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd958"
+  },
+  "order_ID": 146,
+  "customer_ID": 14,
+  "order_total": 1340.94,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-10-25T03:08:11.653Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-27T03:08:11.653Z"
+  },
+  "products": [
+    {
+      "product_ID": 15,
+      "quantity": 3
+    },
+    {
+      "product_ID": 29,
+      "quantity": 3
+    },
+    {
+      "product_ID": 43,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd95b"
+  },
+  "order_ID": 149,
+  "customer_ID": 14,
+  "order_total": 5607.27,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-01-12T03:08:11.931Z"
+  },
+  "order_delivered": {
+    "$date": "2024-01-13T03:08:11.931Z"
+  },
+  "products": [
+    {
+      "product_ID": 18,
+      "quantity": 8
+    },
+    {
+      "product_ID": 40,
+      "quantity": 9
+    },
+    {
+      "product_ID": 49,
+      "quantity": 1
+    },
+    {
+      "product_ID": 21,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd961"
+  },
+  "order_ID": 155,
+  "customer_ID": 15,
+  "order_total": 3414.06,
+  "partner_assigned": 7,
+  "order_placed": {
+    "$date": "2024-10-21T03:08:12.385Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-24T03:08:12.385Z"
+  },
+  "products": [
+    {
+      "product_ID": 48,
+      "quantity": 5
+    },
+    {
+      "product_ID": 10,
+      "quantity": 4
+    },
+    {
+      "product_ID": 14,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd964"
+  },
+  "order_ID": 158,
+  "customer_ID": 16,
+  "order_total": 2997.26,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-06-15T03:08:12.653Z"
+  },
+  "order_delivered": {
+    "$date": "2024-06-16T03:08:12.653Z"
+  },
+  "products": [
+    {
+      "product_ID": 37,
+      "quantity": 3
+    },
+    {
+      "product_ID": 29,
+      "quantity": 5
+    },
+    {
+      "product_ID": 27,
+      "quantity": 2
+    },
+    {
+      "product_ID": 6,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd967"
+  },
+  "order_ID": 161,
+  "customer_ID": 16,
+  "order_total": 3497.3,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2024-04-01T03:08:12.744Z"
+  },
+  "order_delivered": {
+    "$date": "2024-04-05T03:08:12.744Z"
+  },
+  "products": [
+    {
+      "product_ID": 23,
+      "quantity": 10
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd96b"
+  },
+  "order_ID": 165,
+  "customer_ID": 17,
+  "order_total": 4775.93,
+  "partner_assigned": 1,
+  "order_placed": {
+    "$date": "2024-10-13T03:08:13.092Z"
+  },
+  "order_delivered": {
+    "$date": "2024-10-17T03:08:13.092Z"
+  },
+  "products": [
+    {
+      "product_ID": 9,
+      "quantity": 5
+    },
+    {
+      "product_ID": 26,
+      "quantity": 9
+    },
+    {
+      "product_ID": 10,
+      "quantity": 10
+    },
+    {
+      "product_ID": 3,
+      "quantity": 2
+    },
+    {
+      "product_ID": 12,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd975"
+  },
+  "order_ID": 175,
+  "customer_ID": 18,
+  "order_total": 6674.61,
+  "partner_assigned": 2,
+  "order_placed": {
+    "$date": "2024-07-20T03:08:13.758Z"
+  },
+  "order_delivered": {
+    "$date": "2024-07-23T03:08:13.758Z"
+  },
+  "products": [
+    {
+      "product_ID": 30,
+      "quantity": 8
+    },
+    {
+      "product_ID": 24,
+      "quantity": 3
+    },
+    {
+      "product_ID": 14,
+      "quantity": 5
+    },
+    {
+      "product_ID": 37,
+      "quantity": 7
+    },
+    {
+      "product_ID": 24,
+      "quantity": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd979"
+  },
+  "order_ID": 179,
+  "customer_ID": 19,
+  "order_total": 916.8,
+  "partner_assigned": 3,
+  "order_placed": {
+    "$date": "2024-12-18T03:08:14.061Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-23T03:08:14.061Z"
+  },
+  "products": [
+    {
+      "product_ID": 15,
+      "quantity": 8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd97c"
+  },
+  "order_ID": 182,
+  "customer_ID": 19,
+  "order_total": 3376.44,
+  "partner_assigned": 8,
+  "order_placed": {
+    "$date": "2025-01-01T03:08:14.227Z"
+  },
+  "order_delivered": {
+    "$date": "2025-01-03T03:08:14.227Z"
+  },
+  "products": [
+    {
+      "product_ID": 50,
+      "quantity": 9
+    },
+    {
+      "product_ID": 23,
+      "quantity": 9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd980"
+  },
+  "order_ID": 186,
+  "customer_ID": 20,
+  "order_total": 6980.4,
+  "partner_assigned": 9,
+  "order_placed": {
+    "$date": "2024-12-17T03:08:14.484Z"
+  },
+  "order_delivered": {
+    "$date": "2024-12-22T03:08:14.484Z"
+  },
+  "products": [
+    {
+      "product_ID": 22,
+      "quantity": 8
+    },
+    {
+      "product_ID": 44,
+      "quantity": 6
+    },
+    {
+      "product_ID": 32,
+      "quantity": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "677b491e3e5ebb4159ecd981"
+  },
+  "order_ID": 187,
+  "customer_ID": 20,
+  "order_total": 3080.39,
+  "partner_assigned": 10,
+  "order_placed": {
+    "$date": "2024-09-27T03:08:14.594Z"
+  },
+  "order_delivered": {
+    "$date": "2024-09-29T03:08:14.594Z"
+  },
+  "products": [
+    {
+      "product_ID": 43,
+      "quantity": 4
+    },
+    {
+      "product_ID": 29,
+      "quantity": 1
+    },
+    {
+      "product_ID": 30,
+      "quantity": 5
+    },
+    {
+      "product_ID": 11,
+      "quantity": 6
+    },
+    {
+      "product_ID": 5,
+      "quantity": 7
+    }
+  ]
+}]

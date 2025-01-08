@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ce"
+  },
+  "partner_ID": 5,
+  "name": "Diana",
+  "gender": "Female",
+  "age": 25,
+  "current_location": {
+    "latitude": 54.9109260948952,
+    "longitude": 1.5349264574683392
+  },
+  "active": true,
+  "on_errand": true,
+  "current_task": null,
+  "delivery_stats": {
+    "total_deliveries": 105,
+    "total_earnings": 31939.63,
+    "rating": 3.8
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602cb"
+  },
+  "partner_ID": 2,
+  "name": "Diana",
+  "gender": "Male",
+  "age": 32,
+  "current_location": {
+    "latitude": 55.08621773404434,
+    "longitude": -0.8399166046529611
+  },
+  "active": false,
+  "on_errand": false,
+  "current_task": null,
+  "delivery_stats": {
+    "total_deliveries": 164,
+    "total_earnings": 19360.59,
+    "rating": 4.6
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602cc"
+  },
+  "partner_ID": 3,
+  "name": "Bob",
+  "gender": "Female",
+  "age": 59,
+  "current_location": {
+    "latitude": 50.01179386780108,
+    "longitude": -1.465583386045572
+  },
+  "active": false,
+  "on_errand": true,
+  "current_task": null,
+  "delivery_stats": {
+    "total_deliveries": 94,
+    "total_earnings": 48252.34,
+    "rating": 4.8
+  },
+  "current_tasks": -1
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602cd"
+  },
+  "partner_ID": 4,
+  "name": "Ethan",
+  "gender": "Male",
+  "age": 45,
+  "current_location": {
+    "latitude": 54.51459008938555,
+    "longitude": -8.011043744363022
+  },
+  "active": true,
+  "on_errand": false,
+  "current_task": null,
+  "delivery_stats": {
+    "total_deliveries": 162,
+    "total_earnings": 34249.42,
+    "rating": 3.7
+  }
+},
+{
+  "_id": {
+    "$oid": "677b7bad7b7cd86a9eb602ca"
+  },
+  "partner_ID": 1,
+  "name": "Bob",
+  "gender": "Male",
+  "age": 52,
+  "current_location": {
+    "latitude": 51.22273368005238,
+    "longitude": -7.805422358289759
+  },
+  "active": false,
+  "on_errand": true,
+  "current_task": null,
+  "delivery_stats": {
+    "total_deliveries": 106,
+    "total_earnings": 34078.84,
+    "rating": 4.8
+  }
+}]
