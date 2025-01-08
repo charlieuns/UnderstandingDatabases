@@ -9,7 +9,7 @@ db.Stores.createIndex({ location: "2dsphere" });
 
 if (user) {
     const userLocation = user.location; // User location
-    const userCoordinates = [userLocation.longitude, userLocation.latitude]; // Longitude and latitude as an array
+    const userCoordinates = [userLocation.latitude, userLocation.longitude]; // Longitude and latitude as an array
 
     // Step 3: Query nearby available fresh products 
     const results = db.Stores.aggregate([
