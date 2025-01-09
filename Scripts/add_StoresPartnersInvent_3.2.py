@@ -43,6 +43,7 @@ for i in range(1, 6):
 stores_collection.insert_many(stores)
 
 # Part 2: Populate Partners Collection
+partners = []
 for i in range(1, 11): 
     latitude, longitude = generate_uk_location()
     total_deliveries = random.randint(50, 200)
