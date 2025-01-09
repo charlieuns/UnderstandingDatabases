@@ -1,0 +1,742 @@
+{
+    "1": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f92",
+            "product_ID": 24,
+            "price": 363.09,
+            "product_category": "cd",
+            "inventory": 464
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f93",
+            "product_ID": 25,
+            "price": 482.01,
+            "product_category": "cd",
+            "inventory": 456
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f97",
+            "product_ID": 29,
+            "price": 44.73,
+            "product_category": "cd",
+            "inventory": 448
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8f",
+            "product_ID": 21,
+            "price": 436.98,
+            "product_category": "cd",
+            "inventory": 368
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f98",
+            "product_ID": 30,
+            "price": 488.74,
+            "product_category": "cd",
+            "inventory": 347
+        }
+    ],
+    "2": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f92",
+            "product_ID": 24,
+            "price": 363.09,
+            "product_category": "cd",
+            "inventory": 464
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f93",
+            "product_ID": 25,
+            "price": 482.01,
+            "product_category": "cd",
+            "inventory": 456
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f97",
+            "product_ID": 29,
+            "price": 44.73,
+            "product_category": "cd",
+            "inventory": 448
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8f",
+            "product_ID": 21,
+            "price": 436.98,
+            "product_category": "cd",
+            "inventory": 368
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f98",
+            "product_ID": 30,
+            "price": 488.74,
+            "product_category": "cd",
+            "inventory": 347
+        }
+    ],
+    "3": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f8e",
+            "product_ID": 20,
+            "price": 323.14,
+            "product_category": "book",
+            "inventory": 476
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 475
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8a",
+            "product_ID": 16,
+            "price": 336.67,
+            "product_category": "book",
+            "inventory": 420
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f87",
+            "product_ID": 13,
+            "price": 435.09,
+            "product_category": "book",
+            "inventory": 417
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 361
+        }
+    ],
+    "4": [
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 474
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa3",
+            "product_ID": 41,
+            "price": 458.66,
+            "product_category": "home_appliance",
+            "inventory": 463
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 445
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fab",
+            "product_ID": 49,
+            "price": 156.85,
+            "product_category": "home_appliance",
+            "inventory": 439
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa8",
+            "product_ID": 46,
+            "price": 494.62,
+            "product_category": "home_appliance",
+            "inventory": 393
+        }
+    ],
+    "5": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f92",
+            "product_ID": 24,
+            "price": 363.09,
+            "product_category": "cd",
+            "inventory": 464
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f93",
+            "product_ID": 25,
+            "price": 482.01,
+            "product_category": "cd",
+            "inventory": 456
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f97",
+            "product_ID": 29,
+            "price": 44.73,
+            "product_category": "cd",
+            "inventory": 448
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8f",
+            "product_ID": 21,
+            "price": 436.98,
+            "product_category": "cd",
+            "inventory": 368
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f98",
+            "product_ID": 30,
+            "price": 488.74,
+            "product_category": "cd",
+            "inventory": 347
+        }
+    ],
+    "6": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 486
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7c",
+            "product_ID": 2,
+            "price": 168.37,
+            "product_category": "fresh_product",
+            "inventory": 437
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f84",
+            "product_ID": 10,
+            "price": 495.32,
+            "product_category": "fresh_product",
+            "inventory": 413
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7b",
+            "product_ID": 1,
+            "price": 154.33,
+            "product_category": "fresh_product",
+            "inventory": 403
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 382
+        }
+    ],
+    "7": [
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 474
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa3",
+            "product_ID": 41,
+            "price": 458.66,
+            "product_category": "home_appliance",
+            "inventory": 463
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 445
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fab",
+            "product_ID": 49,
+            "price": 156.85,
+            "product_category": "home_appliance",
+            "inventory": 439
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa8",
+            "product_ID": 46,
+            "price": 494.62,
+            "product_category": "home_appliance",
+            "inventory": 393
+        }
+    ],
+    "8": [
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 474
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa3",
+            "product_ID": 41,
+            "price": 458.66,
+            "product_category": "home_appliance",
+            "inventory": 463
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 445
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fab",
+            "product_ID": 49,
+            "price": 156.85,
+            "product_category": "home_appliance",
+            "inventory": 439
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa8",
+            "product_ID": 46,
+            "price": 494.62,
+            "product_category": "home_appliance",
+            "inventory": 393
+        }
+    ],
+    "9": [
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 474
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa3",
+            "product_ID": 41,
+            "price": 458.66,
+            "product_category": "home_appliance",
+            "inventory": 463
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 445
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fab",
+            "product_ID": 49,
+            "price": 156.85,
+            "product_category": "home_appliance",
+            "inventory": 439
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa8",
+            "product_ID": 46,
+            "price": 494.62,
+            "product_category": "home_appliance",
+            "inventory": 393
+        }
+    ],
+    "10": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 486
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7c",
+            "product_ID": 2,
+            "price": 168.37,
+            "product_category": "fresh_product",
+            "inventory": 437
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f84",
+            "product_ID": 10,
+            "price": 495.32,
+            "product_category": "fresh_product",
+            "inventory": 413
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7b",
+            "product_ID": 1,
+            "price": 154.33,
+            "product_category": "fresh_product",
+            "inventory": 403
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 382
+        }
+    ],
+    "11": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 486
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7c",
+            "product_ID": 2,
+            "price": 168.37,
+            "product_category": "fresh_product",
+            "inventory": 437
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f84",
+            "product_ID": 10,
+            "price": 495.32,
+            "product_category": "fresh_product",
+            "inventory": 413
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7b",
+            "product_ID": 1,
+            "price": 154.33,
+            "product_category": "fresh_product",
+            "inventory": 403
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 382
+        }
+    ],
+    "12": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f92",
+            "product_ID": 24,
+            "price": 363.09,
+            "product_category": "cd",
+            "inventory": 464
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f93",
+            "product_ID": 25,
+            "price": 482.01,
+            "product_category": "cd",
+            "inventory": 456
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f97",
+            "product_ID": 29,
+            "price": 44.73,
+            "product_category": "cd",
+            "inventory": 448
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8f",
+            "product_ID": 21,
+            "price": 436.98,
+            "product_category": "cd",
+            "inventory": 368
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f98",
+            "product_ID": 30,
+            "price": 488.74,
+            "product_category": "cd",
+            "inventory": 347
+        }
+    ],
+    "13": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f8e",
+            "product_ID": 20,
+            "price": 323.14,
+            "product_category": "book",
+            "inventory": 476
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 475
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8a",
+            "product_ID": 16,
+            "price": 336.67,
+            "product_category": "book",
+            "inventory": 420
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f87",
+            "product_ID": 13,
+            "price": 435.09,
+            "product_category": "book",
+            "inventory": 417
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 361
+        }
+    ],
+    "14": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f92",
+            "product_ID": 24,
+            "price": 363.09,
+            "product_category": "cd",
+            "inventory": 464
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f93",
+            "product_ID": 25,
+            "price": 482.01,
+            "product_category": "cd",
+            "inventory": 456
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f97",
+            "product_ID": 29,
+            "price": 44.73,
+            "product_category": "cd",
+            "inventory": 448
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8f",
+            "product_ID": 21,
+            "price": 436.98,
+            "product_category": "cd",
+            "inventory": 368
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f98",
+            "product_ID": 30,
+            "price": 488.74,
+            "product_category": "cd",
+            "inventory": 347
+        }
+    ],
+    "15": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f8e",
+            "product_ID": 20,
+            "price": 323.14,
+            "product_category": "book",
+            "inventory": 476
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 475
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8a",
+            "product_ID": 16,
+            "price": 336.67,
+            "product_category": "book",
+            "inventory": 420
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f87",
+            "product_ID": 13,
+            "price": 435.09,
+            "product_category": "book",
+            "inventory": 417
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 361
+        }
+    ],
+    "16": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f8e",
+            "product_ID": 20,
+            "price": 323.14,
+            "product_category": "book",
+            "inventory": 476
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 475
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8a",
+            "product_ID": 16,
+            "price": 336.67,
+            "product_category": "book",
+            "inventory": 420
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f87",
+            "product_ID": 13,
+            "price": 435.09,
+            "product_category": "book",
+            "inventory": 417
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f8c",
+            "product_ID": 18,
+            "price": 265.65,
+            "product_category": "book",
+            "inventory": 361
+        }
+    ],
+    "17": [
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 474
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa3",
+            "product_ID": 41,
+            "price": 458.66,
+            "product_category": "home_appliance",
+            "inventory": 463
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 445
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fab",
+            "product_ID": 49,
+            "price": 156.85,
+            "product_category": "home_appliance",
+            "inventory": 439
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa8",
+            "product_ID": 46,
+            "price": 494.62,
+            "product_category": "home_appliance",
+            "inventory": 393
+        }
+    ],
+    "18": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 486
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7c",
+            "product_ID": 2,
+            "price": 168.37,
+            "product_category": "fresh_product",
+            "inventory": 437
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f84",
+            "product_ID": 10,
+            "price": 495.32,
+            "product_category": "fresh_product",
+            "inventory": 413
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7b",
+            "product_ID": 1,
+            "price": 154.33,
+            "product_category": "fresh_product",
+            "inventory": 403
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 382
+        }
+    ],
+    "19": [
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 486
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7c",
+            "product_ID": 2,
+            "price": 168.37,
+            "product_category": "fresh_product",
+            "inventory": 437
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f84",
+            "product_ID": 10,
+            "price": 495.32,
+            "product_category": "fresh_product",
+            "inventory": 413
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f7b",
+            "product_ID": 1,
+            "price": 154.33,
+            "product_category": "fresh_product",
+            "inventory": 403
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68f81",
+            "product_ID": 7,
+            "price": 356.2,
+            "product_category": "fresh_product",
+            "inventory": 382
+        }
+    ],
+    "20": [
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 474
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa3",
+            "product_ID": 41,
+            "price": 458.66,
+            "product_category": "home_appliance",
+            "inventory": 463
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa9",
+            "product_ID": 47,
+            "price": 456.56,
+            "product_category": "home_appliance",
+            "inventory": 445
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fab",
+            "product_ID": 49,
+            "price": 156.85,
+            "product_category": "home_appliance",
+            "inventory": 439
+        },
+        {
+            "_id": "677fdd1041bfa5dffeb68fa8",
+            "product_ID": 46,
+            "price": 494.62,
+            "product_category": "home_appliance",
+            "inventory": 393
+        }
+    ]
+}
